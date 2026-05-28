@@ -8,7 +8,8 @@ mkdir -p "$output_dir"
 # Loop through each algorithm and qubit range (2 to 20)
 for alg in "${algorithms[@]}"; do
     for qbit_num in {2..20}; do
-        output_file="$output_dir/${alg}_${qbit_num}.qasm"
+	formated_num=$(printf "%02d" "$qbit_num")
+        output_file="$output_dir/${alg}_${formated_num}.qasm"
         echo "Running: mqt-bench --level alg --algorithm $alg --num-qubits $qbit_num --output-format qasm3 > $output_file"
         # command
         mqt-bench --level alg --algorithm "$alg" --num-qubits "$qbit_num" --output-format qasm3 > "$output_file" 2>&1
