@@ -1,6 +1,6 @@
 #!/bin/bash
 
-algorithms=("randomcircuit" "qft" "vqe" "qaoa" "grover" "hhl")
+algorithms=("randomcircuit" "qft" "vqe_real_amp" "qaoa" "grover" "hhl")
 
 output_dir="./benchmark"
 mkdir -p "$output_dir"
