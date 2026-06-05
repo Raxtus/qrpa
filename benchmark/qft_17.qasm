@@ -1,4 +1,4 @@
-// Benchmark created by MQT Bench on 2026-05-28
+// Benchmark created by MQT Bench on 2026-06-05
 // For more info: https://mqt-bench.app/
 // MQT Bench version: 2.2.2
 // Qiskit version: 2.4.1
