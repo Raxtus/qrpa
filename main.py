@@ -1,5 +1,8 @@
 import json
 from datetime import datetime
+
+from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
+from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
 from SDKs.qiskit_independent import QiskitIndependentTranspilerTestSuite
 
 
@@ -18,14 +21,16 @@ def main():
         {
             "name": "Qiskit_independent",
             "class": QiskitIndependentTranspilerTestSuite,
+        },
+        {
+            "name": "Pytket_independent",
+            "class": PyTKETIndependentTranspilerTestSuite,
         }
-        # Add more SDKs here
     ]
 
     test_list = ["./benchmark/grover_02.qasm","./benchmark/grover_03.qasm"]
 
     all_results = {}
-    print("e?")
 
     for sdk in sdk_list:
         sdk_name = sdk["name"]

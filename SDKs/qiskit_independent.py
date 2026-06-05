@@ -1,6 +1,6 @@
 import qiskit
 from qiskit import QuantumCircuit
-from qiskit import qasm3
+from qiskit import qasm2
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
 
@@ -14,11 +14,10 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def import_qasm(self, qasm_code: str) -> QuantumCircuit:
         # Import QASM into a QuantumCircuit object
-        return qasm3.loads(qasm_code)
+        return qasm2.loads(qasm_code)
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:
-        # Use Qiskit's transpile function
-        return qiskit.transpile(circuit, optimization_level=1)
+        return qiskit.transpile(circuit)
 
     def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> bool:
         # TODO
