@@ -2,23 +2,87 @@
 // For more info: https://mqt-bench.app/
 // MQT Bench version: 2.2.2
 // Qiskit version: 2.4.1
-// Output format: qasm2
+// Output format: qasm3
 
-OPENQASM 2.0;
-include "qelib1.inc";
-gate mcphase(param0) q0,q1,q2,q3 { h q3; cx q1,q3; tdg q3; cx q0,q3; t q3; cx q1,q3; tdg q3; cx q0,q3; t q1; t q3; h q3; cx q0,q1; t q0; tdg q1; cx q0,q1; rz(-pi/4) q3; cx q2,q3; rz(pi/4) q3; h q3; cx q1,q3; tdg q3; cx q0,q3; t q3; cx q1,q3; tdg q3; cx q0,q3; t q1; t q3; h q3; cx q0,q1; t q0; tdg q1; cx q0,q1; rz(-pi/4) q3; cx q2,q3; rz(pi/4) q3; cx q0,q2; rz(-pi/8) q2; cx q1,q2; rz(pi/8) q2; cx q0,q2; rz(-pi/8) q2; cx q1,q2; rz(pi/8) q2; crz(pi/4) q0,q1; p(pi/8) q0; }
-gate gate_Q q0,q1,q2,q3 { mcphase(pi) q0,q1,q2,q3; h q0; h q1; h q2; x q0; x q1; x q2; h q2; ccx q0,q1,q2; h q2; x q0; x q1; x q2; h q0; h q1; h q2; }
-qreg q[3];
-qreg flag[1];
-creg meas[4];
+OPENQASM 3.0;
+include "stdgates.inc";
+gate mcphase(_gate_p_0) _gate_q_0, _gate_q_1, _gate_q_2, _gate_q_3 {
+  h _gate_q_3;
+  cx _gate_q_1, _gate_q_3;
+  tdg _gate_q_3;
+  cx _gate_q_0, _gate_q_3;
+  t _gate_q_3;
+  cx _gate_q_1, _gate_q_3;
+  tdg _gate_q_3;
+  cx _gate_q_0, _gate_q_3;
+  t _gate_q_1;
+  t _gate_q_3;
+  h _gate_q_3;
+  cx _gate_q_0, _gate_q_1;
+  t _gate_q_0;
+  tdg _gate_q_1;
+  cx _gate_q_0, _gate_q_1;
+  rz(-pi/4) _gate_q_3;
+  cx _gate_q_2, _gate_q_3;
+  rz(pi/4) _gate_q_3;
+  h _gate_q_3;
+  cx _gate_q_1, _gate_q_3;
+  tdg _gate_q_3;
+  cx _gate_q_0, _gate_q_3;
+  t _gate_q_3;
+  cx _gate_q_1, _gate_q_3;
+  tdg _gate_q_3;
+  cx _gate_q_0, _gate_q_3;
+  t _gate_q_1;
+  t _gate_q_3;
+  h _gate_q_3;
+  cx _gate_q_0, _gate_q_1;
+  t _gate_q_0;
+  tdg _gate_q_1;
+  cx _gate_q_0, _gate_q_1;
+  rz(-pi/4) _gate_q_3;
+  cx _gate_q_2, _gate_q_3;
+  rz(pi/4) _gate_q_3;
+  cx _gate_q_0, _gate_q_2;
+  rz(-pi/8) _gate_q_2;
+  cx _gate_q_1, _gate_q_2;
+  rz(pi/8) _gate_q_2;
+  cx _gate_q_0, _gate_q_2;
+  rz(-pi/8) _gate_q_2;
+  cx _gate_q_1, _gate_q_2;
+  rz(pi/8) _gate_q_2;
+  crz(pi/4) _gate_q_0, _gate_q_1;
+  p(pi/8) _gate_q_0;
+}
+gate Q _gate_q_0, _gate_q_1, _gate_q_2, _gate_q_3 {
+  mcphase(pi) _gate_q_0, _gate_q_1, _gate_q_2, _gate_q_3;
+  h _gate_q_0;
+  h _gate_q_1;
+  h _gate_q_2;
+  x _gate_q_0;
+  x _gate_q_1;
+  x _gate_q_2;
+  h _gate_q_2;
+  ccx _gate_q_0, _gate_q_1, _gate_q_2;
+  h _gate_q_2;
+  x _gate_q_0;
+  x _gate_q_1;
+  x _gate_q_2;
+  h _gate_q_0;
+  h _gate_q_1;
+  h _gate_q_2;
+}
+bit[4] meas;
+qubit[3] q;
+qubit[1] flag;
 h q[0];
 h q[1];
 h q[2];
 x flag[0];
-gate_Q q[0],q[1],q[2],flag[0];
-gate_Q q[0],q[1],q[2],flag[0];
-barrier q[0],q[1],q[2],flag[0];
-measure q[0] -> meas[0];
-measure q[1] -> meas[1];
-measure q[2] -> meas[2];
-measure flag[0] -> meas[3];
+Q q[0], q[1], q[2], flag[0];
+Q q[0], q[1], q[2], flag[0];
+barrier q[0], q[1], q[2], flag[0];
+meas[0] = measure q[0];
+meas[1] = measure q[1];
+meas[2] = measure q[2];
+meas[3] = measure flag[0];

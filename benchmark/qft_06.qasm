@@ -2,18 +2,43 @@
 // For more info: https://mqt-bench.app/
 // MQT Bench version: 2.2.2
 // Qiskit version: 2.4.1
-// Output format: qasm2
+// Output format: qasm3
 
-OPENQASM 2.0;
-include "qelib1.inc";
-gate qft q0,q1,q2,q3,q4,q5 { h q5; cp(pi/2) q5,q4; cp(pi/4) q5,q3; cp(pi/8) q5,q2; cp(pi/16) q5,q1; cp(pi/32) q5,q0; h q4; cp(pi/2) q4,q3; cp(pi/4) q4,q2; cp(pi/8) q4,q1; cp(pi/16) q4,q0; h q3; cp(pi/2) q3,q2; cp(pi/4) q3,q1; cp(pi/8) q3,q0; h q2; cp(pi/2) q2,q1; cp(pi/4) q2,q0; h q1; cp(pi/2) q1,q0; h q0; swap q0,q5; swap q1,q4; swap q2,q3; }
-qreg q[6];
-creg meas[6];
-qft q[0],q[1],q[2],q[3],q[4],q[5];
-barrier q[0],q[1],q[2],q[3],q[4],q[5];
-measure q[0] -> meas[0];
-measure q[1] -> meas[1];
-measure q[2] -> meas[2];
-measure q[3] -> meas[3];
-measure q[4] -> meas[4];
-measure q[5] -> meas[5];
+OPENQASM 3.0;
+include "stdgates.inc";
+gate qft _gate_q_0, _gate_q_1, _gate_q_2, _gate_q_3, _gate_q_4, _gate_q_5 {
+  h _gate_q_5;
+  cp(pi/2) _gate_q_5, _gate_q_4;
+  cp(pi/4) _gate_q_5, _gate_q_3;
+  cp(pi/8) _gate_q_5, _gate_q_2;
+  cp(pi/16) _gate_q_5, _gate_q_1;
+  cp(pi/32) _gate_q_5, _gate_q_0;
+  h _gate_q_4;
+  cp(pi/2) _gate_q_4, _gate_q_3;
+  cp(pi/4) _gate_q_4, _gate_q_2;
+  cp(pi/8) _gate_q_4, _gate_q_1;
+  cp(pi/16) _gate_q_4, _gate_q_0;
+  h _gate_q_3;
+  cp(pi/2) _gate_q_3, _gate_q_2;
+  cp(pi/4) _gate_q_3, _gate_q_1;
+  cp(pi/8) _gate_q_3, _gate_q_0;
+  h _gate_q_2;
+  cp(pi/2) _gate_q_2, _gate_q_1;
+  cp(pi/4) _gate_q_2, _gate_q_0;
+  h _gate_q_1;
+  cp(pi/2) _gate_q_1, _gate_q_0;
+  h _gate_q_0;
+  swap _gate_q_0, _gate_q_5;
+  swap _gate_q_1, _gate_q_4;
+  swap _gate_q_2, _gate_q_3;
+}
+bit[6] meas;
+qubit[6] q;
+qft q[0], q[1], q[2], q[3], q[4], q[5];
+barrier q[0], q[1], q[2], q[3], q[4], q[5];
+meas[0] = measure q[0];
+meas[1] = measure q[1];
+meas[2] = measure q[2];
+meas[3] = measure q[3];
+meas[4] = measure q[4];
+meas[5] = measure q[5];
