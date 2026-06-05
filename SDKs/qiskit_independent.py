@@ -13,7 +13,6 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         self.sdk_name = "Qiskit_independent"
 
     def import_qasm(self, qasm_code: str) -> QuantumCircuit:
-        # Import QASM into a QuantumCircuit object
         return qasm2.loads(qasm_code)
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:

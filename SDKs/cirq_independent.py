@@ -1,4 +1,5 @@
 import cirq
+from cirq.contrib.qasm_import import circuit_from_qasm
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
 
 
@@ -16,8 +17,10 @@ class CirqIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def transpile(self, circuit: cirq.Circuit) -> cirq.Circuit:
         # Target-independent optimization using default Cirq optimizers
+        circuit = circuit.copy()
+        circuit = cirq.merge_k_qubit_unitaries(circuit, k=2)
+        circuit = cirq.merge_k_qubit_unitaries(circuit, k=1)
         optimized = cirq.drop_negligible_operations(circuit)
-        optimized = cirq.merge_single_qubit_gates(optimized)
         optimized = cirq.eject_z(optimized)
         return optimized
 
@@ -25,7 +28,11 @@ class CirqIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         # TODO
         return True
 
-    def get_circuit_metrics(self, stats: SingleRunStatistics, original: cirq.Circuit, transpiled: cirq.Circuit):
+    def get_circuit_metrics(
+            self,
+            stats: SingleRunStatistics,
+            original: cirq.Circuit,
+            transpiled: cirq.Circuit):
         # Set circuit width (number of qubits)
         stats.circuit_width = len(transpiled.all_qubits())
         # Gate counts

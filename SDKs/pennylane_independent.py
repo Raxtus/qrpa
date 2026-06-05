@@ -1,5 +1,4 @@
 import pennylane as qml
-from pennylane.transforms import decompose
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
 
@@ -17,8 +16,6 @@ class PennyLaneTranspilerTestSuite(QuantumTranspilerTestSuite):
         return qml.probs()
 
     def transpile(self, circuit):
-        # PennyLane uses transforms for optimization
-        # Decompose circuit to native gates
         return qml.compile(circuit)
 
     def verify_circuit(self, original, transpiled) -> bool:

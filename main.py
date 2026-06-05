@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 
+from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
 from SDKs.qiskit_independent import QiskitIndependentTranspilerTestSuite
@@ -23,9 +24,15 @@ def main():
             "class": QiskitIndependentTranspilerTestSuite,
         },
         {
+            "name": "BQSkit_independent",
+            "class": BQSKitTranspilerTestSuite,
+        },
+        {
             "name": "Pytket_independent",
             "class": PyTKETIndependentTranspilerTestSuite,
-        }
+        },
+
+
     ]
 
     test_list = ["./benchmark/grover_02.qasm","./benchmark/grover_03.qasm"]
