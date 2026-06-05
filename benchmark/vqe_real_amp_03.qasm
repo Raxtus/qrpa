@@ -2,31 +2,31 @@
 // For more info: https://mqt-bench.app/
 // MQT Bench version: 2.2.2
 // Qiskit version: 2.4.1
-// Output format: qasm3
+// Output format: qasm2
 
-OPENQASM 3.0;
-include "stdgates.inc";
-bit[3] meas;
-qubit[3] q;
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[3];
+creg meas[3];
 ry(6.006735895579343) q[0];
 ry(1.304903297657757) q[1];
 ry(5.205272730965009) q[2];
-cx q[1], q[2];
-cx q[0], q[1];
+cx q[1],q[2];
+cx q[0],q[1];
 ry(0.9379672423735244) q[0];
 ry(3.2220464314480877) q[1];
 ry(0.8540080589393146) q[2];
-cx q[1], q[2];
-cx q[0], q[1];
+cx q[1],q[2];
+cx q[0],q[1];
 ry(4.329343885871547) q[0];
 ry(5.288856933750764) q[1];
 ry(2.6735518805676657) q[2];
-cx q[1], q[2];
-cx q[0], q[1];
+cx q[1],q[2];
+cx q[0],q[1];
 ry(6.012543404956273) q[0];
 ry(5.185719590928789) q[1];
 ry(2.125069481984559) q[2];
-barrier q[0], q[1], q[2];
-meas[0] = measure q[0];
-meas[1] = measure q[1];
-meas[2] = measure q[2];
+barrier q[0],q[1],q[2];
+measure q[0] -> meas[0];
+measure q[1] -> meas[1];
+measure q[2] -> meas[2];
