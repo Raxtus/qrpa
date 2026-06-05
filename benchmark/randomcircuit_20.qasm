@@ -166,8 +166,8 @@ gate iswap _gate_q_0, _gate_q_1 {
   h _gate_q_1;
 }
 gate cu3(p0, p1, p2) _gate_q_0, _gate_q_1 {
-  p(0.5*p2 + 0.5*p1) _gate_q_0;
-  p(0.5*p2 - 0.5*p1) _gate_q_1;
+  p(0.5*p1 + 0.5*p2) _gate_q_0;
+  p((-0.5)*p1 + 0.5*p2) _gate_q_1;
   cx _gate_q_0, _gate_q_1;
   U((-0.5)*p0, 0, (-0.5)*p1 - 0.5*p2) _gate_q_1;
   cx _gate_q_0, _gate_q_1;
