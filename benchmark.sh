@@ -10,7 +10,7 @@ for alg in "${algorithms[@]}"; do
     for qbit_num in {2..20}; do
 	formated_num=$(printf "%02d" "$qbit_num")
         output_file="$output_dir/${alg}_${formated_num}.qasm"
-        echo "Running: mqt-bench --level alg --algorithm $alg --num-qubits $qbit_num --output-format qasm3 > $output_file"
+        echo "Running: mqt-bench --level alg --algorithm $alg --num-qubits $qbit_num --output-format qasm2 > $output_file"
         # command
         mqt-bench --level alg --algorithm "$alg" --num-qubits "$qbit_num" --output-format qasm3 > "$output_file" 2>&1
         if [ $? -eq 0 ]; then
