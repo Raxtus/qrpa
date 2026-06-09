@@ -1,8 +1,11 @@
 import qiskit
-from qiskit import QuantumCircuit
-from qiskit import qasm2
 
-from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
+from qiskit import qasm2
+from qiskit.circuit import QuantumCircuit, library
+from mqt import qcec
+from mqt.qcec.pyqcec import EquivalenceCheckingManager
+
+from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerTestSuite
 
 
 class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
@@ -16,11 +19,10 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         return qasm2.loads(qasm_code)
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:
-        return qiskit.transpile(circuit)
+        return qiskit.transpile(circuit,optimization_level=2)
 
-    def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> bool:
-        # TODO
-        return True
+    def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> EquivalenceCheckingManager.Results:
+        return qcec.verify(original,transpiled)
 
     def get_circuit_metrics(self, stats: SingleRunStatistics, original: QuantumCircuit, transpiled: QuantumCircuit):
         # Set circuit width

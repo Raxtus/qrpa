@@ -1,0 +1,4328 @@
+{
+    "Qiskit_independent": [
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.355031",
+            "algorithm": "grover_02",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.357868",
+            "algorithm": "grover_03",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.360038",
+            "algorithm": "grover_04",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.363135",
+            "algorithm": "grover_05",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.365212",
+            "algorithm": "grover_06",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.366815",
+            "algorithm": "grover_07",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.369564",
+            "algorithm": "grover_08",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.372776",
+            "algorithm": "grover_09",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.377709",
+            "algorithm": "grover_10",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.379226",
+            "algorithm": "hhl_02",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.381168",
+            "algorithm": "hhl_03",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.382589",
+            "algorithm": "hhl_04",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.383951",
+            "algorithm": "hhl_05",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.385747",
+            "algorithm": "hhl_06",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.387504",
+            "algorithm": "hhl_07",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.389007",
+            "algorithm": "hhl_08",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.390418",
+            "algorithm": "hhl_09",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.391809",
+            "algorithm": "hhl_10",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.393677",
+            "algorithm": "qaoa_02",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.395677",
+            "algorithm": "qaoa_03",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.397413",
+            "algorithm": "qaoa_04",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.399123",
+            "algorithm": "qaoa_05",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.401243",
+            "algorithm": "qaoa_06",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.403446",
+            "algorithm": "qaoa_07",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.405275",
+            "algorithm": "qaoa_08",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.407211",
+            "algorithm": "qaoa_09",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.408979",
+            "algorithm": "qaoa_10",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.410755",
+            "algorithm": "qft_02",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.412214",
+            "algorithm": "qft_03",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.413762",
+            "algorithm": "qft_04",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.415038",
+            "algorithm": "qft_05",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.416374",
+            "algorithm": "qft_06",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.418163",
+            "algorithm": "qft_07",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.419741",
+            "algorithm": "qft_08",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.421188",
+            "algorithm": "qft_09",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.422643",
+            "algorithm": "qft_10",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.424266",
+            "algorithm": "randomcircuit_02",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.426693",
+            "algorithm": "randomcircuit_03",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.428282",
+            "algorithm": "randomcircuit_04",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.429661",
+            "algorithm": "randomcircuit_05",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.430941",
+            "algorithm": "randomcircuit_06",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.432442",
+            "algorithm": "randomcircuit_07",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.434124",
+            "algorithm": "randomcircuit_08",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.435854",
+            "algorithm": "randomcircuit_09",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:38:56.437642",
+            "algorithm": "randomcircuit_10",
+            "qubits": 0,
+            "failed_transpilations": 5,
+            "timing_metrics": {
+                "avg_import_time_ms": 0,
+                "avg_transpilation_time_ms": 0,
+                "avg_verify_time_ms": 0
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0,
+                "avg_transpilation_memory_mb": 0,
+                "avg_verify_memory_mb": 0
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 0,
+                "avg_transpiled_gate_count": 0,
+                "depth_original": 0,
+                "avg_depth_transpiled": 0
+            },
+            "runs": 0,
+            "runs_stats": []
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:00.938113",
+            "algorithm": "vqe_real_amp_02",
+            "qubits": 4,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.4532337188720703,
+                "avg_transpilation_time_ms": 854.7286033630371,
+                "avg_verify_time_ms": 44.161033630371094
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 6.2546875,
+                "avg_verify_memory_mb": 0.80390625
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 13,
+                "avg_transpiled_gate_count": 13,
+                "depth_original": 8,
+                "avg_depth_transpiled": 8
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.24962425231933594,
+                    "transpilation_time_ms": 4235.101699829102,
+                    "verify_time_ms": 162.7202033996582,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 30.34765625,
+                    "verify_memory_mb": 1.41796875,
+                    "circuit_width": 4,
+                    "original_gate_count": 13,
+                    "transpiled_gate_count": 13,
+                    "depth_transpiled": 8,
+                    "timestamp": "2026-06-09T11:39:00.836647",
+                    "equivalent": {
+                        "check_time": 0.0010297,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0002823
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.000165,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 4
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.3833770751953125,
+                    "transpilation_time_ms": 10.136604309082031,
+                    "verify_time_ms": 15.380620956420898,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.52734375,
+                    "verify_memory_mb": 0.5,
+                    "circuit_width": 4,
+                    "original_gate_count": 13,
+                    "transpiled_gate_count": 13,
+                    "depth_transpiled": 8,
+                    "timestamp": "2026-06-09T11:39:00.863154",
+                    "equivalent": {
+                        "check_time": 0.0009626,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0004739
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001077,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 4
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.43463706970214844,
+                    "transpilation_time_ms": 9.380817413330078,
+                    "verify_time_ms": 14.529228210449219,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.19921875,
+                    "verify_memory_mb": 0.3515625,
+                    "circuit_width": 4,
+                    "original_gate_count": 13,
+                    "transpiled_gate_count": 13,
+                    "depth_transpiled": 8,
+                    "timestamp": "2026-06-09T11:39:00.888168",
+                    "equivalent": {
+                        "check_time": 0.0007542,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.00044
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002198,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 4
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7238388061523438,
+                    "transpilation_time_ms": 8.906126022338867,
+                    "verify_time_ms": 13.690948486328125,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.0859375,
+                    "verify_memory_mb": -1.1171875,
+                    "circuit_width": 4,
+                    "original_gate_count": 13,
+                    "transpiled_gate_count": 13,
+                    "depth_transpiled": 8,
+                    "timestamp": "2026-06-09T11:39:00.912108",
+                    "equivalent": {
+                        "check_time": 0.0009463,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0004089
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001231,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 4
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.47469139099121094,
+                    "transpilation_time_ms": 10.117769241333008,
+                    "verify_time_ms": 14.484167098999023,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.11328125,
+                    "verify_memory_mb": 2.8671875,
+                    "circuit_width": 4,
+                    "original_gate_count": 13,
+                    "transpiled_gate_count": 13,
+                    "depth_transpiled": 8,
+                    "timestamp": "2026-06-09T11:39:00.937889",
+                    "equivalent": {
+                        "check_time": 0.0011374,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0004822
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001136,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:01.096830",
+            "algorithm": "vqe_real_amp_03",
+            "qubits": 6,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.44646263122558594,
+                "avg_transpilation_time_ms": 10.183048248291016,
+                "avg_verify_time_ms": 20.183277130126953
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 0.13125,
+                "avg_verify_memory_mb": -0.09609375
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 21,
+                "avg_transpiled_gate_count": 21,
+                "depth_original": 11,
+                "avg_depth_transpiled": 11
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.4780292510986328,
+                    "transpilation_time_ms": 10.443925857543945,
+                    "verify_time_ms": 19.899845123291016,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.17578125,
+                    "verify_memory_mb": -1.1328125,
+                    "circuit_width": 6,
+                    "original_gate_count": 21,
+                    "transpiled_gate_count": 21,
+                    "depth_transpiled": 11,
+                    "timestamp": "2026-06-09T11:39:00.970501",
+                    "equivalent": {
+                        "check_time": 0.0015302,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0007866
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001503,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.44846534729003906,
+                    "transpilation_time_ms": 11.681795120239258,
+                    "verify_time_ms": 19.511699676513672,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": 0.84375,
+                    "circuit_width": 6,
+                    "original_gate_count": 21,
+                    "transpiled_gate_count": 21,
+                    "depth_transpiled": 11,
+                    "timestamp": "2026-06-09T11:39:01.002940",
+                    "equivalent": {
+                        "check_time": 0.0018256,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0010132
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001448,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.4284381866455078,
+                    "transpilation_time_ms": 9.113311767578125,
+                    "verify_time_ms": 19.358396530151367,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.01953125,
+                    "verify_memory_mb": -0.53125,
+                    "circuit_width": 6,
+                    "original_gate_count": 21,
+                    "transpiled_gate_count": 21,
+                    "depth_transpiled": 11,
+                    "timestamp": "2026-06-09T11:39:01.032448",
+                    "equivalent": {
+                        "check_time": 0.0016068,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0009089
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002604,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.4696846008300781,
+                    "transpilation_time_ms": 9.528160095214844,
+                    "verify_time_ms": 19.849777221679688,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.11328125,
+                    "verify_memory_mb": 1.00390625,
+                    "circuit_width": 6,
+                    "original_gate_count": 21,
+                    "transpiled_gate_count": 21,
+                    "depth_transpiled": 11,
+                    "timestamp": "2026-06-09T11:39:01.062912",
+                    "equivalent": {
+                        "check_time": 0.0022687,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0010959
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002736,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.4076957702636719,
+                    "transpilation_time_ms": 10.148048400878906,
+                    "verify_time_ms": 22.296667098999023,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.1328125,
+                    "verify_memory_mb": -0.6640625,
+                    "circuit_width": 6,
+                    "original_gate_count": 21,
+                    "transpiled_gate_count": 21,
+                    "depth_transpiled": 11,
+                    "timestamp": "2026-06-09T11:39:01.096406",
+                    "equivalent": {
+                        "check_time": 0.0016173,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0009422
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0001892,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:01.273359",
+            "algorithm": "vqe_real_amp_04",
+            "qubits": 8,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.5623817443847656,
+                "avg_transpilation_time_ms": 9.82508659362793,
+                "avg_verify_time_ms": 23.75626564025879
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 0.19609375,
+                "avg_verify_memory_mb": -0.08125
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 29,
+                "avg_transpiled_gate_count": 29,
+                "depth_original": 12,
+                "avg_depth_transpiled": 12
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.5323886871337891,
+                    "transpilation_time_ms": 10.45083999633789,
+                    "verify_time_ms": 28.717041015625,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.20703125,
+                    "verify_memory_mb": 0.65625,
+                    "circuit_width": 8,
+                    "original_gate_count": 29,
+                    "transpiled_gate_count": 29,
+                    "depth_transpiled": 12,
+                    "timestamp": "2026-06-09T11:39:01.138527",
+                    "equivalent": {
+                        "check_time": 0.008957,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0014602
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004259,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6172657012939453,
+                    "transpilation_time_ms": 10.236024856567383,
+                    "verify_time_ms": 23.14162254333496,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.17578125,
+                    "verify_memory_mb": -0.85546875,
+                    "circuit_width": 8,
+                    "original_gate_count": 29,
+                    "transpiled_gate_count": 29,
+                    "depth_transpiled": 12,
+                    "timestamp": "2026-06-09T11:39:01.173288",
+                    "equivalent": {
+                        "check_time": 0.0028157,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0019691
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002428,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6017684936523438,
+                    "transpilation_time_ms": 10.109663009643555,
+                    "verify_time_ms": 22.614240646362305,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.19921875,
+                    "verify_memory_mb": 1.796875,
+                    "circuit_width": 8,
+                    "original_gate_count": 29,
+                    "transpiled_gate_count": 29,
+                    "depth_transpiled": 12,
+                    "timestamp": "2026-06-09T11:39:01.207390",
+                    "equivalent": {
+                        "check_time": 0.011449,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 5.29e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0082682
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0017133
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0005979
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.000713
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002359,
+                        "simulations": {
+                            "performed": 3,
+                            "started": 9
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.5881786346435547,
+                    "transpilation_time_ms": 8.668184280395508,
+                    "verify_time_ms": 22.59659767150879,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2421875,
+                    "verify_memory_mb": -4.21875,
+                    "circuit_width": 8,
+                    "original_gate_count": 29,
+                    "transpiled_gate_count": 29,
+                    "depth_transpiled": 12,
+                    "timestamp": "2026-06-09T11:39:01.240058",
+                    "equivalent": {
+                        "check_time": 0.0029665,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0015177
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002501,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.4723072052001953,
+                    "transpilation_time_ms": 9.660720825195312,
+                    "verify_time_ms": 21.71182632446289,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.15625,
+                    "verify_memory_mb": 2.21484375,
+                    "circuit_width": 8,
+                    "original_gate_count": 29,
+                    "transpiled_gate_count": 29,
+                    "depth_transpiled": 12,
+                    "timestamp": "2026-06-09T11:39:01.272733",
+                    "equivalent": {
+                        "check_time": 0.0027001,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0018025
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002192,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:01.461248",
+            "algorithm": "vqe_real_amp_05",
+            "qubits": 10,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.6659030914306641,
+                "avg_transpilation_time_ms": 10.72850227355957,
+                "avg_verify_time_ms": 25.087738037109375
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.00546875,
+                "avg_transpilation_memory_mb": 0.240625,
+                "avg_verify_memory_mb": -0.7375
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 37,
+                "avg_transpiled_gate_count": 37,
+                "depth_original": 13,
+                "avg_depth_transpiled": 13
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.4127025604248047,
+                    "transpilation_time_ms": 8.536577224731445,
+                    "verify_time_ms": 25.136709213256836,
+                    "import_memory_mb": 0.02734375,
+                    "transpilation_memory_mb": 0.24609375,
+                    "verify_memory_mb": -2.5390625,
+                    "circuit_width": 10,
+                    "original_gate_count": 37,
+                    "transpiled_gate_count": 37,
+                    "depth_transpiled": 13,
+                    "timestamp": "2026-06-09T11:39:01.309178",
+                    "equivalent": {
+                        "check_time": 0.0059701,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0023301
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002352,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6814002990722656,
+                    "transpilation_time_ms": 10.98012924194336,
+                    "verify_time_ms": 24.12557601928711,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.24609375,
+                    "verify_memory_mb": 0.48828125,
+                    "circuit_width": 10,
+                    "original_gate_count": 37,
+                    "transpiled_gate_count": 37,
+                    "depth_transpiled": 13,
+                    "timestamp": "2026-06-09T11:39:01.345732",
+                    "equivalent": {
+                        "check_time": 0.004326,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0020842
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003174,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6859302520751953,
+                    "transpilation_time_ms": 10.128021240234375,
+                    "verify_time_ms": 25.56633949279785,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.24609375,
+                    "verify_memory_mb": -0.4921875,
+                    "circuit_width": 10,
+                    "original_gate_count": 37,
+                    "transpiled_gate_count": 37,
+                    "depth_transpiled": 13,
+                    "timestamp": "2026-06-09T11:39:01.382874",
+                    "equivalent": {
+                        "check_time": 0.0043859,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0032295
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.000237,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8544921875,
+                    "transpilation_time_ms": 10.159730911254883,
+                    "verify_time_ms": 25.504112243652344,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": -0.18359375,
+                    "circuit_width": 10,
+                    "original_gate_count": 37,
+                    "transpiled_gate_count": 37,
+                    "depth_transpiled": 13,
+                    "timestamp": "2026-06-09T11:39:01.420097",
+                    "equivalent": {
+                        "check_time": 0.0041273,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0021877
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004365,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6949901580810547,
+                    "transpilation_time_ms": 13.838052749633789,
+                    "verify_time_ms": 25.105953216552734,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.25,
+                    "verify_memory_mb": -0.9609375,
+                    "circuit_width": 10,
+                    "original_gate_count": 37,
+                    "transpiled_gate_count": 37,
+                    "depth_transpiled": 13,
+                    "timestamp": "2026-06-09T11:39:01.460470",
+                    "equivalent": {
+                        "check_time": 0.0123532,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 3.45e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0045409
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0022534
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.00105
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0012458
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004061,
+                        "simulations": {
+                            "performed": 3,
+                            "started": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:01.652219",
+            "algorithm": "vqe_real_amp_06",
+            "qubits": 12,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.7923126220703125,
+                "avg_transpilation_time_ms": 10.266399383544922,
+                "avg_verify_time_ms": 25.90179443359375
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 0.24375,
+                "avg_verify_memory_mb": 0.21796875
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 45,
+                "avg_transpiled_gate_count": 45,
+                "depth_original": 14,
+                "avg_depth_transpiled": 14
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.8311271667480469,
+                    "transpilation_time_ms": 14.824628829956055,
+                    "verify_time_ms": 26.486635208129883,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.27734375,
+                    "verify_memory_mb": 1.57421875,
+                    "circuit_width": 12,
+                    "original_gate_count": 45,
+                    "transpiled_gate_count": 45,
+                    "depth_transpiled": 14,
+                    "timestamp": "2026-06-09T11:39:01.505611",
+                    "equivalent": {
+                        "check_time": 0.0100181,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0086575
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0005294,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.9119510650634766,
+                    "transpilation_time_ms": 8.84556770324707,
+                    "verify_time_ms": 24.004697799682617,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2265625,
+                    "verify_memory_mb": -0.37890625,
+                    "circuit_width": 12,
+                    "original_gate_count": 45,
+                    "transpiled_gate_count": 45,
+                    "depth_transpiled": 14,
+                    "timestamp": "2026-06-09T11:39:01.540110",
+                    "equivalent": {
+                        "check_time": 0.0047585,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0029359
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002888,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7083415985107422,
+                    "transpilation_time_ms": 7.957220077514648,
+                    "verify_time_ms": 22.721290588378906,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.22265625,
+                    "verify_memory_mb": 0.42578125,
+                    "circuit_width": 12,
+                    "original_gate_count": 45,
+                    "transpiled_gate_count": 45,
+                    "depth_transpiled": 14,
+                    "timestamp": "2026-06-09T11:39:01.572497",
+                    "equivalent": {
+                        "check_time": 0.0046282,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0033083
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0002861,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8542537689208984,
+                    "transpilation_time_ms": 8.453845977783203,
+                    "verify_time_ms": 25.62856674194336,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.26953125,
+                    "verify_memory_mb": -1.125,
+                    "circuit_width": 12,
+                    "original_gate_count": 45,
+                    "transpiled_gate_count": 45,
+                    "depth_transpiled": 14,
+                    "timestamp": "2026-06-09T11:39:01.608268",
+                    "equivalent": {
+                        "check_time": 0.0048552,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0030303
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.000271,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.6558895111083984,
+                    "transpilation_time_ms": 11.250734329223633,
+                    "verify_time_ms": 30.667781829833984,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.22265625,
+                    "verify_memory_mb": 0.59375,
+                    "circuit_width": 12,
+                    "original_gate_count": 45,
+                    "transpiled_gate_count": 45,
+                    "depth_transpiled": 14,
+                    "timestamp": "2026-06-09T11:39:01.651676",
+                    "equivalent": {
+                        "check_time": 0.0040935,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0024442
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003643,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:01.867654",
+            "algorithm": "vqe_real_amp_07",
+            "qubits": 14,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.855255126953125,
+                "avg_transpilation_time_ms": 11.368703842163086,
+                "avg_verify_time_ms": 29.577016830444336
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.00078125,
+                "avg_transpilation_memory_mb": 0.228125,
+                "avg_verify_memory_mb": -0.5953125
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 53,
+                "avg_transpiled_gate_count": 53,
+                "depth_original": 15,
+                "avg_depth_transpiled": 15
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.7021427154541016,
+                    "transpilation_time_ms": 15.33055305480957,
+                    "verify_time_ms": 30.777454376220703,
+                    "import_memory_mb": 0.00390625,
+                    "transpilation_memory_mb": 0.29296875,
+                    "verify_memory_mb": -2.578125,
+                    "circuit_width": 14,
+                    "original_gate_count": 53,
+                    "transpiled_gate_count": 53,
+                    "depth_transpiled": 15,
+                    "timestamp": "2026-06-09T11:39:01.700915",
+                    "equivalent": {
+                        "check_time": 0.004495,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.002872
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0005944,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8153915405273438,
+                    "transpilation_time_ms": 10.790586471557617,
+                    "verify_time_ms": 27.31633186340332,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": 5.1953125,
+                    "circuit_width": 14,
+                    "original_gate_count": 53,
+                    "transpiled_gate_count": 53,
+                    "depth_transpiled": 15,
+                    "timestamp": "2026-06-09T11:39:01.740959",
+                    "equivalent": {
+                        "check_time": 0.0093011,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0039179
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003423,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.9951591491699219,
+                    "transpilation_time_ms": 10.469436645507812,
+                    "verify_time_ms": 30.30109405517578,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.16015625,
+                    "verify_memory_mb": -5.4765625,
+                    "circuit_width": 14,
+                    "original_gate_count": 53,
+                    "transpiled_gate_count": 53,
+                    "depth_transpiled": 15,
+                    "timestamp": "2026-06-09T11:39:01.783922",
+                    "equivalent": {
+                        "check_time": 0.0051843,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0034934
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0007365,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7293224334716797,
+                    "transpilation_time_ms": 10.241031646728516,
+                    "verify_time_ms": 31.462907791137695,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2265625,
+                    "verify_memory_mb": 0.48046875,
+                    "circuit_width": 14,
+                    "original_gate_count": 53,
+                    "transpiled_gate_count": 53,
+                    "depth_transpiled": 15,
+                    "timestamp": "2026-06-09T11:39:01.827245",
+                    "equivalent": {
+                        "check_time": 0.0172684,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 5.01e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0028257
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0045575
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003381,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 1.0342597961425781,
+                    "transpilation_time_ms": 10.011911392211914,
+                    "verify_time_ms": 28.02729606628418,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.24609375,
+                    "verify_memory_mb": -0.59765625,
+                    "circuit_width": 14,
+                    "original_gate_count": 53,
+                    "transpiled_gate_count": 53,
+                    "depth_transpiled": 15,
+                    "timestamp": "2026-06-09T11:39:01.867141",
+                    "equivalent": {
+                        "check_time": 0.0083497,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0027107
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003161,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:02.078668",
+            "algorithm": "vqe_real_amp_08",
+            "qubits": 16,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.7642745971679688,
+                "avg_transpilation_time_ms": 9.785127639770508,
+                "avg_verify_time_ms": 30.352354049682617
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 0.1984375,
+                "avg_verify_memory_mb": 0.1578125
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 61,
+                "avg_transpiled_gate_count": 61,
+                "depth_original": 16,
+                "avg_depth_transpiled": 16
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.7150173187255859,
+                    "transpilation_time_ms": 10.056495666503906,
+                    "verify_time_ms": 31.032800674438477,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": 0.84375,
+                    "circuit_width": 16,
+                    "original_gate_count": 61,
+                    "transpiled_gate_count": 61,
+                    "depth_transpiled": 16,
+                    "timestamp": "2026-06-09T11:39:01.911385",
+                    "equivalent": {
+                        "check_time": 0.0060483,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0041812
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003877,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7271766662597656,
+                    "transpilation_time_ms": 9.639978408813477,
+                    "verify_time_ms": 27.864456176757812,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.19140625,
+                    "verify_memory_mb": -0.83984375,
+                    "circuit_width": 16,
+                    "original_gate_count": 61,
+                    "transpiled_gate_count": 61,
+                    "depth_transpiled": 16,
+                    "timestamp": "2026-06-09T11:39:01.950469",
+                    "equivalent": {
+                        "check_time": 0.0059191,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0039818
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003512,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7669925689697266,
+                    "transpilation_time_ms": 9.203672409057617,
+                    "verify_time_ms": 26.905059814453125,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.203125,
+                    "verify_memory_mb": 0.859375,
+                    "circuit_width": 16,
+                    "original_gate_count": 61,
+                    "transpiled_gate_count": 61,
+                    "depth_transpiled": 16,
+                    "timestamp": "2026-06-09T11:39:01.988273",
+                    "equivalent": {
+                        "check_time": 0.0130439,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0045436
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003851,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8084774017333984,
+                    "transpilation_time_ms": 9.908676147460938,
+                    "verify_time_ms": 38.31028938293457,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.17578125,
+                    "verify_memory_mb": 0.8984375,
+                    "circuit_width": 16,
+                    "original_gate_count": 61,
+                    "transpiled_gate_count": 61,
+                    "depth_transpiled": 16,
+                    "timestamp": "2026-06-09T11:39:02.038665",
+                    "equivalent": {
+                        "check_time": 0.0235754,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 9.51e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0033705
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.01074
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0110516
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0006207,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8037090301513672,
+                    "transpilation_time_ms": 10.116815567016602,
+                    "verify_time_ms": 27.6491641998291,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.20703125,
+                    "verify_memory_mb": -0.97265625,
+                    "circuit_width": 16,
+                    "original_gate_count": 61,
+                    "transpiled_gate_count": 61,
+                    "depth_transpiled": 16,
+                    "timestamp": "2026-06-09T11:39:02.078108",
+                    "equivalent": {
+                        "check_time": 0.0088501,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0047544
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.000383,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:02.280981",
+            "algorithm": "vqe_real_amp_09",
+            "qubits": 18,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.7507801055908203,
+                "avg_transpilation_time_ms": 9.905195236206055,
+                "avg_verify_time_ms": 28.532075881958008
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0,
+                "avg_transpilation_memory_mb": 0.2296875,
+                "avg_verify_memory_mb": 0.1421875
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 69,
+                "avg_transpiled_gate_count": 69,
+                "depth_original": 17,
+                "avg_depth_transpiled": 17
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.55694580078125,
+                    "transpilation_time_ms": 9.580135345458984,
+                    "verify_time_ms": 25.513172149658203,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.24609375,
+                    "verify_memory_mb": 1.34375,
+                    "circuit_width": 18,
+                    "original_gate_count": 69,
+                    "transpiled_gate_count": 69,
+                    "depth_transpiled": 17,
+                    "timestamp": "2026-06-09T11:39:02.116016",
+                    "equivalent": {
+                        "check_time": 0.0074206,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0054665
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003878,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7114410400390625,
+                    "transpilation_time_ms": 8.969306945800781,
+                    "verify_time_ms": 27.6336669921875,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": -0.90234375,
+                    "circuit_width": 18,
+                    "original_gate_count": 69,
+                    "transpiled_gate_count": 69,
+                    "depth_transpiled": 17,
+                    "timestamp": "2026-06-09T11:39:02.154337",
+                    "equivalent": {
+                        "check_time": 0.0076727,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0058795
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0003974,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8301734924316406,
+                    "transpilation_time_ms": 10.267019271850586,
+                    "verify_time_ms": 27.32539176940918,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2109375,
+                    "verify_memory_mb": -0.42578125,
+                    "circuit_width": 18,
+                    "original_gate_count": 69,
+                    "transpiled_gate_count": 69,
+                    "depth_transpiled": 17,
+                    "timestamp": "2026-06-09T11:39:02.193702",
+                    "equivalent": {
+                        "check_time": 0.0125482,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.005325
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004041,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.7944107055664062,
+                    "transpilation_time_ms": 9.902000427246094,
+                    "verify_time_ms": 31.99291229248047,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": 2.140625,
+                    "circuit_width": 18,
+                    "original_gate_count": 69,
+                    "transpiled_gate_count": 69,
+                    "depth_transpiled": 17,
+                    "timestamp": "2026-06-09T11:39:02.237351",
+                    "equivalent": {
+                        "check_time": 0.0169376,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 9.45e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0027163
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004895,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8609294891357422,
+                    "transpilation_time_ms": 10.807514190673828,
+                    "verify_time_ms": 30.195236206054688,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.26171875,
+                    "verify_memory_mb": -1.4453125,
+                    "circuit_width": 18,
+                    "original_gate_count": 69,
+                    "transpiled_gate_count": 69,
+                    "depth_transpiled": 17,
+                    "timestamp": "2026-06-09T11:39:02.280307",
+                    "equivalent": {
+                        "check_time": 0.0114266,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0064775
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0005362,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sdk_name": "Qiskit_independent",
+            "timestamp": "2026-06-09T11:39:02.533402",
+            "algorithm": "vqe_real_amp_10",
+            "qubits": 20,
+            "failed_transpilations": 0,
+            "timing_metrics": {
+                "avg_import_time_ms": 0.9289741516113281,
+                "avg_transpilation_time_ms": 12.64181137084961,
+                "avg_verify_time_ms": 35.473060607910156
+            },
+            "memory_metrics": {
+                "avg_import_memory_mb": 0.0015625,
+                "avg_transpilation_memory_mb": 0.215625,
+                "avg_verify_memory_mb": 0.34453125
+            },
+            "circuit_metrics": {
+                "avg_original_gate_count": 77,
+                "avg_transpiled_gate_count": 77,
+                "depth_original": 18,
+                "avg_depth_transpiled": 18
+            },
+            "runs": 5,
+            "runs_stats": [
+                {
+                    "import_time_ms": 0.8389949798583984,
+                    "transpilation_time_ms": 12.200117111206055,
+                    "verify_time_ms": 38.28144073486328,
+                    "import_memory_mb": 0.0078125,
+                    "transpilation_memory_mb": 0.19140625,
+                    "verify_memory_mb": -3.7734375,
+                    "circuit_width": 20,
+                    "original_gate_count": 77,
+                    "transpiled_gate_count": 77,
+                    "depth_transpiled": 18,
+                    "timestamp": "2026-06-09T11:39:02.334051",
+                    "equivalent": {
+                        "check_time": 0.0122137,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 9.64e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0069999
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004779,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8170604705810547,
+                    "transpilation_time_ms": 10.760784149169922,
+                    "verify_time_ms": 37.51945495605469,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.21484375,
+                    "verify_memory_mb": -0.0546875,
+                    "circuit_width": 20,
+                    "original_gate_count": 77,
+                    "transpiled_gate_count": 77,
+                    "depth_transpiled": 18,
+                    "timestamp": "2026-06-09T11:39:02.384202",
+                    "equivalent": {
+                        "check_time": 0.0087196,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0071769
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0005617,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 1.0721683502197266,
+                    "transpilation_time_ms": 12.610197067260742,
+                    "verify_time_ms": 34.55185890197754,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2421875,
+                    "verify_memory_mb": -0.15234375,
+                    "circuit_width": 20,
+                    "original_gate_count": 77,
+                    "transpiled_gate_count": 77,
+                    "depth_transpiled": 18,
+                    "timestamp": "2026-06-09T11:39:02.434130",
+                    "equivalent": {
+                        "check_time": 0.0129,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0001413
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.010713
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0009522,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 1.0342597961425781,
+                    "transpilation_time_ms": 11.182069778442383,
+                    "verify_time_ms": 34.02400016784668,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.203125,
+                    "verify_memory_mb": -0.1953125,
+                    "circuit_width": 20,
+                    "original_gate_count": 77,
+                    "transpiled_gate_count": 77,
+                    "depth_transpiled": 18,
+                    "timestamp": "2026-06-09T11:39:02.481437",
+                    "equivalent": {
+                        "check_time": 0.0135913,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 0.0002205
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0047568
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0005086,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                },
+                {
+                    "import_time_ms": 0.8823871612548828,
+                    "transpilation_time_ms": 16.455888748168945,
+                    "verify_time_ms": 32.988548278808594,
+                    "import_memory_mb": 0.0,
+                    "transpilation_memory_mb": 0.2265625,
+                    "verify_memory_mb": 5.8984375,
+                    "circuit_width": 20,
+                    "original_gate_count": 77,
+                    "transpiled_gate_count": 77,
+                    "depth_transpiled": 18,
+                    "timestamp": "2026-06-09T11:39:02.532739",
+                    "equivalent": {
+                        "check_time": 0.0159,
+                        "checkers": [
+                            {
+                                "checker": "decision_diagram_alternating",
+                                "equivalence": "equivalent",
+                                "runtime": 7.11e-05
+                            },
+                            {
+                                "checker": "zx",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            },
+                            {
+                                "checker": "decision_diagram_simulation",
+                                "equivalence": "no_information",
+                                "runtime": 0.0
+                            }
+                        ],
+                        "equivalence": "equivalent",
+                        "parameterized": {
+                            "performed_instantiations": 0
+                        },
+                        "preprocessing_time": 0.0004726,
+                        "simulations": {
+                            "performed": 0,
+                            "started": 6
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

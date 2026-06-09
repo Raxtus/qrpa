@@ -1,6 +1,8 @@
 import json
 from datetime import datetime
 
+from qiskit.circuit.random import random_circuit
+
 from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
@@ -23,19 +25,29 @@ def main():
             "name": "Qiskit_independent",
             "class": QiskitIndependentTranspilerTestSuite,
         },
-        {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_independent",
-            "class": PyTKETIndependentTranspilerTestSuite,
-        },
+        #{
+        #    "name": "Pennylane_independent",
+        #    "class": PennyLaneTranspilerTestSuite,
+        #},
+        #{
+        #    "name": "BQSkit_independent",
+        #    "class": BQSKitTranspilerTestSuite,
+        #},
+        #{
+        #    "name": "Pytket_independent",
+        #    "class": PyTKETIndependentTranspilerTestSuite,
+        #},
 
 
     ]
 
-    test_list = ["./benchmark/grover_02.qasm","./benchmark/grover_03.qasm"]
+    algorithms = ["grover", "hhl", "qaoa", "qft", "randomcircuit", "vqe_real_amp"]
+
+    test_list = [
+        f"./benchmark/{algorithm}_{i:02d}.qasm"
+        for algorithm in algorithms
+        for i in range(2, 11)
+    ]
 
     all_results = {}
 

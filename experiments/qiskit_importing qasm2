@@ -1,0 +1,374 @@
+C:\Users\Administrator\AppData\Local\Programs\Python\Python313\python.exe C:\Users\Administrator\PycharmProjects\qrpa\main.py 
+Processing SDK: Qiskit_independent
+Failed to extract qubits: "<input>:9,29: 'cp' is not defined in this scope"
+Running 5 transpilation tests on grover_02...
+  Run 1/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,143: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_03...
+  Run 1/5: FAILED - Import failed: "<input>:9,143: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,143: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,143: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,143: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,143: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,460: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_04...
+  Run 1/5: FAILED - Import failed: "<input>:9,460: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,460: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,460: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,460: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,460: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,1001: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_05...
+  Run 1/5: FAILED - Import failed: "<input>:9,1001: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,1001: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,1001: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,1001: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,1001: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,47: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_06...
+  Run 1/5: FAILED - Import failed: "<input>:9,47: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,47: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,47: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,47: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,47: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,50: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_07...
+  Run 1/5: FAILED - Import failed: "<input>:9,50: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,50: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,50: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,50: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,50: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,607: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_08...
+  Run 1/5: FAILED - Import failed: "<input>:9,607: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,607: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,607: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,607: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,607: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,2824: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_09...
+  Run 1/5: FAILED - Import failed: "<input>:9,2824: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,2824: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,2824: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,2824: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,2824: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:9,5362: 'p' is not defined in this scope"
+Running 5 transpilation tests on grover_10...
+  Run 1/5: FAILED - Import failed: "<input>:9,5362: 'p' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,5362: 'p' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,5362: 'p' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,5362: 'p' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,5362: 'p' is not defined in this scope"
+Failed to extract qubits: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 2/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 3/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 4/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 5/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Failed to extract qubits: "<input>:17,0: 'cp' is not defined in this scope"
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Import failed: "<input>:17,0: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:17,0: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:17,0: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:17,0: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:17,0: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,20: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Import failed: "<input>:9,20: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,20: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,20: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,20: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,20: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,23: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Import failed: "<input>:9,23: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,23: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,23: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,23: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,23: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,26: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Import failed: "<input>:9,26: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,26: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,26: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,26: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,26: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,29: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Import failed: "<input>:9,29: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,29: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,29: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,29: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,29: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,32: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Import failed: "<input>:9,32: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,32: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,32: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,32: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,32: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,35: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_09...
+  Run 1/5: FAILED - Import failed: "<input>:9,35: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,35: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,35: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,35: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,35: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:9,38: 'swap' is not defined in this scope"
+Running 5 transpilation tests on hhl_10...
+  Run 1/5: FAILED - Import failed: "<input>:9,38: 'swap' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,38: 'swap' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,38: 'swap' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,38: 'swap' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,38: 'swap' is not defined in this scope"
+Failed to extract qubits: "<input>:12,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Import failed: "<input>:12,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:12,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:12,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:12,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:12,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:13,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Import failed: "<input>:13,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:13,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:13,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:13,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:13,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:14,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Import failed: "<input>:14,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:14,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:14,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:14,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:14,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:15,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Import failed: "<input>:15,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:15,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:15,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:15,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:15,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:16,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Import failed: "<input>:16,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:16,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:16,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:16,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:16,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:17,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Import failed: "<input>:17,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:17,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:17,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:17,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:17,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:18,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Import failed: "<input>:18,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:18,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:18,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:18,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:18,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:19,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_09...
+  Run 1/5: FAILED - Import failed: "<input>:19,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:19,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:19,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:19,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:19,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:20,0: 'rzz' is not defined in this scope"
+Running 5 transpilation tests on qaoa_10...
+  Run 1/5: FAILED - Import failed: "<input>:20,0: 'rzz' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:20,0: 'rzz' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:20,0: 'rzz' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:20,0: 'rzz' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:20,0: 'rzz' is not defined in this scope"
+Failed to extract qubits: "<input>:9,23: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Import failed: "<input>:9,23: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,23: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,23: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,23: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,23: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,26: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Import failed: "<input>:9,26: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,26: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,26: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,26: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,26: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,29: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,29: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,32: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Import failed: "<input>:9,32: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,32: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,32: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,32: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,32: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,35: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Import failed: "<input>:9,35: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,35: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,35: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,35: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,35: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,38: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Import failed: "<input>:9,38: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,38: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,38: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,38: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,38: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,41: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Import failed: "<input>:9,41: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,41: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,41: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,41: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,41: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,44: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_09...
+  Run 1/5: FAILED - Import failed: "<input>:9,44: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,44: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,44: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,44: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,44: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:9,47: 'cp' is not defined in this scope"
+Running 5 transpilation tests on qft_10...
+  Run 1/5: FAILED - Import failed: "<input>:9,47: 'cp' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,47: 'cp' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,47: 'cp' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,47: 'cp' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,47: 'cp' is not defined in this scope"
+Failed to extract qubits: "<input>:12,0: 'rxx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_02...
+  Run 1/5: FAILED - Import failed: "<input>:12,0: 'rxx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:12,0: 'rxx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:12,0: 'rxx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:12,0: 'rxx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:12,0: 'rxx' is not defined in this scope"
+Failed to extract qubits: "<input>:14,0: 'rccx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_03...
+  Run 1/5: FAILED - Import failed: "<input>:14,0: 'rccx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:14,0: 'rccx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:14,0: 'rccx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:14,0: 'rccx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:14,0: 'rccx' is not defined in this scope"
+Failed to extract qubits: "<input>:9,27: 'u' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_04...
+  Run 1/5: FAILED - Import failed: "<input>:9,27: 'u' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,27: 'u' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,27: 'u' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,27: 'u' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,27: 'u' is not defined in this scope"
+Failed to extract qubits: "<input>:9,23: 'sx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_05...
+  Run 1/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+Failed to extract qubits: "<input>:9,23: 'sx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_06...
+  Run 1/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:9,23: 'sx' is not defined in this scope"
+Failed to extract qubits: "<input>:10,23: 'sx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_07...
+  Run 1/5: FAILED - Import failed: "<input>:10,23: 'sx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:10,23: 'sx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:10,23: 'sx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:10,23: 'sx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:10,23: 'sx' is not defined in this scope"
+Failed to extract qubits: "<input>:11,25: 'sxdg' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_08...
+  Run 1/5: FAILED - Import failed: "<input>:11,25: 'sxdg' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:11,25: 'sxdg' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:11,25: 'sxdg' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:11,25: 'sxdg' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:11,25: 'sxdg' is not defined in this scope"
+Failed to extract qubits: "<input>:12,62: 'sx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_09...
+  Run 1/5: FAILED - Import failed: "<input>:12,62: 'sx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:12,62: 'sx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:12,62: 'sx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:12,62: 'sx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:12,62: 'sx' is not defined in this scope"
+Failed to extract qubits: "<input>:13,62: 'sx' is not defined in this scope"
+Running 5 transpilation tests on randomcircuit_10...
+  Run 1/5: FAILED - Import failed: "<input>:13,62: 'sx' is not defined in this scope"
+  Run 2/5: FAILED - Import failed: "<input>:13,62: 'sx' is not defined in this scope"
+  Run 3/5: FAILED - Import failed: "<input>:13,62: 'sx' is not defined in this scope"
+  Run 4/5: FAILED - Import failed: "<input>:13,62: 'sx' is not defined in this scope"
+  Run 5/5: FAILED - Import failed: "<input>:13,62: 'sx' is not defined in this scope"
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: Positive (import: 0.25ms, transpile: 4235.10ms)
+  Run 2/5: Positive (import: 0.38ms, transpile: 10.14ms)
+  Run 3/5: Positive (import: 0.43ms, transpile: 9.38ms)
+  Run 4/5: Positive (import: 0.72ms, transpile: 8.91ms)
+  Run 5/5: Positive (import: 0.47ms, transpile: 10.12ms)
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: Positive (import: 0.48ms, transpile: 10.44ms)
+  Run 2/5: Positive (import: 0.45ms, transpile: 11.68ms)
+  Run 3/5: Positive (import: 0.43ms, transpile: 9.11ms)
+  Run 4/5: Positive (import: 0.47ms, transpile: 9.53ms)
+  Run 5/5: Positive (import: 0.41ms, transpile: 10.15ms)
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: Positive (import: 0.53ms, transpile: 10.45ms)
+  Run 2/5: Positive (import: 0.62ms, transpile: 10.24ms)
+  Run 3/5: Positive (import: 0.60ms, transpile: 10.11ms)
+  Run 4/5: Positive (import: 0.59ms, transpile: 8.67ms)
+  Run 5/5: Positive (import: 0.47ms, transpile: 9.66ms)
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: Positive (import: 0.41ms, transpile: 8.54ms)
+  Run 2/5: Positive (import: 0.68ms, transpile: 10.98ms)
+  Run 3/5: Positive (import: 0.69ms, transpile: 10.13ms)
+  Run 4/5: Positive (import: 0.85ms, transpile: 10.16ms)
+  Run 5/5: Positive (import: 0.69ms, transpile: 13.84ms)
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: Positive (import: 0.83ms, transpile: 14.82ms)
+  Run 2/5: Positive (import: 0.91ms, transpile: 8.85ms)
+  Run 3/5: Positive (import: 0.71ms, transpile: 7.96ms)
+  Run 4/5: Positive (import: 0.85ms, transpile: 8.45ms)
+  Run 5/5: Positive (import: 0.66ms, transpile: 11.25ms)
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: Positive (import: 0.70ms, transpile: 15.33ms)
+  Run 2/5: Positive (import: 0.82ms, transpile: 10.79ms)
+  Run 3/5: Positive (import: 1.00ms, transpile: 10.47ms)
+  Run 4/5: Positive (import: 0.73ms, transpile: 10.24ms)
+  Run 5/5: Positive (import: 1.03ms, transpile: 10.01ms)
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: Positive (import: 0.72ms, transpile: 10.06ms)
+  Run 2/5: Positive (import: 0.73ms, transpile: 9.64ms)
+  Run 3/5: Positive (import: 0.77ms, transpile: 9.20ms)
+  Run 4/5: Positive (import: 0.81ms, transpile: 9.91ms)
+  Run 5/5: Positive (import: 0.80ms, transpile: 10.12ms)
+Running 5 transpilation tests on vqe_real_amp_09...
+  Run 1/5: Positive (import: 0.56ms, transpile: 9.58ms)
+  Run 2/5: Positive (import: 0.71ms, transpile: 8.97ms)
+  Run 3/5: Positive (import: 0.83ms, transpile: 10.27ms)
+  Run 4/5: Positive (import: 0.79ms, transpile: 9.90ms)
+  Run 5/5: Positive (import: 0.86ms, transpile: 10.81ms)
+Running 5 transpilation tests on vqe_real_amp_10...
+  Run 1/5: Positive (import: 0.84ms, transpile: 12.20ms)
+  Run 2/5: Positive (import: 0.82ms, transpile: 10.76ms)
+  Run 3/5: Positive (import: 1.07ms, transpile: 12.61ms)
+  Run 4/5: Positive (import: 1.03ms, transpile: 11.18ms)
+  Run 5/5: Positive (import: 0.88ms, transpile: 16.46ms)
+Results saved to transpiler_result_20260609_113902.json
+
+Process finished with exit code 0

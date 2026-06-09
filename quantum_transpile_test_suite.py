@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 from dataclasses import dataclass
 from datetime import datetime
 
+from mqt.qcec.pyqcec import EquivalenceCheckingManager
 
 
 @dataclass
@@ -29,7 +30,7 @@ class SingleRunStatistics:
 
     # Metadata
     timestamp: str
-    equivalent: bool
+    equivalent: str
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -122,7 +123,7 @@ class QuantumTranspilerTestSuite(ABC):
         pass
 
     @abstractmethod
-    def verify_circuit(self, original: Any, transpiled: Any) -> bool:
+    def verify_circuit(self, original: Any, transpiled: Any) -> EquivalenceCheckingManager.Results:
         """Verify equivalence of original and transpiled circuits"""
         pass
 
@@ -169,10 +170,10 @@ class QuantumTranspilerTestSuite(ABC):
         memory_before_verify = self._get_memory_usage()
         verify_start = time.time()
         try:
-            equivalent = self.verify_circuit(original_circuit, transpiled_circuit)
+            equivalent = self.verify_circuit(original_circuit, transpiled_circuit).json()
         except Exception as e:
             print(f"Verification warning: {str(e)}")
-            equivalent = False
+            equivalent = "Exception_verification"
         verify_time = (time.time() - verify_start) * 1000
         verify_memory = self._get_memory_usage() - memory_before_verify
 
@@ -215,7 +216,11 @@ class QuantumTranspilerTestSuite(ABC):
             raise FileNotFoundError(f"QASM file not found: {path}")
 
         algorithm = os.path.splitext(os.path.basename(path))[0]
-        qubits = self._extract_qubit_count(qasm_code)
+        try:
+            qubits = self._extract_qubit_count(qasm_code)
+        except Exception as e:
+            qubits = 0
+            print(f"Failed to extract qubits: {e}")
 
         runs_stats: List[SingleRunStatistics] = []
         failed_count = 0
@@ -238,9 +243,6 @@ class QuantumTranspilerTestSuite(ABC):
             except Exception as e:
                 print(f"  Run {i + 1}/{runs}: FAILED - {str(e)}")
                 failed_count += 1
-
-        if not runs_stats:
-            raise RuntimeError("All runs failed!")
 
         aggregated_stats = self._aggregate_statistics(
             runs_stats=runs_stats,
@@ -268,7 +270,29 @@ class QuantumTranspilerTestSuite(ABC):
         """Aggregate individual run statistics"""
 
         if not runs_stats:
-            raise ValueError("No statistics to aggregate")
+            return RunStatistics(
+                sdk_name=sdk_name,
+                timestamp=datetime.now().isoformat(),
+                algorithm=algorithm,
+                qubits=0,
+                failed_transpilations=failed_transpilations,
+                # Timing
+                avg_import_time_ms=0,
+                avg_transpilation_time_ms=0,
+                avg_verify_time_ms=0,
+                # Memory
+                avg_import_memory_mb=0,
+                avg_transpilation_memory_mb=0,
+                avg_verify_memory_mb=0,
+                # Circuit
+                avg_circuit_width=0,
+                avg_original_gate_count=0,
+                avg_transpiled_gate_count=0,
+                depth_original=0,
+                avg_depth_transpiled=0,
+                runs=0,
+                runs_stats=runs_stats
+            )
 
         # Timing metrics
         import_times = [s.import_time_ms for s in runs_stats]
