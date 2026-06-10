@@ -1,18 +1,15 @@
 from bqskit import compile
 from .bqskit_independent import BQSKitTranspilerTestSuite
 
-from quantum_transpile_test_suite import (
-    QuantumTranspilerTestSuite,
-    SingleRunStatistics,
-)
+
 
 
 class BQSKitTargetedTranspilerTestSuite(BQSKitTranspilerTestSuite):
-    def __init__(self, sdk_name, backend):
+    def __init__(self, sdk_name, gateset):
         super().__init__(sdk_name)
-        self.backend = backend
+        self.gateset = gateset
 
 
     def transpile(self, circuit):
-        return compile(circuit, model=None, with_mapping=False)
+        return compile(circuit, gate_set=self.gateset, with_mapping=False, max_synthesis_size=6)
 

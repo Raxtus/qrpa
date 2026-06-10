@@ -25,7 +25,8 @@ class PyTKETIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
 
         basic_pass = SequencePass([
             DecomposeBoxes(),
-            FullPeepholeOptimise(),
+            FullPeepholeOptimise(allow_swaps=False),
+            KAKDecomposition(allow_swaps=False),
             CliffordSimp(allow_swaps=False),
             SynthesiseTket(),
             RemoveRedundancies()])

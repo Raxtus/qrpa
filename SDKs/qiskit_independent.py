@@ -2,6 +2,8 @@ import qiskit
 from pytket import qasm
 from qiskit.circuit import QuantumCircuit
 
+from qiskit.circuit.library import get_standard_gate_name_mapping
+
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
 
@@ -18,10 +20,10 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         self.sdk_name = "Qiskit_independent"
 
     def import_qasm(self, qasm_code: str) -> QuantumCircuit:
-        return  qiskit_convert.tk_to_qiskit(qasm.circuit_from_qasm_str(qasm_code, maxwidth=32))
+        return  QuantumCircuit.from_qasm_str(qasm_code)
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:
-        return qiskit.transpile(circuit,optimization_level=2,routing_method="none")
+        return qiskit.transpile(circuit,optimization_level=2,routing_method="none", basis_gates=get_standard_gate_name_mapping())
 
     def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> EquivalenceCheckingManager.Results:
         return qcec.verify(original,transpiled)
