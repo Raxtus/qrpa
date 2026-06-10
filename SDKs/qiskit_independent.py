@@ -1,9 +1,11 @@
 import qiskit
+from pytket import qasm
+from qiskit.circuit import QuantumCircuit
 
-from qiskit import qasm2
-from qiskit.circuit import QuantumCircuit, library
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
+
+from pytket.extensions.qiskit import qiskit_convert
 
 from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerTestSuite
 
@@ -12,14 +14,14 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
     def _extract_qubit_count(self, qasm_code: str) -> int:
         return self.import_qasm(qasm_code).width()
 
-    def __init__(self):
+    def __init__(self,sdk_name):
         self.sdk_name = "Qiskit_independent"
 
     def import_qasm(self, qasm_code: str) -> QuantumCircuit:
-        return qasm2.loads(qasm_code)
+        return  qiskit_convert.tk_to_qiskit(qasm.circuit_from_qasm_str(qasm_code, maxwidth=32))
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:
-        return qiskit.transpile(circuit,optimization_level=2)
+        return qiskit.transpile(circuit,optimization_level=2,routing_method="none")
 
     def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> EquivalenceCheckingManager.Results:
         return qcec.verify(original,transpiled)

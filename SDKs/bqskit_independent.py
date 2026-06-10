@@ -1,5 +1,9 @@
-from bqskit import compile as bq_compile
+from bqskit import compile
+from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
+
+from mqt import qcec
+from mqt.qcec.pyqcec import EquivalenceCheckingManager
 
 from quantum_transpile_test_suite import (
     QuantumTranspilerTestSuite,
@@ -8,8 +12,8 @@ from quantum_transpile_test_suite import (
 
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
-    def __init__(self):
-        self.sdk_name = "BQSKit"
+    def __init__(self,sdk_name):
+        self.sdk_name = sdk_name
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
         return self.import_qasm(qasm_code).num_qudits
@@ -18,10 +22,12 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        return bq_compile(circuit)
+        return compile(circuit, model=None, with_mapping=False)
 
-    def verify_circuit(self, original, transpiled) -> bool:
-        return True
+    def verify_circuit(self, original,
+                       transpiled) -> EquivalenceCheckingManager.Results:
+
+        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled))
 
     def get_circuit_metrics(
             self,

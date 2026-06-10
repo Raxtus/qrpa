@@ -1,6 +1,11 @@
 from pytket import Circuit
-from pytket.qasm import circuit_from_qasm_str
-from pytket.passes import SequencePass, DecomposeBoxes, RemoveRedundancies
+from pytket.extensions.qiskit import qiskit_convert
+from pytket import qasm
+from mqt.qcec.pyqcec import EquivalenceCheckingManager
+from mqt import qcec
+
+import pytket.passes as pp
+from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket,AutoRebase, RemoveRedundancies
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
 
@@ -9,22 +14,27 @@ class PyTKETIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
     def _extract_qubit_count(self, qasm_code: str) -> int:
         return self.import_qasm(qasm_code).n_qubits
 
-    def __init__(self):
-        self.sdk_name = "pytket_independent"
+    def __init__(self,sdk_name):
+        self.sdk_name = sdk_name
 
     def import_qasm(self, qasm_code: str) -> Circuit:
-        return circuit_from_qasm_str(qasm_code)
+        return qasm.circuit_from_qasm_str(qasm_code, maxwidth=32)
 
     def transpile(self, circuit: Circuit) -> Circuit:
         compiled = circuit.copy()
 
-        basic_pass = SequencePass([DecomposeBoxes(), RemoveRedundancies()])
+        basic_pass = SequencePass([
+            DecomposeBoxes(),
+            FullPeepholeOptimise(),
+            CliffordSimp(allow_swaps=False),
+            SynthesiseTket(),
+            RemoveRedundancies()])
         basic_pass.apply(compiled)
         return compiled
 
-    def verify_circuit(self, original: Circuit, transpiled: Circuit) -> bool:
-        # TODO
-        return True
+    def verify_circuit(self, original: Circuit,
+                       transpiled: Circuit) -> EquivalenceCheckingManager.Results:
+        return qcec.verify(qiskit_convert.tk_to_qiskit(original), qiskit_convert.tk_to_qiskit(transpiled))
 
     def get_circuit_metrics(self, stats: SingleRunStatistics, original: Circuit, transpiled: Circuit):
         # Set circuit width (number of qubits)

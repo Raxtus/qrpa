@@ -1,13 +1,17 @@
 import json
 from datetime import datetime
 
-from qiskit.circuit.random import random_circuit
+from qiskit.transpiler import CouplingMap
+
+from bqskit.ext import model_from_backend
+from cirq.ops.gateset_test import gateset
 
 from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
 from SDKs.qiskit_independent import QiskitIndependentTranspilerTestSuite
-
+from SDKs.qiskit_targeted import QiskitTargetedTranspilerTestSuite
+from SDKs.qiskit_mapped import QiskitMappedTranspilerTestSuite
 
 
 # Import your SDK implementations
@@ -19,24 +23,64 @@ from SDKs.qiskit_independent import QiskitIndependentTranspilerTestSuite
 def main():
     output_file = "transpiler_results.json"
 
+    max_qubit = 4
+
+
+
     # Initialize SDKs
     sdk_list = [
         {
             "name": "Qiskit_independent",
             "class": QiskitIndependentTranspilerTestSuite,
         },
+        {
+            "name": "Qiskit_targeted_IBM_gateset",
+            "gateset": ["rz", "sx", "x", "cx"],
+            "class": QiskitTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Qiskit_targeted_Quantinuum_gateset",
+            "gateset": ["rzz", "rz", "ry", "rx"],
+            "class": QiskitTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Qiskit_mapped_all_to_all_IBM_gateset",
+            "gateset": ["rz", "sx", "x", "cx"],
+            "map": CouplingMap.from_full(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Qiskit_mapped_line_IBM_gateset",
+            "gateset": ["rz", "sx", "x", "cx"],
+            "map": CouplingMap.from_line(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Qiskit_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": ["rzz", "rz", "ry", "rx"],
+            "map": CouplingMap.from_full(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Qiskit_mapped_line_Quantinuum_gateset",
+            "gateset": ["rzz", "rz", "ry", "rx"],
+            "map": CouplingMap.from_line(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
+        },
         #{
         #    "name": "Pennylane_independent",
         #    "class": PennyLaneTranspilerTestSuite,
         #},
         #{
-        #    "name": "BQSkit_independent",
+        #   "name": "BQSkit_independent",
         #    "class": BQSKitTranspilerTestSuite,
         #},
         #{
         #    "name": "Pytket_independent",
         #    "class": PyTKETIndependentTranspilerTestSuite,
         #},
+
+
 
 
     ]
@@ -46,17 +90,23 @@ def main():
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
         for algorithm in algorithms
-        for i in range(2, 11)
+        for i in range(2, max_qubit + 1)
     ]
 
     all_results = {}
 
+    #independent
     for sdk in sdk_list:
         sdk_name = sdk["name"]
         print(f"Processing SDK: {sdk_name}")
         suite_class = sdk["class"]
-        suite = suite_class()
-        suite.sdk_name = sdk_name
+        if "gateset" in sdk:
+            if "map" in sdk:
+                suite = suite_class(sdk_name,sdk["gateset"],sdk["map"])
+            else:
+                suite = suite_class(sdk_name, sdk["gateset"])
+        else:
+            suite = suite_class(sdk_name)
 
         results_for_sdk = []
 
