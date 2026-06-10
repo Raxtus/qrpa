@@ -27,7 +27,7 @@ from qiskit.transpiler import CouplingMap
 # For this example, I will assume they are already imported or defined above
 
 def main():
-    output_file = "transpiler_results.json"
+    output_file = "experiments/transpiler_results.json"
 
     max_qubit = 8
 
