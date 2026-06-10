@@ -20,7 +20,6 @@ from SDKs.qiskit_targeted import QiskitTargetedTranspilerTestSuite
 from SDKs.qiskit_mapped import QiskitMappedTranspilerTestSuite
 from qiskit.transpiler import CouplingMap
 
-
 # Import your SDK implementations
 # from your_module import QiskitTranspilerTestSuite, RunStatistics
 

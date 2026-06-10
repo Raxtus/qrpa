@@ -1,13 +1,10 @@
 import qiskit
-from pytket import qasm
 from qiskit.circuit import QuantumCircuit
 
 from qiskit.circuit.library import get_standard_gate_name_mapping
 
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
-
-from pytket.extensions.qiskit import qiskit_convert
 
 from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerTestSuite
 

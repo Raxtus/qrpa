@@ -4,8 +4,7 @@ from pytket import qasm
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
 from mqt import qcec
 
-import pytket.passes as pp
-from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket,AutoRebase, RemoveRedundancies
+from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket, RemoveRedundancies
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
 

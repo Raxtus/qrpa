@@ -8,7 +8,6 @@ from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KA
 
 from .pytket_independent import PyTKETIndependentTranspilerTestSuite
 
-
 class PyTKETTargetedTranspilerTestSuite(PyTKETIndependentTranspilerTestSuite):
 
     def __init__(self, sdk_name, gateset):

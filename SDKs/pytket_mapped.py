@@ -1,8 +1,4 @@
 from pytket import Circuit
-from pytket.extensions.qiskit import qiskit_convert
-from pytket import qasm
-from mqt.qcec.pyqcec import EquivalenceCheckingManager
-from mqt import qcec
 
 from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket,AutoRebase, RemoveRedundancies, DefaultMappingPass
 
