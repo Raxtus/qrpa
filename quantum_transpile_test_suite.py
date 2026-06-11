@@ -28,9 +28,11 @@ class SingleRunStatistics:
     transpiled_gate_count: int
     depth_transpiled: int
 
+    transpiled_exact_gates:str
+
     # Metadata
     timestamp: str
-    equivalent: str
+    equivalent: EquivalenceCheckingManager.Results
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -43,9 +45,10 @@ class SingleRunStatistics:
             'circuit_width': self.circuit_width,
             'original_gate_count': self.original_gate_count,
             'transpiled_gate_count': self.transpiled_gate_count,
+            'transpiled_exact' : self.transpiled_exact_gates,
             'depth_transpiled': self.depth_transpiled,
             'timestamp': self.timestamp,
-            'equivalent': self.equivalent,
+            'equivalent': self.equivalent.json(),
         }
 
 
@@ -169,11 +172,9 @@ class QuantumTranspilerTestSuite(ABC):
         # Verification phase
         memory_before_verify = self._get_memory_usage()
         verify_start = time.time()
-        try:
-            equivalent = self.verify_circuit(original_circuit, transpiled_circuit).json()
-        except Exception as e:
-            print(f"Verification warning: {str(e)}")
-            equivalent = "Exception_verification"
+
+        equivalent = self.verify_circuit(original_circuit, transpiled_circuit)
+
         verify_time = (time.time() - verify_start) * 1000
         verify_memory = self._get_memory_usage() - memory_before_verify
 
@@ -189,6 +190,7 @@ class QuantumTranspilerTestSuite(ABC):
             equivalent=equivalent,
             original_gate_count=0,
             transpiled_gate_count=0,
+            transpiled_exact_gates="",
             depth_transpiled=0,
             circuit_width=0
         )
@@ -230,15 +232,18 @@ class QuantumTranspilerTestSuite(ABC):
         for i in range(runs):
             try:
                 stats = self.run(qasm_code)
-                runs_stats.append(stats)
 
-                status = "Positive" if stats.equivalent else "Failure"
+                if stats.equivalent:
+                    status = str(stats.equivalent.equivalence)
+                else:
+                    failed_count += 1
+                    status =  "Failure"
                 print(f"  Run {i + 1}/{runs}: {status} "
                       f"(import: {stats.import_time_ms:.2f}ms, "
-                      f"transpile: {stats.transpilation_time_ms:.2f}ms)")
+                      f"transpile: {stats.transpilation_time_ms:.2f}ms, "
+                      f"gates: {stats.transpiled_exact_gates})")
 
-                if not stats.equivalent:
-                    failed_count += 1
+                runs_stats.append(stats)
 
             except Exception as e:
                 print(f"  Run {i + 1}/{runs}: FAILED - {str(e)}")

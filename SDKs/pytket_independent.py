@@ -4,6 +4,8 @@ from pytket import qasm
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
 from mqt import qcec
 
+from pytket.utils import gate_counts
+
 from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket, RemoveRedundancies
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
@@ -34,7 +36,7 @@ class PyTKETIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def verify_circuit(self, original: Circuit,
                        transpiled: Circuit) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(qiskit_convert.tk_to_qiskit(original), qiskit_convert.tk_to_qiskit(transpiled))
+        return qcec.verify(qiskit_convert.tk_to_qiskit(original), qiskit_convert.tk_to_qiskit(transpiled),check_partial_equivalence=True)
 
     def get_circuit_metrics(self, stats: SingleRunStatistics, original: Circuit, transpiled: Circuit):
         # Set circuit width (number of qubits)
@@ -42,5 +44,6 @@ class PyTKETIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         # Gate counts
         stats.original_gate_count = original.n_gates
         stats.transpiled_gate_count = transpiled.n_gates
+        stats.transpiled_exact_gates = {str(op): count for op, count in gate_counts(transpiled).items()}
         # Depth of transpiled circuit
         stats.depth_transpiled = transpiled.depth()
