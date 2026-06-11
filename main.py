@@ -34,8 +34,6 @@ def main():
     max_qubit = 10
 
 
-
-
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
 
@@ -49,47 +47,6 @@ def main():
 
     # Initialize SDKs
     sdk_list = [
-        """
-        {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
-        },
-        {
-            "name": "BQSkit_Targeted_IBM_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set
-        },
-        {
-            "name": "BQSkit_Targeted_Quantinuum_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set
-        },
-        {
-            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map
-        },
-        {
-            "name": "BQSkit_mapped_line_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": line_coupling_map
-        },
-        {
-            "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": all_to_all_coupling_map
-        },
-        {
-            "name": "BQSkit_mapped_line_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": line_coupling_map
-        },
-        """,
-
         {
             "name": "Qiskit_independent",
             "class": QiskitIndependentTranspilerTestSuite,
@@ -167,6 +124,44 @@ def main():
             "class": PyTKETMappedTranspilerTestSuite,
         },
 
+        {
+            "name": "BQSkit_independent",
+            "class": BQSKitTranspilerTestSuite,
+        },
+        {
+            "name": "BQSkit_Targeted_IBM_gateset",
+            "class": BQSKitTargetedTranspilerTestSuite,
+            "gateset": bqskit_ibm_falcon_gate_set
+        },
+        {
+            "name": "BQSkit_Targeted_Quantinuum_gateset",
+            "class": BQSKitTargetedTranspilerTestSuite,
+            "gateset": bqskit_quantinuum_gate_set
+        },
+        {
+            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
+            "class": BQSKitMappedTranspilerTestSuite,
+            "gateset": bqskit_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map
+        },
+        {
+            "name": "BQSkit_mapped_line_IBM_gateset",
+            "class": BQSKitMappedTranspilerTestSuite,
+            "gateset": bqskit_ibm_falcon_gate_set,
+            "map": line_coupling_map
+        },
+        {
+            "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
+            "class": BQSKitMappedTranspilerTestSuite,
+            "gateset": bqskit_quantinuum_gate_set,
+            "map": all_to_all_coupling_map
+        },
+        {
+            "name": "BQSkit_mapped_line_Quantinuum_gateset",
+            "class": BQSKitMappedTranspilerTestSuite,
+            "gateset": bqskit_quantinuum_gate_set,
+            "map": line_coupling_map
+        },
 
     ]
 
