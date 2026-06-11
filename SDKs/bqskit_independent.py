@@ -26,8 +26,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-
-        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled))
+        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled),check_partial_equivalence=True)
 
     def get_circuit_metrics(
             self,
@@ -39,5 +38,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
         stats.original_gate_count = original.num_operations
         stats.transpiled_gate_count = transpiled.num_operations
+
+        stats.transpiled_exact_gates = {op.name: count for op, count in transpiled.gate_counts.items()}
 
         stats.depth_transpiled = transpiled.depth
