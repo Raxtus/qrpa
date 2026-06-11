@@ -22,7 +22,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        return compile(circuit, model=None, with_mapping=False, max_synthesis_size=6)
+        return compile(circuit, model=None, with_mapping=False, max_synthesis_size=4)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:

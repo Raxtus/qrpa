@@ -13,7 +13,7 @@ from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerT
 
 class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
     def _extract_qubit_count(self, qasm_code: str) -> int:
-        return self.import_qasm(qasm_code).width()
+        return self.import_qasm(qasm_code).num_qubits
 
     def __init__(self,sdk_name):
         self.sdk_name = "Qiskit_independent"

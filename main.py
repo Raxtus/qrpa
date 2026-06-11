@@ -31,7 +31,7 @@ from qiskit.transpiler import CouplingMap
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 10
+    max_qubit = 8
 
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
@@ -44,6 +44,11 @@ def main():
 
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
+
+    sdk_rest = [
+
+
+    ]
 
     # Initialize SDKs
     sdk_list = [
@@ -165,7 +170,7 @@ def main():
 
     ]
 
-    algorithms = ["hhl", "qaoa", "qft", "randomcircuit", "vqe_real_amp", "grover"]
+    algorithms = ["qaoa", "qft", "randomcircuit", "vqe_real_amp","hhl", "grover"]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"

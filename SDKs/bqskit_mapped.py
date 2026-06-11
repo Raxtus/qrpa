@@ -11,5 +11,5 @@ class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
 
 
     def transpile(self, circuit):
-        return compile(circuit, model=self.model, max_synthesis_size=6)
+        return compile(circuit, model=self.model, max_synthesis_size=4)
 
