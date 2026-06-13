@@ -1,12 +1,9 @@
 import qiskit
 from qiskit.circuit import QuantumCircuit
 
-from qiskit.circuit.library import get_standard_gate_name_mapping
-
-import json
-
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
+from qiskit.transpiler.passes import Unroll3qOrMore
 
 from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerTestSuite
 
@@ -22,7 +19,8 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         return  QuantumCircuit.from_qasm_str(qasm_code)
 
     def transpile(self, circuit: QuantumCircuit) -> QuantumCircuit:
-        return qiskit.transpile(circuit,optimization_level=2,routing_method="none", basis_gates=get_standard_gate_name_mapping())
+        circuit = Unroll3qOrMore()(circuit)
+        return qiskit.transpile(circuit,optimization_level=2,routing_method="none")
 
     def verify_circuit(self, original: QuantumCircuit, transpiled: QuantumCircuit) -> EquivalenceCheckingManager.Results:
         return qcec.verify(original,transpiled,check_partial_equivalence=True)
