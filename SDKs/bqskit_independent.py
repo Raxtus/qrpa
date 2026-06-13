@@ -1,4 +1,4 @@
-from bqskit import compile
+from bqskit import Compiler
 from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
 
@@ -22,7 +22,8 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        return compile(circuit, model=None, with_mapping=False, max_synthesis_size=4)
+        with Compiler() as compiler:
+            return compiler.compile(circuit, model=None, with_mapping=False, max_synthesis_size=4)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
