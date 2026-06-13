@@ -10,4 +10,4 @@ class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
         self.model = MachineModel(32, coupling_graph=coupling_map, gate_set=gateset)
 
     def transpile(self, circuit):
-        return compile(circuit, model=self.model, max_synthesis_size=4)
+        return compile(circuit, model=self.model, max_synthesis_size=4,num_workers=1)

@@ -1,7 +1,6 @@
 from bqskit import compile
 from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
-import logging
 
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
@@ -41,3 +40,5 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         stats.transpiled_gate_count = transpiled.num_operations
 
         stats.depth_transpiled = transpiled.depth
+
+        stats.transpiled_exact_gates = {str(op): count for op, count in transpiled.gate_counts.items()}
