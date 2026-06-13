@@ -1,0 +1,1238 @@
+Traceback (most recent call last):
+  File "/u/halle/wraf/home_at/qrpa/qrpa/main.py", line 4, in <module>
+    from bqskit.ext.qiskit.models import _basis_gate_str_to_bqskit_gate
+ModuleNotFoundError: No module named 'bqskit'
+Processing SDK: Qiskit_independent
+Failed to extract qubits: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 2/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 3/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 4/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 5/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 47.37ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 126.87ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 5.96ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 6.72ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 7.04ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.48ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 8.42ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.77ms, transpile: 7.48ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 7.91ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.54ms, transpile: 6.64ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 5.26ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 5.41ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.79ms, transpile: 5.18ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 5.18ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.92ms, transpile: 5.80ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 5.73ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 7.11ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 6.30ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 6.93ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 6.93ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 7.32ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 1.05ms, transpile: 7.60ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 6.11ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.76ms, transpile: 7.07ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.81ms, transpile: 6.19ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 6.17ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.77ms, transpile: 8.14ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.86ms, transpile: 6.64ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 6.10ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.88ms, transpile: 6.15ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.42ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.95ms, transpile: 6.69ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.25ms, transpile: 7.49ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.97ms, transpile: 7.34ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 1.30ms, transpile: 7.76ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.56ms, transpile: 6.86ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.71ms, transpile: 8.25ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.09ms, transpile: 6.99ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.42ms, transpile: 8.07ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.66ms, transpile: 7.17ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 4.60ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 5.05ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 4.71ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.15ms, transpile: 3.70ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.15ms, transpile: 4.95ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 4.89ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 13.53ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 6.48ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.20ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 6.14ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 10.26ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.48ms, transpile: 5.26ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 6.78ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 6.90ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 7.93ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.20ms, transpile: 5.14ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.56ms, transpile: 6.62ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 8.16ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 5.10ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 5.84ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 4.79ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 6.52ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.64ms, transpile: 5.82ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 6.40ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 6.16ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.25ms, transpile: 4.77ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 6.06ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 7.54ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 6.57ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.41ms, transpile: 5.88ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 4.80ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 7.99ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 6.74ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 7.01ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 4.80ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+Running 5 transpilation tests on qaoa_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 5.04ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.88ms, transpile: 6.27ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.98ms, transpile: 5.92ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 6.30ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 4.90ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+Running 5 transpilation tests on qaoa_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 5.25ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 5.55ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.79ms, transpile: 6.53ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.78ms, transpile: 6.22ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 1.08ms, transpile: 5.86ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.14ms, transpile: 5.54ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 4.49ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 4.36ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 4.32ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.15ms, transpile: 4.34ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.23ms, transpile: 14.52ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 7.17ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 5.48ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 4.48ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.41ms, transpile: 7.98ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 15.61ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 8.33ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.24ms, transpile: 4.63ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 8.89ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 8.32ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 4.95ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 6.36ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 6.54ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 5.10ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 7.40ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 10.79ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 5.58ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 11.54ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 8.46ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.56ms, transpile: 17.49ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 5.54ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 7.53ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 6.55ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 6.10ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 7.48ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.25ms, transpile: 5.33ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 6.18ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 8.07ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.66ms, transpile: 8.20ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 7.10ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.31ms, transpile: 5.85ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 15.61ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 5.99ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 7.78ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.68ms, transpile: 8.09ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.36ms, transpile: 6.11ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 5.97ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 7.32ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.06ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.38ms, transpile: 6.03ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 5.56ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.20ms, transpile: 4.88ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 6.25ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 4.83ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 4.71ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 5.45ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 6.65ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 8.58ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 8.71ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.28ms, transpile: 8.75ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 7.66ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 8.74ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 7.06ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 6.60ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.64ms, transpile: 7.65ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 7.14ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 8.24ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.80ms, transpile: 10.76ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 8.54ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.79ms, transpile: 8.97ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.38ms, transpile: 7.29ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.90ms, transpile: 7.49ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.88ms, transpile: 9.09ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 7.43ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 10.73ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 15.97ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.99ms, transpile: 15.12ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.10ms, transpile: 15.28ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.54ms, transpile: 14.98ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.85ms, transpile: 15.36ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 12.00ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.99ms, transpile: 15.83ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.06ms, transpile: 13.91ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.26ms, transpile: 12.03ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.79ms, transpile: 14.19ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.64ms, transpile: 18.17ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 1.37ms, transpile: 19.91ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.40ms, transpile: 15.70ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.42ms, transpile: 15.82ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 1.40ms, transpile: 19.44ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 23.26ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.08ms, transpile: 24.71ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 25.30ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.12ms, transpile: 25.00ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.54ms, transpile: 24.54ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 5.85ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 5.17ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 3.89ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 3.82ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 4.55ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.24ms, transpile: 5.17ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 6.54ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 8.24ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.36ms, transpile: 6.25ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.24ms, transpile: 6.56ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 4.63ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 13.63ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 6.83ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 6.43ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.26ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 6.55ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 6.63ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 6.93ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 6.00ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.68ms, transpile: 5.77ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.25ms, transpile: 4.60ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.77ms, transpile: 5.67ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 5.45ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 7.18ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 4.90ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 4.73ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.66ms, transpile: 7.35ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.64ms, transpile: 5.99ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 7.56ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 5.56ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 4.88ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.70ms, transpile: 7.25ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 5.75ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 4.98ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.78ms, transpile: 7.68ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.35ms, transpile: 4.88ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 5.28ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.70ms, transpile: 5.54ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 5.53ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 4.96ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 4.94ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 6.76ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 6.19ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.75ms, transpile: 7.25ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 1.03ms, transpile: 5.16ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on grover_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 5.83ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.20ms, transpile: 6.06ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 5.13ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.23ms, transpile: 7.68ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 5.11ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.19ms, transpile: 11.87ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 12.26ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 6.89ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 8.43ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 5.82ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.33ms, transpile: 16.97ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.32ms, transpile: 5.75ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 8.25ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 7.78ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 7.00ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+Running 5 transpilation tests on grover_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.11ms, transpile: 8.92ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 10.42ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 9.59ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 10.29ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.81ms, transpile: 9.14ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+Running 5 transpilation tests on grover_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 16.27ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 16.30ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 16.22ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.66ms, transpile: 15.85ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.05ms, transpile: 16.19ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+Running 5 transpilation tests on grover_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.82ms, transpile: 37.67ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.82ms, transpile: 36.96ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.20ms, transpile: 55.57ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.99ms, transpile: 37.73ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.94ms, transpile: 177.60ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on grover_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.05ms, transpile: 75.93ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.33ms, transpile: 75.58ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.28ms, transpile: 74.51ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.26ms, transpile: 74.65ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.46ms, transpile: 109.90ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on grover_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.62ms, transpile: 160.13ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.70ms, transpile: 160.66ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.50ms, transpile: 206.36ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.73ms, transpile: 161.91ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 121.28ms, transpile: 162.58ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on grover_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.81ms, transpile: 311.93ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.71ms, transpile: 315.16ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.01ms, transpile: 313.17ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.29ms, transpile: 310.18ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.37ms, transpile: 322.87ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+Results saved to experiments/transpiler_result_20260611_092148_Qiskit_independent.json
+Processing SDK: Qiskit_targeted_IBM_gateset
+Failed to extract qubits: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 2/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 3/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 4/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 5/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.24ms, transpile: 28.25ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 6.49ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 6.17ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 6.37ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.56ms, transpile: 8.20ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 5.60ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 6.72ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 7.94ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.31ms, transpile: 6.70ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.30ms, transpile: 7.40ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 12.79ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.85ms, transpile: 6.33ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.66ms, transpile: 6.67ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.84ms, transpile: 6.18ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.83ms, transpile: 5.66ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 6.37ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 8.19ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 6.21ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 5.90ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.78ms, transpile: 7.52ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.40ms, transpile: 6.55ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.90ms, transpile: 8.27ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 151.40ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 8.23ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 6.79ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 6.65ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.02ms, transpile: 6.91ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 6.78ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.95ms, transpile: 7.16ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.96ms, transpile: 7.02ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 7.25ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.04ms, transpile: 9.12ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 7.46ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 7.40ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 7.43ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 7.70ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.13ms, transpile: 7.86ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.96ms, transpile: 7.83ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 7.71ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.06ms, transpile: 8.09ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.13ms, transpile: 5.40ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 2/5: EquivalenceCriterion.no_information (import: 0.15ms, transpile: 3.67ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 3.63ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 3.70ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 3.64ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.17ms, transpile: 10.77ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 5.97ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 6.45ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.35ms, transpile: 7.21ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 8.15ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.27ms, transpile: 5.97ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 4.76ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.34ms, transpile: 6.66ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 5.44ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 5.55ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.20ms, transpile: 9.56ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 8.26ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.41ms, transpile: 4.58ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.45ms, transpile: 4.82ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 4.61ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 5.01ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 5.84ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 18.59ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 5.19ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 5.60ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 7.35ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.80ms, transpile: 5.50ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 7.00ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.41ms, transpile: 5.09ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 6.84ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.30ms, transpile: 5.00ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 6.68ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 5.16ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.87ms, transpile: 5.12ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 5.06ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+Running 5 transpilation tests on qaoa_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 5.11ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 5.56ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 5.53ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 5.29ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 6.12ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+Running 5 transpilation tests on qaoa_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 6.27ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 6.51ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.98ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 5.46ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.82ms, transpile: 6.45ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 7.11ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 5.72ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 4.30ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 4.41ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 4.28ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.17ms, transpile: 16.70ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 8.23ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.29ms, transpile: 8.18ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.19ms, transpile: 8.22ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.41ms, transpile: 5.66ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 4.42ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 5.86ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.26ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 6.35ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 6.12ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.17ms, transpile: 4.85ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 5.89ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.48ms, transpile: 5.92ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 7.35ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.41ms, transpile: 6.21ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.27ms, transpile: 5.05ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 11.63ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 6.39ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 6.31ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.33ms, transpile: 5.33ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on qft_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.20ms, transpile: 5.71ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.36ms, transpile: 5.93ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 6.94ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.34ms, transpile: 6.19ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 6.98ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on qft_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.34ms, transpile: 7.70ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 6.74ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.37ms, transpile: 7.00ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 5.87ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 7.07ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on qft_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.28ms, transpile: 5.84ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 7.76ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.37ms, transpile: 6.15ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 7.06ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.66ms, transpile: 7.41ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on qft_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 6.23ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 6.47ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.92ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 7.20ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 6.38ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 5.89ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 5.01ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 6.56ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 4.63ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 6.79ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 6.52ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 7.14ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 8.98ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 5.93ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.26ms, transpile: 7.70ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.19ms, transpile: 6.42ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 9.22ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 7.96ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 8.86ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 7.32ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.28ms, transpile: 8.07ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 9.29ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 9.95ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.86ms, transpile: 9.17ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.67ms, transpile: 9.36ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.32ms, transpile: 9.02ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 9.33ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 9.26ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 7.95ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 8.06ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 16.10ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.92ms, transpile: 10.79ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.16ms, transpile: 11.17ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 10.54ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 11.88ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.55ms, transpile: 10.88ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 14.95ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.63ms, transpile: 11.16ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.80ms, transpile: 11.10ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.07ms, transpile: 10.98ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 14.34ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 13.84ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 13.58ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.07ms, transpile: 13.96ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 13.49ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 14.08ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.76ms, transpile: 14.31ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 14.30ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.76ms, transpile: 14.31ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 14.15ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 4.60ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 5.04ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 4.76ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 5.39ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.no_information (import: 0.19ms, transpile: 4.50ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.23ms, transpile: 16.22ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 5.72ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 5.47ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 7.14ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 7.33ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 4.30ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 7.05ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 5.50ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 5.82ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 5.14ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.25ms, transpile: 4.67ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 5.94ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 7.49ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 5.94ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 4.94ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.25ms, transpile: 4.71ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 7.37ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.79ms, transpile: 5.84ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.85ms, transpile: 5.88ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.80ms, transpile: 5.58ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.28ms, transpile: 4.98ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 4.97ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 6.84ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 5.43ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.45ms, transpile: 4.87ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.30ms, transpile: 4.92ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 5.58ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 4.95ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 5.25ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 4.86ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.35ms, transpile: 4.93ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 5.81ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 6.66ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.98ms, transpile: 6.78ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.01ms, transpile: 5.31ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 4.94ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 5.35ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.76ms, transpile: 5.33ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 5.58ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.76ms, transpile: 6.39ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on grover_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 5.64ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 5.65ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 4.85ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 6.78ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 4.78ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 23.08ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.97ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.35ms, transpile: 12.90ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.25ms, transpile: 6.51ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 6.34ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 7.45ms, gates: {'rz': 79, 'cx': 52, 'sx': 23, 'measure': 4, 'barrier': 1})
+Processing SDK: Qiskit_independent
+Failed to extract qubits: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 2/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 3/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 4/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 5/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 41.70ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 138.21ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 6.00ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.21ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.93ms, gates: {'h': 4, 'cp': 2, 'x': 1, 'cry': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 7.27ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 7.28ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 7.17ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 5.80ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.70ms, transpile: 6.52ms, gates: {'h': 8, 'cp': 6, 'swap': 2, 'cry': 2, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.35ms, transpile: 4.74ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.41ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.47ms, transpile: 6.17ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 5.95ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 7.54ms, gates: {'h': 12, 'cp': 12, 'cry': 3, 'swap': 2, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 6.59ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 6.53ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 6.56ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 6.97ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 6.80ms, gates: {'cp': 20, 'h': 16, 'swap': 4, 'cry': 4, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 7.20ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.63ms, transpile: 6.78ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.82ms, transpile: 6.27ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.77ms, transpile: 9.26ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.90ms, transpile: 7.78ms, gates: {'cp': 30, 'h': 20, 'cry': 5, 'swap': 4, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 9.23ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.92ms, transpile: 9.81ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 6.83ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.93ms, transpile: 10.23ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.88ms, transpile: 9.93ms, gates: {'cp': 42, 'h': 24, 'swap': 6, 'cry': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 7.76ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.76ms, transpile: 7.53ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.76ms, transpile: 8.41ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.75ms, transpile: 7.75ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.75ms, transpile: 7.66ms, gates: {'cp': 56, 'h': 28, 'cry': 7, 'swap': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.54ms, transpile: 6.67ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 1.05ms, transpile: 7.54ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.10ms, transpile: 8.00ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.02ms, transpile: 10.63ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.94ms, transpile: 7.59ms, gates: {'cp': 72, 'h': 32, 'swap': 8, 'cry': 8, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 7.66ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 7.26ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 7.42ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.36ms, transpile: 7.47ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 7.13ms, gates: {'rx': 4, 'h': 2, 'rzz': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 5.61ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 8.71ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 8.70ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 6.46ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 6.73ms, gates: {'rx': 6, 'rzz': 4, 'h': 3})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 7.56ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 7.47ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 7.13ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.36ms, transpile: 16.36ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.26ms, transpile: 10.96ms, gates: {'rx': 6, 'rzz': 4, 'h': 3, 'u2': 1})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 9.55ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 5.92ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 6.15ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.31ms, transpile: 5.69ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 5.79ms, gates: {'rzz': 12, 'rx': 10, 'h': 5})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 6.34ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.53ms, transpile: 5.57ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 11.01ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.66ms, transpile: 6.11ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 4.72ms, gates: {'rzz': 14, 'rx': 12, 'h': 6})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 8.29ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 6.12ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 6.19ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.47ms, transpile: 5.79ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 6.13ms, gates: {'rzz': 24, 'rx': 14, 'h': 7})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 7.62ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.11ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 6.00ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.62ms, transpile: 5.64ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 11.48ms, gates: {'rzz': 28, 'rx': 16, 'h': 8})
+Running 5 transpilation tests on qaoa_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.70ms, transpile: 8.75ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.75ms, transpile: 8.66ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.76ms, transpile: 8.75ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 8.59ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 8.64ms, gates: {'rzz': 36, 'rx': 18, 'h': 9})
+Running 5 transpilation tests on qaoa_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.59ms, transpile: 6.86ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 6.79ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.54ms, transpile: 6.30ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.53ms, transpile: 5.71ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.65ms, transpile: 6.49ms, gates: {'rzz': 52, 'rx': 20, 'h': 10})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.15ms, transpile: 5.62ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 6.09ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 4.72ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 8.53ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 6.55ms, gates: {'h': 2, 'measure': 2, 'cp': 1, 'swap': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 56.95ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.31ms, transpile: 21.88ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 5.98ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 5.44ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.28ms, transpile: 18.76ms, gates: {'h': 3, 'cp': 3, 'measure': 3, 'swap': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.17ms, transpile: 8.24ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 5.84ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 6.18ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 5.77ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.31ms, transpile: 5.87ms, gates: {'cp': 6, 'h': 4, 'measure': 4, 'swap': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 6.20ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 6.37ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 5.82ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 5.73ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 5.58ms, gates: {'cp': 10, 'h': 5, 'measure': 5, 'swap': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 5.69ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 6.78ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 6.39ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 6.26ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.88ms, transpile: 5.28ms, gates: {'cp': 15, 'h': 6, 'measure': 6, 'swap': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.21ms, transpile: 6.41ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.38ms, transpile: 6.56ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.53ms, transpile: 6.85ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.64ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 6.58ms, gates: {'cp': 21, 'h': 7, 'measure': 7, 'swap': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 5.45ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 6.88ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.41ms, transpile: 7.22ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 6.17ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.60ms, transpile: 10.96ms, gates: {'cp': 28, 'h': 8, 'measure': 8, 'swap': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.28ms, transpile: 5.94ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.72ms, transpile: 6.87ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 6.98ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 8.08ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.53ms, transpile: 18.20ms, gates: {'cp': 36, 'h': 9, 'measure': 9, 'swap': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 10.95ms, transpile: 6.50ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 10.73ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 7.99ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 7.48ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 7.45ms, gates: {'cp': 45, 'h': 10, 'measure': 10, 'swap': 5, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 5.94ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 5.52ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 5.19ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 7.50ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 5.49ms, gates: {'measure': 2, 'rxx': 1, 'crx': 1, 'csdg': 1, 'p': 1, 'y': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 6.29ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 20.59ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 9.26ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 8.65ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 8.27ms, gates: {'measure': 3, 'cu1': 2, 't': 1, 'rccx': 1, 'ccz': 1, 'sxdg': 1, 'cswap': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 10.04ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 10.07ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.79ms, transpile: 10.87ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.35ms, transpile: 6.26ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 5.82ms, gates: {'measure': 4, 'rccx': 2, 'ccz': 2, 'ch': 2, 'cswap': 1, 't': 1, 'c3sx': 1, 'r': 1, 'u': 1, 'ccx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 7.21ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 8.37ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 8.24ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 8.21ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.39ms, transpile: 8.09ms, gates: {'measure': 5, 't': 3, 'cswap': 2, 'ecr': 2, 'rccx': 2, 'swap': 1, 'c3sx': 1, 'cu': 1, 'cz': 1, 'tdg': 1, 'ccx': 1, 'cu1': 1, 'csdg': 1, 'u1': 1, 'cy': 1, 'rzz': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 7.53ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 7.46ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 8.27ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.72ms, transpile: 8.08ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.71ms, transpile: 7.78ms, gates: {'measure': 6, 'ccx': 5, 'rccx': 5, 'cry': 2, 'ccz': 2, 'cswap': 1, 'c3sx': 1, 'tdg': 1, 'cz': 1, 't': 1, 'ecr': 1, 'cy': 1, 'rzz': 1, 'sx': 1, 'h': 1, 'csx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 19.67ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.72ms, transpile: 18.34ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 17.95ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.83ms, transpile: 15.91ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.90ms, transpile: 14.86ms, gates: {'measure': 7, 'ccz': 5, 'ccx': 5, 'cswap': 4, 'rccx': 4, 'csdg': 2, 'rcccx': 2, 't': 1, 'ecr': 1, 'c3sx': 1, 'u1': 1, 'tdg': 1, 'cz': 1, 'cry': 1, 'ch': 1, 'cy': 1, 'h': 1, 'r': 1, 'crz': 1, 'x': 1, 'sdg': 1, 'ry': 1, 'cu3': 1, 'sx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 15.78ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.93ms, transpile: 20.22ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.95ms, transpile: 19.92ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.89ms, transpile: 13.29ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.92ms, transpile: 19.85ms, gates: {'cswap': 8, 'measure': 8, 'ccx': 7, 'rccx': 4, 'ccz': 3, 'c3sx': 3, 'tdg': 2, 'ch': 2, 'rcccx': 2, 't': 1, 'u1': 1, 'cry': 1, 'dcx': 1, 'cu': 1, 'ry': 1, 'u3': 1, 'cp': 1, 'cy': 1, 'u2': 1, 'z': 1, 'ryy': 1, 'sxdg': 1, 'cx': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.57ms, transpile: 17.92ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 1.18ms, transpile: 20.30ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.91ms, transpile: 17.80ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.16ms, transpile: 16.95ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.77ms, transpile: 17.56ms, gates: {'measure': 9, 'ccz': 8, 'rccx': 8, 'ccx': 7, 'cswap': 5, 'c3sx': 4, 't': 3, 'sx': 3, 'rcccx': 3, 'swap': 2, 'u1': 2, 'dcx': 1, 'cu': 1, 'cry': 1, 'h': 1, 'rzz': 1, 'cp': 1, 'sdg': 1, 'xx_plus_yy': 1, 'z': 1, 'crz': 1, 'ryy': 1, 'u3': 1, 'iswap': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 28.59ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.86ms, transpile: 28.49ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.28ms, transpile: 25.94ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.86ms, transpile: 31.75ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 23.31ms, gates: {'rccx': 14, 'cswap': 10, 'measure': 10, 'ccx': 9, 'ccz': 8, 'rcccx': 6, 'u3': 4, 's': 3, 'c3sx': 2, 'tdg': 2, 'ry': 2, 'sdg': 2, 'rx': 2, 't': 1, 'cry': 1, 'dcx': 1, 'csdg': 1, 'xx_plus_yy': 1, 'csx': 1, 'r': 1, 'sx': 1, 'ch': 1, 'u': 1, 'crx': 1, 'u1': 1, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.16ms, transpile: 4.59ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 3.85ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 3.83ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 5.54ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.18ms, transpile: 4.30ms, gates: {'ry': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.23ms, transpile: 5.54ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 11.72ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 4.81ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 4.68ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 4.63ms, gates: {'ry': 12, 'cx': 6, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.23ms, transpile: 4.86ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 5.04ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.45ms, transpile: 5.47ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 6.22ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.34ms, transpile: 5.29ms, gates: {'ry': 16, 'cx': 9, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.27ms, transpile: 5.43ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.37ms, transpile: 19.42ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.44ms, transpile: 6.31ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.46ms, transpile: 6.04ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.43ms, transpile: 5.80ms, gates: {'ry': 20, 'cx': 12, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 5.83ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.50ms, transpile: 6.38ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 11.67ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.49ms, transpile: 6.03ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.48ms, transpile: 5.93ms, gates: {'ry': 24, 'cx': 15, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 5.88ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 5.99ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 6.60ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.67ms, transpile: 8.56ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 6.31ms, gates: {'ry': 28, 'cx': 18, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 8.50ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.75ms, transpile: 8.63ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.72ms, transpile: 8.58ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.69ms, transpile: 8.21ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.71ms, transpile: 7.75ms, gates: {'ry': 32, 'cx': 21, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.41ms, transpile: 6.02ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.58ms, transpile: 5.89ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.51ms, transpile: 6.33ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.59ms, transpile: 6.32ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 7.85ms, gates: {'ry': 36, 'cx': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_10...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.40ms, transpile: 4.95ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 6.25ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 6.28ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.03ms, transpile: 5.37ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.61ms, transpile: 6.16ms, gates: {'ry': 40, 'cx': 27, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on grover_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.15ms, transpile: 5.86ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 6.21ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 6.13ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.22ms, transpile: 6.39ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.24ms, transpile: 6.22ms, gates: {'measure': 2, 'h': 1, 'x': 1, 'cp': 1, 'u3': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.32ms, transpile: 24.39ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.29ms, transpile: 29.56ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 6.79ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 8.80ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 7.97ms, gates: {'cx': 5, 'rz': 4, 'measure': 3, 'h': 2, 'u2': 2, 'u1': 2, 'x': 1, 'crz': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.31ms, transpile: 16.57ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.79ms, transpile: 10.47ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 9.80ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 9.50ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 7.93ms, gates: {'cx': 36, 'u2': 16, 'tdg': 12, 'rz': 9, 't': 8, 'u1': 4, 'measure': 4, 'h': 3, 'crz': 2, 'ccx': 2, 'barrier': 1})
+Running 5 transpilation tests on grover_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 40.05ms, transpile: 12.72ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 13.43ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.86ms, transpile: 13.35ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.79ms, transpile: 11.47ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 12.77ms, gates: {'cx': 168, 'tdg': 54, 't': 36, 'u2': 35, 'p': 33, 'rz': 15, 'u3': 11, 'h': 7, 'measure': 5, 'crz': 3, 'barrier': 1})
+Running 5 transpilation tests on grover_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 21.71ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.89ms, transpile: 16.98ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 16.43ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 22.73ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.20ms, transpile: 16.33ms, gates: {'cx': 400, 'tdg': 108, 'p': 101, 'u2': 77, 't': 72, 'cp': 36, 'u3': 31, 'rz': 12, 'h': 10, 'measure': 6, 'crz': 4, 'u1': 4, 'barrier': 1})
+Running 5 transpilation tests on grover_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.72ms, transpile: 38.07ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.85ms, transpile: 37.21ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.06ms, transpile: 38.43ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.92ms, transpile: 37.04ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.91ms, transpile: 216.75ms, gates: {'cx': 1320, 'p': 606, 'tdg': 288, 't': 180, 'u3': 113, 'u2': 104, 'rz': 36, 'h': 24, 'crz': 12, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on grover_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.42ms, transpile: 85.17ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.15ms, transpile: 137.37ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.37ms, transpile: 76.96ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.25ms, transpile: 76.26ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.04ms, transpile: 138.71ms, gates: {'cx': 2848, 'p': 1400, 'tdg': 544, 't': 384, 'u2': 275, 'u3': 215, 'rz': 80, 'h': 38, 'crz': 16, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on grover_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.81ms, transpile: 198.27ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.19ms, transpile: 184.97ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.37ms, transpile: 198.62ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.91ms, transpile: 162.14ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 144.41ms, transpile: 169.35ms, gates: {'cx': 6480, 'p': 2436, 'tdg': 1536, 't': 1200, 'u2': 998, 'u3': 419, 'rz': 180, 'h': 68, 'crz': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on grover_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.23ms, transpile: 421.93ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.34ms, transpile: 397.41ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.44ms, transpile: 585.84ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.67ms, transpile: 416.68ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.37ms, transpile: 391.73ms, gates: {'cx': 12988, 'tdg': 3604, 'p': 3468, 't': 2924, 'u2': 2637, 'u3': 730, 'rz': 357, 'h': 128, 'crz': 34, 'measure': 10, 'barrier': 1})
+Results saved to experiments/transpiler_result_20260611_093621_Qiskit_independent.json
+Processing SDK: Qiskit_targeted_IBM_gateset
+Failed to extract qubits: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 2/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 3/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 4/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+  Run 5/5: FAILED - Import failed: "<input>:1,0: identifiers cannot start with capital letters except for the builtins 'U' and 'CX'"
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.28ms, transpile: 30.26ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.76ms, transpile: 9.71ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.74ms, transpile: 9.52ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.73ms, transpile: 7.87ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.64ms, transpile: 7.22ms, gates: {'rz': 13, 'sx': 8, 'cx': 6, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 8.05ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.85ms, transpile: 9.02ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.84ms, transpile: 7.27ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.63ms, transpile: 7.22ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 7.76ms, gates: {'rz': 34, 'sx': 21, 'cx': 17, 'x': 2, 'measure': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.32ms, transpile: 6.02ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 0.54ms, transpile: 6.76ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.52ms, transpile: 6.64ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 0.55ms, transpile: 6.89ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.56ms, transpile: 7.00ms, gates: {'rz': 52, 'cx': 34, 'sx': 20, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 7.12ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 7.88ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.67ms, transpile: 8.12ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 8.01ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.66ms, transpile: 7.62ms, gates: {'rz': 77, 'cx': 57, 'sx': 24, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.45ms, transpile: 7.59ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.18ms, transpile: 9.09ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 216.07ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.99ms, transpile: 11.70ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.96ms, transpile: 11.39ms, gates: {'rz': 102, 'cx': 78, 'sx': 28, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 11.95ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.07ms, transpile: 12.31ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 7.25ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.06ms, transpile: 11.93ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.96ms, transpile: 11.28ms, gates: {'rz': 135, 'cx': 109, 'sx': 32, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 9.05ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.08ms, transpile: 9.85ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.04ms, transpile: 8.21ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.40ms, transpile: 8.28ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.42ms, transpile: 8.28ms, gates: {'rz': 168, 'cx': 138, 'sx': 36, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on hhl_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 7.74ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.19ms, transpile: 9.20ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 7.82ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.81ms, transpile: 7.69ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.16ms, transpile: 13.49ms, gates: {'rz': 209, 'cx': 177, 'sx': 40, 'x': 1, 'measure': 1})
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 6.09ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.27ms, transpile: 5.86ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 4.65ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 6.09ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 5.18ms, gates: {'rz': 11, 'sx': 8, 'cx': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.25ms, transpile: 18.92ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.29ms, transpile: 4.99ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 6.00ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 4.42ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 4.54ms, gates: {'rz': 26, 'sx': 15, 'cx': 8})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.17ms, transpile: 5.13ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.32ms, transpile: 5.26ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.29ms, transpile: 5.10ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.27ms, transpile: 4.88ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 6.73ms, gates: {'rz': 28, 'sx': 16, 'cx': 8})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.30ms, transpile: 7.49ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 9.38ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.11ms, transpile: 5.49ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 6.44ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 6.64ms, gates: {'rz': 48, 'sx': 25, 'cx': 24})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 15.44ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 6.15ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 6.49ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 6.36ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.48ms, transpile: 7.79ms, gates: {'rz': 60, 'sx': 30, 'cx': 28})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.33ms, transpile: 6.16ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 6.71ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 6.26ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 7.01ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.63ms, transpile: 8.54ms, gates: {'rz': 76, 'cx': 48, 'sx': 35})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.35ms, transpile: 5.72ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.66ms, transpile: 8.86ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.70ms, transpile: 6.24ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.25ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 6.67ms, gates: {'rz': 88, 'cx': 56, 'sx': 40})
+Running 5 transpilation tests on qaoa_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.29ms, transpile: 9.05ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 6.24ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 5.39ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.86ms, transpile: 7.55ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 6.42ms, gates: {'rz': 104, 'cx': 72, 'sx': 45})
+Running 5 transpilation tests on qaoa_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 7.41ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.33ms, transpile: 6.87ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 5.87ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 5.43ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 5.83ms, gates: {'rz': 128, 'cx': 104, 'sx': 50})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 7.57ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 6.89ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.20ms, transpile: 5.94ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.19ms, transpile: 5.97ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.19ms, transpile: 5.23ms, gates: {'rz': 8, 'sx': 5, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 23.55ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 6.00ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 8.43ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 6.11ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.21ms, transpile: 5.87ms, gates: {'rz': 10, 'cx': 9, 'sx': 3, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.16ms, transpile: 5.01ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 7.23ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.37ms, transpile: 5.82ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 7.76ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.30ms, transpile: 6.23ms, gates: {'cx': 18, 'rz': 17, 'sx': 4, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on qft_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.15ms, transpile: 4.61ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 7.94ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.48ms, transpile: 5.95ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 5.84ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 5.16ms, gates: {'rz': 26, 'cx': 26, 'sx': 5, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.18ms, transpile: 4.82ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.41ms, transpile: 13.38ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.28ms, transpile: 5.18ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 13.50ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 7.03ms, gates: {'cx': 39, 'rz': 37, 'sx': 6, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on qft_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.25ms, transpile: 7.33ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.45ms, transpile: 8.84ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 8.37ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 8.97ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 9.65ms, gates: {'cx': 51, 'rz': 50, 'sx': 7, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on qft_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 9.14ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 8.23ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 6.99ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 6.63ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 6.69ms, gates: {'cx': 68, 'rz': 65, 'sx': 8, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on qft_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 12.17ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 7.99ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 8.49ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 7.33ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 7.85ms, gates: {'cx': 84, 'rz': 82, 'sx': 9, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on qft_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.28ms, transpile: 7.68ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.47ms, transpile: 8.01ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 11.24ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 8.54ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.46ms, transpile: 7.85ms, gates: {'cx': 105, 'rz': 101, 'sx': 10, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 8.70ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.no_information (import: 0.39ms, transpile: 8.32ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 8.46ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.no_information (import: 0.53ms, transpile: 9.32ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.no_information (import: 0.38ms, transpile: 7.67ms, gates: {'rz': 12, 'sx': 10, 'cx': 2, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.25ms, transpile: 6.56ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 8.21ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.32ms, transpile: 6.85ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 8.38ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.57ms, transpile: 7.00ms, gates: {'rz': 30, 'cx': 20, 'sx': 9, 'measure': 3, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 8.51ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.67ms, transpile: 6.93ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 6.84ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.78ms, transpile: 9.32ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 9.44ms, gates: {'rz': 69, 'cx': 53, 'sx': 16, 'measure': 4, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 13.21ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 11.77ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 13.57ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.64ms, transpile: 12.96ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 12.94ms, gates: {'rz': 86, 'cx': 59, 'sx': 32, 'measure': 5, 'x': 3, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.40ms, transpile: 12.76ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 13.68ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 12.86ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.54ms, transpile: 8.80ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.88ms, transpile: 11.52ms, gates: {'rz': 133, 'cx': 95, 'sx': 42, 'measure': 6, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 12.84ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 19.12ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 12.18ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 12.04ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 14.08ms, gates: {'rz': 203, 'cx': 145, 'sx': 69, 'measure': 7, 'x': 4, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_08...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 13.42ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.63ms, transpile: 11.32ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 13.67ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 13.50ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.91ms, transpile: 13.36ms, gates: {'rz': 302, 'cx': 208, 'sx': 103, 'measure': 8, 'x': 6, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_09...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 15.94ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.95ms, transpile: 19.72ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.83ms, transpile: 14.88ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.16ms, transpile: 22.59ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.13ms, transpile: 22.06ms, gates: {'rz': 350, 'cx': 268, 'sx': 102, 'measure': 9, 'x': 5, 'barrier': 1})
+Running 5 transpilation tests on randomcircuit_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 17.05ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.90ms, transpile: 17.71ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.90ms, transpile: 17.36ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.77ms, transpile: 14.19ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.79ms, transpile: 14.44ms, gates: {'rz': 430, 'cx': 302, 'sx': 147, 'measure': 10, 'x': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.19ms, transpile: 5.80ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.no_information (import: 0.29ms, transpile: 5.90ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 0.29ms, transpile: 8.03ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.no_information (import: 0.27ms, transpile: 6.57ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 0.26ms, transpile: 6.47ms, gates: {'rz': 11, 'sx': 8, 'cx': 3, 'measure': 2, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.31ms, transpile: 23.94ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.43ms, transpile: 6.96ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 6.52ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.38ms, transpile: 6.27ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.37ms, transpile: 6.13ms, gates: {'sx': 24, 'rz': 24, 'cx': 6, 'measure': 3, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.28ms, transpile: 6.44ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.48ms, transpile: 7.16ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.44ms, transpile: 7.68ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 5.99ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.37ms, transpile: 5.80ms, gates: {'sx': 32, 'rz': 32, 'cx': 9, 'measure': 4, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.29ms, transpile: 5.77ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 5.81ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.55ms, transpile: 7.08ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 6.32ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.67ms, transpile: 5.72ms, gates: {'sx': 40, 'rz': 40, 'cx': 12, 'measure': 5, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.33ms, transpile: 6.30ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.53ms, transpile: 6.70ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.61ms, transpile: 7.63ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 6.38ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 7.21ms, gates: {'sx': 48, 'rz': 48, 'cx': 15, 'measure': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 7.14ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 6.12ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 6.62ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 6.21ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.66ms, transpile: 5.69ms, gates: {'sx': 56, 'rz': 56, 'cx': 18, 'measure': 7, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.30ms, transpile: 4.92ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 6.58ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 6.27ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.67ms, transpile: 5.50ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.68ms, transpile: 7.45ms, gates: {'sx': 64, 'rz': 64, 'cx': 21, 'measure': 8, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_09...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.42ms, transpile: 5.83ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 8.12ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.74ms, transpile: 7.99ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.75ms, transpile: 6.85ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 8.02ms, gates: {'sx': 72, 'rz': 72, 'cx': 24, 'measure': 9, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_10...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.55ms, transpile: 6.50ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.59ms, transpile: 5.97ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.65ms, transpile: 6.32ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.62ms, transpile: 6.22ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.63ms, transpile: 6.24ms, gates: {'sx': 80, 'rz': 80, 'cx': 27, 'measure': 10, 'barrier': 1})
+Running 5 transpilation tests on grover_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 8.16ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.25ms, transpile: 6.97ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.24ms, transpile: 6.49ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 6.30ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 6.22ms, gates: {'rz': 6, 'sx': 3, 'measure': 2, 'cx': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.22ms, transpile: 28.25ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.52ms, transpile: 12.71ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 8.31ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.50ms, transpile: 7.93ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.23ms, transpile: 6.51ms, gates: {'rz': 15, 'sx': 8, 'cx': 6, 'measure': 3, 'x': 1, 'barrier': 1})
+Running 5 transpilation tests on grover_04...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
