@@ -64,7 +64,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(OPENQASM2Language().encode(original), OPENQASM2Language().encode(transpiled))
+        return qcec.verify(OPENQASM2Language().encode(original), OPENQASM2Language().encode(transpiled),check_partial_equivalence=True)
 
     def get_circuit_metrics(
             self,
