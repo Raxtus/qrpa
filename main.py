@@ -42,7 +42,6 @@ def main():
     pennylane_ibm_falcon_gate_set = {qml.Identity, qml.X, qml.SX, qml.RZ, qml.CNOT}
     pennylane_ibm_quantinuum_gate_set = [qml.IsingZZ, qml.RZ, qml.RY, qml.RX]
 
-
     pytket_ibm_falcon_gate_set = {OpType.noop, OpType.X, OpType.SX, OpType.Rz, OpType.CX}
     pytket_quantinuum_gate_set = {OpType.ZZPhase, OpType.Rz, OpType.Ry, OpType.Rx}
     all_to_all_coupling_map = [(i, j) for i in range(max_qubit) for j in range(i + 1, max_qubit)]
@@ -51,14 +50,50 @@ def main():
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
 
-    rest_list = [
-
-
+    sdk_list = [
+        {
+            "name": "Pennylane_independent",
+            "class": PennyLaneTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
 
     ]
 
     # Initialize SDKs
-    sdk_list = [
+    sdk_list_r = [
 
         {
             "name": "Qiskit_independent",
@@ -135,46 +170,6 @@ def main():
             "gateset": pytket_quantinuum_gate_set,
             "map": Architecture(line_coupling_map),
             "class": PyTKETMappedTranspilerTestSuite,
-        },
-
-        {
-            "name": "Pennylane_independent",
-            "class": PennyLaneTranspilerTestSuite,
-        },
-        {
-            "name": "Pennylane_targeted_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "class": PennyLaneTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Pennylane_targeted_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "class": PennyLaneTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Pennylane_mapped_line_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "map": line_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
-        },
-
-        {
-            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "map": all_to_all_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Pennylane_mapped_line_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "map": line_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
         },
 
         {
