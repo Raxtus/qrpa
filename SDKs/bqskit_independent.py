@@ -1,6 +1,7 @@
-from bqskit import Compiler
+from bqskit import compile
 from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
+import logging
 
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
@@ -13,6 +14,7 @@ from quantum_transpile_test_suite import (
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
     def __init__(self, sdk_name):
+        logging.basicConfig(level=logging.DEBUG)
         self.sdk_name = sdk_name
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
@@ -22,8 +24,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        with Compiler() as compiler:
-            return compiler.compile(circuit, model=None, with_mapping=False, max_synthesis_size=4)
+            return compile(circuit, model=None, with_mapping=False, max_synthesis_size=4)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
