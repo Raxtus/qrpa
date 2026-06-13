@@ -35,7 +35,7 @@ import logging
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 4
+    max_qubit = 8
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
@@ -45,13 +45,14 @@ def main():
 
     pytket_ibm_falcon_gate_set = {OpType.noop, OpType.X, OpType.SX, OpType.Rz, OpType.CX}
     pytket_quantinuum_gate_set = {OpType.ZZPhase, OpType.Rz, OpType.Ry, OpType.Rx}
+
     all_to_all_coupling_map = [(i, j) for i in range(max_qubit) for j in range(i + 1, max_qubit)]
     line_coupling_map = [(i, i + 1) for i in range(max_qubit - 1)]
 
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
 
-    logging.basicConfig(level=logging.DEBUG)
+    #logging.basicConfig(level=logging.DEBUG)
 
     sdk_list = [
 
@@ -94,6 +95,10 @@ def main():
             "map": line_coupling_map
         },
 
+    ]
+
+    # Initialize SDKs
+    sdk_list_r = [
         {
             "name": "Pennylane_independent",
             "class": PennyLaneTranspilerTestSuite,
@@ -132,12 +137,6 @@ def main():
             "map": line_coupling_map,
             "class": PennyLaneMappedTranspilerTestSuite,
         },
-
-
-    ]
-
-    # Initialize SDKs
-    sdk_list_r = [
 
         {
             "name": "Qiskit_independent",
@@ -219,9 +218,9 @@ def main():
 
     ]
 
-    rest_algorithms = ["randomcircuit"]
+    rest_algorithms = ["randomcircuit","grover"]
 
-    algorithms = ["grover","qaoa", "qft", "vqe_real_amp", "hhl", ]
+    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", ]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
@@ -243,6 +242,8 @@ def main():
 
         results_for_sdk = []
 
+        suite.init() # done for bqskit optimization
+
         for file in test_list:
             if file.endswith(".qasm"):
                 stats = suite.test(file, max_runs)
@@ -254,6 +255,8 @@ def main():
         output_path = f"{output_file.rstrip('.json')}_{timestamp}_{sdk_name}.json"
         with open(output_path, "w") as f:
             json.dump(results_for_sdk, f, indent=4)
+
+        suite.close()
 
         print(f"Results saved to {output_path}")
 

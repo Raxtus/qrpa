@@ -25,7 +25,9 @@ from quantum_transpile_test_suite import (
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
     def __init__(self, sdk_name):
+        self.compiler = None
         self.sdk_name = sdk_name
+        self.max_synthesis_size = 3 # change if you need to. It's default by BQSkit docs
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
         return self.import_qasm(qasm_code).num_qudits
@@ -35,7 +37,6 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def transpile(self, circuit):
         model = MachineModel(circuit.num_qudits)
-        max_synthesis_size = 3
 
         workflow = Workflow([
             SetRandomSeedPass(),
@@ -44,22 +45,21 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
             # Core optimization level 2
             SetModelPass(model=model),
-            build_multi_qudit_retarget_workflow(2, max_synthesis_size=max_synthesis_size),
+            build_multi_qudit_retarget_workflow(2, max_synthesis_size=self.max_synthesis_size),
             # We abandon mapping
             # build_sabre_mapping_workflow()
             # Unnecessary because no sabre
             # build_multi_qudit_retarget_workflow(2, synthesis_epsilon, max_synthesis_size, error_threshold, error_sim_size),
-            build_single_qudit_retarget_workflow(2, max_synthesis_size=max_synthesis_size),
+            build_single_qudit_retarget_workflow(2, max_synthesis_size=self.max_synthesis_size),
             # Additional optimization level 2 pass
-            build_gate_deletion_optimization_workflow(2, max_synthesis_size = max_synthesis_size),
+            build_gate_deletion_optimization_workflow(2, max_synthesis_size = self.max_synthesis_size),
 
             LogErrorPass(),
             ApplyPlacement(),
             RestoreMeasurements()
         ])
 
-        with Compiler(num_workers=1) as compiler:
-            compiled = compiler.compile(circuit, workflow)
+        compiled = self.compiler.compile(circuit, workflow)
         return compiled
 
     def verify_circuit(self, original,
@@ -80,3 +80,9 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         stats.depth_transpiled = transpiled.depth
 
         stats.transpiled_exact_gates = {str(op): count for op, count in transpiled.gate_counts.items()}
+
+    def init(self):
+        self.compiler = Compiler(num_workers=1)
+
+    def close(self):
+        self.compiler.close()
