@@ -88,13 +88,13 @@ def main():
         },
         {
             "name": "Qiskit_mapped_all_to_all_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "gateset": qiskit_quantinuum_gate_set,
             "map": CouplingMap.from_full(max_qubit),
             "class": QiskitMappedTranspilerTestSuite,
         },
         {
             "name": "Qiskit_mapped_line_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "gateset": qiskit_quantinuum_gate_set,
             "map": CouplingMap.from_line(max_qubit),
             "class": QiskitMappedTranspilerTestSuite,
         },
