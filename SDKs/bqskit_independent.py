@@ -1,6 +1,18 @@
-from bqskit import compile
+
 from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
+
+from bqskit.compiler import Compiler, Workflow
+from bqskit import MachineModel
+from bqskit.passes import ExtractMeasurements, UnfoldPass, SetRandomSeedPass, RestoreMeasurements
+
+
+from bqskit.passes.mapping.setmodel import SetModelPass
+from bqskit.compiler.compile import build_multi_qudit_retarget_workflow, build_gate_deletion_optimization_workflow
+from bqskit.compiler.compile import build_single_qudit_retarget_workflow
+from bqskit.compiler.compile import build_sabre_mapping_workflow
+from bqskit.passes.util.log import LogErrorPass
+from bqskit.passes.mapping.apply import ApplyPlacement
 
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
@@ -22,11 +34,37 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        return compile(circuit, model=None, with_mapping=False, max_synthesis_size=4, num_workers=1)
+        model = MachineModel(circuit.num_qudits)
+        max_synthesis_size = 3
+
+        workflow = Workflow([
+            SetRandomSeedPass(),
+            UnfoldPass(),
+            ExtractMeasurements(),
+
+            # Core optimization level 2
+            SetModelPass(model=model),
+            build_multi_qudit_retarget_workflow(2, max_synthesis_size=max_synthesis_size),
+            # We abandon mapping
+            # build_sabre_mapping_workflow()
+            # Unnecessary because no sabre
+            # build_multi_qudit_retarget_workflow(2, synthesis_epsilon, max_synthesis_size, error_threshold, error_sim_size),
+            build_single_qudit_retarget_workflow(2, max_synthesis_size=max_synthesis_size),
+            # Additional optimization level 2 pass
+            build_gate_deletion_optimization_workflow(2, max_synthesis_size = max_synthesis_size),
+
+            LogErrorPass(),
+            ApplyPlacement(),
+            RestoreMeasurements()
+        ])
+
+        with Compiler(num_workers=1) as compiler:
+            compiled = compiler.compile(circuit, workflow)
+        return compiled
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled))
+        return qcec.verify(OPENQASM2Language().encode(original), OPENQASM2Language().encode(transpiled))
 
     def get_circuit_metrics(
             self,

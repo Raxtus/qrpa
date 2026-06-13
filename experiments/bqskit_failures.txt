@@ -1,0 +1,194 @@
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.28ms, transpile: 2933.56ms, gates: {'U3Gate'
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.69ms, transpile: 3287.93ms, gates: {'U3Gate'
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.88ms, transpile: 2906.13ms, gates: {'U3Gate'
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.75ms, transpile: 3189.44ms, gates: {'U3Gate': 6, 'CNOTGate'
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.70ms, transpile: 3867.52ms, gates: {'U3Gate'
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.16ms, transpile: 4788.44ms, gates: {'U3Gate'
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.68ms, transpile: 3672.21ms, gates: {'U3Gate'
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.48ms, transpile: 4304.26ms, gates: {'U3Gate': 15, 'CNOTGate
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.49ms, transpile: 3061.30ms, gates: {'U3Gate': 15, 'CNOTGate
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.25ms, transpile: 3579.82ms, gates: {'U3Gate'
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.93ms, transpile: 4724.35ms, gates: {'U3Gate'
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.85ms, transpile: 3443.88ms, gates: {'U3Gate'
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.97ms, transpile: 3580.91ms, gates: {'U3Gate': 18, 'CNOTGate
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.21ms, transpile: 4634.33ms, gates: {'U3Gate'
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.63ms, transpile: 4612.05ms, gates: {'U3Gate'
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.44ms, transpile: 8006.32ms, gates: {'U3Gate': 67, 'CNOTGate
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.58ms, transpile: 8943.42ms, gates: {'U3Gate': 61, 'CNOTGate
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.94ms, transpile: 7896.71ms, gates: {'U3Gate': 63, 'CNOTGate
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.91ms, transpile: 6866.26ms, gates: {'U3Gate': 63, 'CNOTGate
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.14ms, transpile: 9528.47ms, gates: {'U3Gate': 61, 'CNOTGate
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.41ms, transpile: 11509.00ms, gates: {'U3Gate': 70, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.41ms, transpile: 11277.95ms, gates: {'U3Gate': 72, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.24ms, transpile: 15603.76ms, gates: {'U3Gate': 70, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.53ms, transpile: 11822.50ms, gates: {'U3Gate': 70, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 5/5: EquivalenceCriterion.no_information (import: 23.12ms, transpile: 12289.26ms, gates: {'U3Gate': 64, 'CNOTGa
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.72ms, transpile: 10199.95ms, gates: {'U3Gate': 128, 'CNOTGa
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 2/5: EquivalenceCriterion.no_information (import: 11.98ms, transpile: 8839.65ms, gates: {'U3Gate': 126, 'CNOTGa
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 9.17ms, transpile: 10258.20ms, gates: {'U3Gate': 123, 'CNOTGa
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.89ms, transpile: 8280.46ms, gates: {'U3Gate': 123, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.28ms, transpile: 10248.91ms, gates: {'U3Gate': 126, 'CNOTGa
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.84ms, transpile: 12316.57ms, gates: {'U3Gate': 157, 'CNOTGa
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.01ms, transpile: 9325.89ms, gates: {'U3Gate': 149, 'CNOTGat
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.56ms, transpile: 11959.06ms, gates: {'U3Gate': 151, 'CNOTGa
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 4/5: EquivalenceCriterion.no_information (import: 11.81ms, transpile: 12572.62ms, gates: {'U3Gate': 159, 'CNOTG
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are proba
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.18ms, transpile: 10302.60ms, gates: {'U3Gate': 149, 'CNOTGa
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.78ms, transpile: 2431.60ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.98ms, transpile: 2664.10ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.94ms, transpile: 3947.14ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.67ms, transpile: 3006.48ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.37ms, transpile: 3068.73ms, gates: {'barrier': 1, 'U3Gate':
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.66ms, transpile: 4329.79ms, gates: {'barrier': 1, 'measurem
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.03ms, transpile: 3970.68ms, gates: {'barrier': 1, 'measurem
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.82ms, transpile: 4236.14ms, gates: {'barrier': 1, 'measurem
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.65ms, transpile: 4364.87ms, gates: {'barrier': 1, 'measurem
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.81ms, transpile: 3855.43ms, gates: {'barrier': 1, 'measurem
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:19,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.29ms, transpile: 41880.78ms, gates: {'measurement': 1, 'U3G
+Verification failed: "<input>:19,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.49ms, transpile: 24343.69ms, gates: {'measurement': 1, 'U3G
+Verification failed: "<input>:19,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.37ms, transpile: 27699.54ms, gates: {'measurement': 1, 'U3G
+Verification failed: "<input>:19,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 21.28ms, transpile: 23192.16ms, gates: {'measurement': 1, 'U3
+Verification failed: "<input>:19,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 23.52ms, transpile: 25537.19ms, gates: {'measurement': 1, 'U3
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 2/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 3/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 4/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 5/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 2/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 3/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 4/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 5/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 2/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 3/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 4/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 5/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 2/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 3/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 4/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+  Run 5/5: FAILED - Transpilation failed: Unable to compile circuit with gate larger than max_synthesis_size.
+Consider adjusting it.
+Running 5 transpilation tests on randomcircuit_02...
+Verification failed: "<input>:12,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.89ms, transpile: 3954.36ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:12,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 14.61ms, transpile: 2564.99ms, gates: {'barrier': 1, 'U3Gate'
+Verification failed: "<input>:12,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 2911.50ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:12,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.85ms, transpile: 4044.69ms, gates: {'barrier': 1, 'U3Gate':
+Verification failed: "<input>:12,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.00ms, transpile: 2707.47ms, gates: {'barrier': 1, 'U3Gate':
+Running 5 transpilation tests on randomcircuit_03...
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: 'DaggerGate' object has no attribute '_qasm_name'
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.08ms, transpile: 6348.56ms, gates: {'barrier': 1, 'measurem
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: 'DaggerGate' object has no attribute '_qasm_name'
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.45ms, transpile: 6123.91ms, gates: {'barrier': 1, 'measurem
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: 'DaggerGate' object has no attribute '_qasm_name'
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.00ms, transpile: 3695.04ms, gates: {'barrier': 1, 'measurem
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: 'DaggerGate' object has no attribute '_qasm_name'
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.38ms, transpile: 4633.84ms, gates: {'barrier': 1, 'measurem
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: 'DaggerGate' object has no attribute '_qasm_name'
+  Run 5/5: EquivalenceCriterion.no_information (import: 18.02ms, transpile: 5284.45ms, gates: {'barrier': 1, 'measure
+Running 5 transpilation tests on randomcircuit_04...
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: Controlled gate sx with 3 controls is not a standard OpenQASM 2.0 identifier. To encode this gat
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.76ms, transpile: 2479436.83ms, gates: {'measurement': 1, 'U
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: Controlled gate sx with 3 controls is not a standard OpenQASM 2.0 identifier. To encode this gat
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.63ms, transpile: 1216197.92ms, gates: {'measurement': 1, 'U
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: Controlled gate sx with 3 controls is not a standard OpenQASM 2.0 identifier. To encode this gat
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.02ms, transpile: 2795439.83ms, gates: {'measurement': 1, 'U
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Oe documentation for sample size requirements.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)
+Verification failed: Controlled gate sx with 3 controls is not a standard OpenQASM 2.0 identifier. To encode this gat
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.99ms, transpile: 3641457.70ms, gates: {'measurement': 1, 'U
+/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/passes/synthesis/leap.py:358: SmallSampleWarning: Os.
+  m, y_int, _, _, _ = linregress(best_layers, best_dists)

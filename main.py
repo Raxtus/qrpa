@@ -23,6 +23,7 @@ from SDKs.qiskit_targeted import QiskitTargetedTranspilerTestSuite
 from SDKs.qiskit_mapped import QiskitMappedTranspilerTestSuite
 from qiskit.transpiler import CouplingMap
 
+import logging
 
 # Import your SDK implementations
 # from your_module import QiskitTranspilerTestSuite, RunStatistics
@@ -34,7 +35,7 @@ from qiskit.transpiler import CouplingMap
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 8
+    max_qubit = 4
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
@@ -49,6 +50,8 @@ def main():
 
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
+
+    logging.basicConfig(level=logging.DEBUG)
 
     sdk_list = [
 
@@ -216,7 +219,9 @@ def main():
 
     ]
 
-    algorithms = ["qaoa", "qft", "randomcircuit", "vqe_real_amp", "hhl", "grover"]
+    rest_algorithms = ["randomcircuit"]
+
+    algorithms = ["grover","qaoa", "qft", "vqe_real_amp", "hhl", ]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
