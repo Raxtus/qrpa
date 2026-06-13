@@ -1,51 +1,50 @@
 import pennylane as qml
-from qiskit import qasm2
-from functools import partial
+
+from qiskit import QuantumCircuit
+
+from pennylane.tape import QuantumScript
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
+from mqt import qcec
+from mqt.qcec.pyqcec import EquivalenceCheckingManager
 
 
 class PennyLaneTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
-        qc = qasm2.loads(qasm_code)
-        self.width = qc.num_qubits
-        return qc.num_qubits
+        return self.import_qasm(qasm_code).num_wires
 
-    def __init__(self,sdk_name):
-        self.pipeline = [
-            qml.transforms.decompose,
-            partial(qml.transforms.cancel_inverses, recursive=True),
-            qml.transforms.merge_rotations,
-            qml.transforms.single_qubit_fusion,
-        ]
+    def __init__(self, sdk_name):
         self.sdk_name = sdk_name
 
     def import_qasm(self, qasm_code: str):
-        return qml.from_qasm(qasm_code)
+        with qml.queuing.AnnotatedQueue() as q:
+            qml.from_qasm(qasm_code)()
+        return QuantumScript.from_queue(q)
 
     def transpile(self, circuit):
-        return qml.compile(
-            circuit,
-            pipeline=self.pipeline,
-            num_passes=1
-        )
+        compiled, fn = qml.compile(circuit,basis_set={})
+        return compiled[0]
 
-    def verify_circuit(self, original, transpiled) -> bool:
-        # TODO
-        return True
+    def verify_circuit(self, original, transpiled) -> EquivalenceCheckingManager.Results:
+        qc1 = QuantumCircuit.from_qasm_str(qml.to_openqasm(original))
+        qc2 = QuantumCircuit.from_qasm_str(qml.to_openqasm(transpiled))
+        return qcec.verify(qc1, qc2)
 
     def get_circuit_metrics(
             self,
             stats: SingleRunStatistics,
             original,
             transpiled):
+        t = qml.resource.resources_from_tape(transpiled)
 
+        stats.circuit_width = transpiled.num_wires
+        stats.original_gate_count = t.num_gates
 
-        stats.circuit_width = 0
+        stats.transpiled_gate_count = t.num_gates
 
-        stats.original_gate_count = 0
+        # Depth of circuit
+        stats.depth_transpiled = t.depth
 
-        stats.transpiled_gate_count = 0
-
-        stats.depth_transpiled = 0
+        # Gate types with counts
+        stats.transpiled_exact_gates = t.gate_types

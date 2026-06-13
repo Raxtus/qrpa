@@ -2,11 +2,14 @@ import json
 from datetime import datetime
 
 from bqskit.ext.qiskit.models import _basis_gate_str_to_bqskit_gate
+import pennylane as qml
 
 from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
 from SDKs.bqskit_mapped import BQSKitMappedTranspilerTestSuite
 from SDKs.bqskit_targeted import BQSKitTargetedTranspilerTestSuite
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
+from SDKs.pennylane_mapped import PennyLaneMappedTranspilerTestSuite
+from SDKs.pennylane_targeted import PennyLaneTargetedTranspilerTestSuite
 
 from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
 from SDKs.pytket_targeted import PyTKETTargetedTranspilerTestSuite
@@ -20,6 +23,7 @@ from SDKs.qiskit_targeted import QiskitTargetedTranspilerTestSuite
 from SDKs.qiskit_mapped import QiskitMappedTranspilerTestSuite
 from qiskit.transpiler import CouplingMap
 
+
 # Import your SDK implementations
 # from your_module import QiskitTranspilerTestSuite, RunStatistics
 
@@ -27,15 +31,17 @@ from qiskit.transpiler import CouplingMap
 # For this example, I will assume they are already imported or defined above
 
 
-
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
     max_qubit = 8
 
-
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
+
+    pennylane_ibm_falcon_gate_set = {qml.Identity, qml.X, qml.SX, qml.RZ, qml.CNOT}
+    pennylane_ibm_quantinuum_gate_set = [qml.IsingZZ, qml.RZ, qml.RY, qml.RX]
+
 
     pytket_ibm_falcon_gate_set = {OpType.noop, OpType.X, OpType.SX, OpType.Rz, OpType.CX}
     pytket_quantinuum_gate_set = {OpType.ZZPhase, OpType.Rz, OpType.Ry, OpType.Rx}
@@ -45,13 +51,15 @@ def main():
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
 
-    sdk_rest = [
+    rest_list = [
+
 
 
     ]
 
     # Initialize SDKs
     sdk_list = [
+
         {
             "name": "Qiskit_independent",
             "class": QiskitIndependentTranspilerTestSuite,
@@ -80,13 +88,13 @@ def main():
         },
         {
             "name": "Qiskit_mapped_all_to_all_Quantinuum_gateset",
-            "gateset": qiskit_quantinuum_gate_set,
+            "gateset": pennylane_ibm_quantinuum_gate_set,
             "map": CouplingMap.from_full(max_qubit),
             "class": QiskitMappedTranspilerTestSuite,
         },
         {
             "name": "Qiskit_mapped_line_Quantinuum_gateset",
-            "gateset": qiskit_quantinuum_gate_set,
+            "gateset": pennylane_ibm_quantinuum_gate_set,
             "map": CouplingMap.from_line(max_qubit),
             "class": QiskitMappedTranspilerTestSuite,
         },
@@ -130,6 +138,46 @@ def main():
         },
 
         {
+            "name": "Pennylane_independent",
+            "class": PennyLaneTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+
+        {
+            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+
+        {
             "name": "BQSkit_independent",
             "class": BQSKitTranspilerTestSuite,
         },
@@ -170,7 +218,7 @@ def main():
 
     ]
 
-    algorithms = ["qaoa", "qft", "randomcircuit", "vqe_real_amp","hhl", "grover"]
+    algorithms = ["qaoa", "qft", "randomcircuit", "vqe_real_amp", "hhl", "grover"]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
@@ -194,7 +242,7 @@ def main():
 
         for file in test_list:
             if file.endswith(".qasm"):
-                stats = suite.test(file,max_runs)
+                stats = suite.test(file, max_runs)
                 stats_dict = stats.to_dict()
                 results_for_sdk.append(stats_dict)
 

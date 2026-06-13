@@ -1,14 +1,14 @@
 from pytket import Circuit
 
-from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp ,SynthesiseTket,AutoRebase, RemoveRedundancies, DefaultMappingPass
+from pytket.passes import DecomposeBoxes, SequencePass, FullPeepholeOptimise, KAKDecomposition, CliffordSimp, \
+    SynthesiseTket, AutoRebase, RemoveRedundancies, DefaultMappingPass
 
 from .pytket_independent import PyTKETIndependentTranspilerTestSuite
 
 
 class PyTKETMappedTranspilerTestSuite(PyTKETIndependentTranspilerTestSuite):
 
-
-    def __init__(self, sdk_name,gateset, architecture):
+    def __init__(self, sdk_name, gateset, architecture):
         super().__init__(sdk_name)
         self.gateset = gateset
         self.architecture = architecture

@@ -7,9 +7,7 @@ class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
 
     def __init__(self, sdk_name, gateset, coupling_map):
         super().__init__(sdk_name)
-        self.model = MachineModel(32,coupling_graph=coupling_map,gate_set=gateset)
-
+        self.model = MachineModel(32, coupling_graph=coupling_map, gate_set=gateset)
 
     def transpile(self, circuit):
         return compile(circuit, model=self.model, max_synthesis_size=4)
-

@@ -12,7 +12,7 @@ from quantum_transpile_test_suite import (
 
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
-    def __init__(self,sdk_name):
+    def __init__(self, sdk_name):
         self.sdk_name = sdk_name
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
@@ -26,7 +26,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled),check_partial_equivalence=True)
+        return qcec.verify(bqskit_to_qiskit(original), bqskit_to_qiskit(transpiled))
 
     def get_circuit_metrics(
             self,
@@ -38,7 +38,5 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
         stats.original_gate_count = original.num_operations
         stats.transpiled_gate_count = transpiled.num_operations
-
-        stats.transpiled_exact_gates = {op.name: count for op, count in transpiled.gate_counts.items()}
 
         stats.depth_transpiled = transpiled.depth

@@ -4,10 +4,9 @@ from qiskit import QuantumCircuit
 from .qiskit_independent import QiskitIndependentTranspilerTestSuite
 
 
-
 class QiskitTargetedTranspilerTestSuite(QiskitIndependentTranspilerTestSuite):
 
-    def __init__(self, sdk_name,gateset):
+    def __init__(self, sdk_name, gateset):
         super().__init__(sdk_name)
         self.gateset = gateset
 

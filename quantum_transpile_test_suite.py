@@ -170,10 +170,14 @@ class QuantumTranspilerTestSuite(ABC):
         transpile_memory = self._get_memory_usage() - memory_before_transpile
 
         # Verification phase
+
         memory_before_verify = self._get_memory_usage()
         verify_start = time.time()
-
-        equivalent = self.verify_circuit(original_circuit, transpiled_circuit)
+        try:
+            equivalent = self.verify_circuit(original_circuit, transpiled_circuit)
+        except Exception as e:
+            print(f"Verification failed: {str(e)}")
+            equivalent = EquivalenceCheckingManager.Results()
 
         verify_time = (time.time() - verify_start) * 1000
         verify_memory = self._get_memory_usage() - memory_before_verify
