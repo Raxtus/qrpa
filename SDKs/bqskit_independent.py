@@ -14,7 +14,6 @@ from quantum_transpile_test_suite import (
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
     def __init__(self, sdk_name):
-        logging.basicConfig(level=logging.DEBUG)
         self.sdk_name = sdk_name
 
     def _extract_qubit_count(self, qasm_code: str) -> int:
