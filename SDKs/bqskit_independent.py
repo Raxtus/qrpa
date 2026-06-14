@@ -16,6 +16,7 @@ from bqskit.passes.mapping.apply import ApplyPlacement
 
 from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
+from qiskit import QuantumCircuit
 
 from quantum_transpile_test_suite import (
     QuantumTranspilerTestSuite,
@@ -28,17 +29,9 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         self.compiler = None
         self.sdk_name = sdk_name
         self.max_synthesis_size = 3 # change if you need to. It's default by BQSkit docs
+        model = MachineModel(8)
 
-    def _extract_qubit_count(self, qasm_code: str) -> int:
-        return self.import_qasm(qasm_code).num_qudits
-
-    def import_qasm(self, qasm_code: str):
-        return OPENQASM2Language().decode(qasm_code)
-
-    def transpile(self, circuit):
-        model = MachineModel(circuit.num_qudits)
-
-        workflow = Workflow([
+        self.workflow = Workflow([
             SetRandomSeedPass(),
             UnfoldPass(),
             ExtractMeasurements(),
@@ -52,19 +45,25 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
             # build_multi_qudit_retarget_workflow(2, synthesis_epsilon, max_synthesis_size, error_threshold, error_sim_size),
             build_single_qudit_retarget_workflow(2, max_synthesis_size=self.max_synthesis_size),
             # Additional optimization level 2 pass
-            build_gate_deletion_optimization_workflow(2, max_synthesis_size = self.max_synthesis_size),
+            build_gate_deletion_optimization_workflow(2, max_synthesis_size=self.max_synthesis_size),
 
             LogErrorPass(),
             ApplyPlacement(),
             RestoreMeasurements()
         ])
 
-        compiled = self.compiler.compile(circuit, workflow)
-        return compiled
+    def _extract_qubit_count(self, qasm_code: str) -> int:
+        return self.import_qasm(qasm_code).num_qudits
+
+    def import_qasm(self, qasm_code: str):
+        return OPENQASM2Language().decode(qasm_code)
+
+    def transpile(self, circuit):
+        return self.compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(OPENQASM2Language().encode(original), OPENQASM2Language().encode(transpiled),check_partial_equivalence=True)
+        return qcec.verify(QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(original)), QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(transpiled)),check_partial_equivalence=True)
 
     def get_circuit_metrics(
             self,
@@ -83,6 +82,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def init(self):
         self.compiler = Compiler(num_workers=1)
+
 
     def close(self):
         self.compiler.close()

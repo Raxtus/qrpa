@@ -17,14 +17,8 @@ class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
 
     def __init__(self, sdk_name, gateset, coupling_map):
         super().__init__(sdk_name)
-        self.gateset = gateset
-        self.coupling_map = coupling_map
-
-
-    def transpile(self, circuit):
-        model = MachineModel(circuit.num_qudits, gate_set=self.gateset, coupling_graph=self.coupling_map)
-
-        workflow = Workflow([
+        model = MachineModel(8, gate_set=gateset, coupling_graph=coupling_map)
+        self.workflow = Workflow([
             SetRandomSeedPass(),
             UnfoldPass(),
             ExtractMeasurements(),
@@ -37,13 +31,9 @@ class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
             build_multi_qudit_retarget_workflow(2, max_synthesis_size=self.max_synthesis_size),
             build_single_qudit_retarget_workflow(2, max_synthesis_size=self.max_synthesis_size),
 
-            build_gate_deletion_optimization_workflow(2,
-                                                      max_synthesis_size=self.max_synthesis_size),
+            build_gate_deletion_optimization_workflow(2, max_synthesis_size=self.max_synthesis_size),
 
             LogErrorPass(),
             ApplyPlacement(),
             RestoreMeasurements()
         ])
-
-        compiled = self.compiler.compile(circuit, workflow)
-        return compiled

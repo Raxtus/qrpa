@@ -1,7 +1,7 @@
 import pennylane as qml
 
 from qiskit import QuantumCircuit
-
+from pennylane_qiskit.converter import circuit_to_qiskit
 from pennylane.tape import QuantumScript
 
 from quantum_transpile_test_suite import QuantumTranspilerTestSuite, SingleRunStatistics
@@ -29,7 +29,7 @@ class PennyLaneTranspilerTestSuite(QuantumTranspilerTestSuite):
     def verify_circuit(self, original, transpiled) -> EquivalenceCheckingManager.Results:
         qc1 = QuantumCircuit.from_qasm_str(qml.to_openqasm(original))
         qc2 = QuantumCircuit.from_qasm_str(qml.to_openqasm(transpiled))
-        return qcec.verify(qc1, qc2)
+        return qcec.verify(qc1,qc2)
 
     def get_circuit_metrics(
             self,

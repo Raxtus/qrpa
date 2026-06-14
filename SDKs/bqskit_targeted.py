@@ -16,12 +16,9 @@ from bqskit.passes.mapping.apply import ApplyPlacement
 class BQSKitTargetedTranspilerTestSuite(BQSKitTranspilerTestSuite):
     def __init__(self, sdk_name, gateset):
         super().__init__(sdk_name)
-        self.gateset = gateset
+        model = MachineModel(8, gate_set=gateset)
 
-    def transpile(self, circuit):
-        model = MachineModel(circuit.num_qudits, gate_set=self.gateset)
-
-        workflow = Workflow([
+        self. workflow = Workflow([
             SetRandomSeedPass(),
             UnfoldPass(),
             ExtractMeasurements(),
@@ -41,6 +38,3 @@ class BQSKitTargetedTranspilerTestSuite(BQSKitTranspilerTestSuite):
             ApplyPlacement(),
             RestoreMeasurements()
         ])
-
-        compiled = self.compiler.compile(circuit, workflow)
-        return compiled

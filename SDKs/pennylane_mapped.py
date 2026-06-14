@@ -12,7 +12,8 @@ class PennyLaneMappedTranspilerTestSuite(PennyLaneTranspilerTestSuite):
         super().__init__(sdk_name)
         self.gateset = gateset
         self.coupling_map = coupling_map
-        self.pipeline = (
+        self.pipeline = qml.transform(
+            partial(qml.transforms.decompose,gate_set=self.gateset),
             partial(qml.transforms.transpile,coupling_map=self.coupling_map),
             partial(qml.transforms.decompose,gate_set=self.gateset),
             qml.transforms.commute_controlled,

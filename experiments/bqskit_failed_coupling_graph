@@ -1,0 +1,1733 @@
+Processing SDK: BQSkit_independent
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.96ms, transpile: 2418.28ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.85ms, transpile: 370.08ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.18ms, transpile: 364.82ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.40ms, transpile: 354.30ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.84ms, transpile: 364.74ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.63ms, transpile: 1668.59ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 14.72ms, transpile: 1697.34ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.54ms, transpile: 1621.90ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.82ms, transpile: 1645.48ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.63ms, transpile: 1577.18ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 33.82ms, transpile: 1755.75ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.04ms, transpile: 1732.59ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.81ms, transpile: 1839.99ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.43ms, transpile: 1861.89ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 23.89ms, transpile: 1858.34ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 14.69ms, transpile: 2621.62ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.43ms, transpile: 2334.59ms, gates: {'CNOTGate': 24, 'U3Gate': 39})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 13.63ms, transpile: 2633.91ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.37ms, transpile: 2732.62ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.63ms, transpile: 2436.43ms, gates: {'CNOTGate': 24, 'U3Gate': 39})
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.71ms, transpile: 4955.24ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 15.25ms, transpile: 4777.79ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 18.12ms, transpile: 4652.00ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 23.00ms, transpile: 4698.42ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 24.35ms, transpile: 4664.84ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.74ms, transpile: 5587.32ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.27ms, transpile: 5501.68ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.14ms, transpile: 5625.22ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.91ms, transpile: 5498.76ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.59ms, transpile: 5699.33ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.29ms, transpile: 6357.64ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.43ms, transpile: 6225.07ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 13.10ms, transpile: 6165.92ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 8.03ms, transpile: 6099.18ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 14.53ms, transpile: 6335.19ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+Running 5 transpilation tests on qft_02...
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.79ms, transpile: 386.62ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.75ms, transpile: 401.45ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.74ms, transpile: 400.89ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.88ms, transpile: 380.93ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.81ms, transpile: 390.70ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 17.18ms, transpile: 2762.93ms, gates: {'measurement': 1, 'CNOTGate': 7, 'U3Gate': 11, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.14ms, transpile: 2599.96ms, gates: {'measurement': 1, 'CNOTGate': 7, 'U3Gate': 11, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 17.46ms, transpile: 2880.94ms, gates: {'measurement': 1, 'CNOTGate': 7, 'U3Gate': 11, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.31ms, transpile: 2612.01ms, gates: {'measurement': 1, 'CNOTGate': 7, 'U3Gate': 11, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.88ms, transpile: 2679.98ms, gates: {'measurement': 1, 'CNOTGate': 7, 'U3Gate': 11, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.40ms, transpile: 3828.82ms, gates: {'barrier': 1, 'CNOTGate': 18, 'U3Gate': 27, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.21ms, transpile: 3856.36ms, gates: {'barrier': 1, 'CNOTGate': 18, 'U3Gate': 27, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 23.07ms, transpile: 4159.26ms, gates: {'barrier': 1, 'CNOTGate': 18, 'U3Gate': 27, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.37ms, transpile: 4073.97ms, gates: {'barrier': 1, 'CNOTGate': 18, 'U3Gate': 27, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.86ms, transpile: 4060.72ms, gates: {'barrier': 1, 'CNOTGate': 18, 'U3Gate': 27, 'measurement': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.66ms, transpile: 5284.35ms, gates: {'CNOTGate': 26, 'measurement': 1, 'U3Gate': 42, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.93ms, transpile: 5162.24ms, gates: {'CNOTGate': 26, 'measurement': 1, 'U3Gate': 42, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.41ms, transpile: 5221.50ms, gates: {'CNOTGate': 26, 'measurement': 1, 'U3Gate': 42, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.29ms, transpile: 5121.66ms, gates: {'CNOTGate': 26, 'measurement': 1, 'U3Gate': 41, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.37ms, transpile: 5213.71ms, gates: {'CNOTGate': 26, 'measurement': 1, 'U3Gate': 41, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.71ms, transpile: 6426.83ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.29ms, transpile: 6952.58ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.99ms, transpile: 6493.22ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 39, 'U3Gate': 60})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.42ms, transpile: 6790.57ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 39, 'U3Gate': 60})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.44ms, transpile: 6671.93ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Running 5 transpilation tests on qft_07...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.63ms, transpile: 8754.63ms, gates: {'CNOTGate': 51, 'barrier': 1, 'measurement': 1, 'U3Gate': 80})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 38.97ms, transpile: 9244.44ms, gates: {'CNOTGate': 51, 'barrier': 1, 'measurement': 1, 'U3Gate': 75})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 14.05ms, transpile: 8584.58ms, gates: {'CNOTGate': 51, 'barrier': 1, 'measurement': 1, 'U3Gate': 80})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 11.51ms, transpile: 8650.28ms, gates: {'CNOTGate': 51, 'barrier': 1, 'measurement': 1, 'U3Gate': 79})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.20ms, transpile: 8453.63ms, gates: {'CNOTGate': 51, 'barrier': 1, 'measurement': 1, 'U3Gate': 80})
+Running 5 transpilation tests on qft_08...
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 26.20ms, transpile: 12472.34ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 95, 'CNOTGate': 68})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 12.20ms, transpile: 11908.40ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 102, 'CNOTGate': 68})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 10.57ms, transpile: 11975.93ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 102, 'CNOTGate': 68})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.93ms, transpile: 12556.73ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 105, 'CNOTGate': 68})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.60ms, transpile: 12406.78ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 95, 'CNOTGate': 68})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.36ms, transpile: 513.96ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.02ms, transpile: 590.81ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.75ms, transpile: 533.65ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 28.92ms, transpile: 683.27ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 532.52ms, gates: {'CNOTGate': 3, 'U3Gate': 6, 'measurement': 1, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.72ms, transpile: 1803.07ms, gates: {'measurement': 1, 'CNOTGate': 6, 'U3Gate': 12, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.03ms, transpile: 1871.98ms, gates: {'measurement': 1, 'CNOTGate': 6, 'U3Gate': 12, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.54ms, transpile: 1880.24ms, gates: {'measurement': 1, 'CNOTGate': 6, 'U3Gate': 12, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.40ms, transpile: 1726.56ms, gates: {'measurement': 1, 'CNOTGate': 6, 'U3Gate': 12, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 10.48ms, transpile: 1893.01ms, gates: {'measurement': 1, 'CNOTGate': 6, 'U3Gate': 12, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.63ms, transpile: 1057.30ms, gates: {'barrier': 1, 'CNOTGate': 9, 'U3Gate': 16, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.53ms, transpile: 1238.39ms, gates: {'barrier': 1, 'CNOTGate': 9, 'U3Gate': 16, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 30.45ms, transpile: 1103.38ms, gates: {'barrier': 1, 'CNOTGate': 9, 'U3Gate': 16, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.90ms, transpile: 1087.33ms, gates: {'barrier': 1, 'CNOTGate': 9, 'U3Gate': 16, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.22ms, transpile: 1128.95ms, gates: {'barrier': 1, 'CNOTGate': 9, 'U3Gate': 16, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 8.95ms, transpile: 1378.57ms, gates: {'CNOTGate': 12, 'measurement': 1, 'U3Gate': 20, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.17ms, transpile: 1404.73ms, gates: {'CNOTGate': 12, 'measurement': 1, 'U3Gate': 20, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.54ms, transpile: 1355.78ms, gates: {'CNOTGate': 12, 'measurement': 1, 'U3Gate': 20, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.43ms, transpile: 1403.61ms, gates: {'CNOTGate': 12, 'measurement': 1, 'U3Gate': 20, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.53ms, transpile: 1378.15ms, gates: {'CNOTGate': 12, 'measurement': 1, 'U3Gate': 20, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 10.01ms, transpile: 1639.25ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.85ms, transpile: 1600.87ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.22ms, transpile: 1437.41ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 16.34ms, transpile: 1628.25ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.24ms, transpile: 1496.07ms, gates: {'barrier': 1, 'measurement': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.57ms, transpile: 1840.92ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 28})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.22ms, transpile: 1811.24ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 28})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 142.14ms, transpile: 1804.00ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 28})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 12.67ms, transpile: 1863.25ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 28})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.63ms, transpile: 1869.66ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 28})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.53ms, transpile: 2073.35ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 32, 'CNOTGate': 21})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 19.83ms, transpile: 2004.29ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 32, 'CNOTGate': 21})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 19.83ms, transpile: 2298.39ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 32, 'CNOTGate': 21})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.83ms, transpile: 2092.66ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 32, 'CNOTGate': 21})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 15.90ms, transpile: 2604.86ms, gates: {'measurement': 1, 'barrier': 1, 'U3Gate': 32, 'CNOTGate': 21})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 27.98ms, transpile: 1277.74ms, gates: {'CNOTGate': 4, 'U3Gate': 7, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 19.10ms, transpile: 1284.22ms, gates: {'CNOTGate': 4, 'U3Gate': 7, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 18.04ms, transpile: 1243.83ms, gates: {'CNOTGate': 4, 'U3Gate': 7, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 17.56ms, transpile: 1111.45ms, gates: {'CNOTGate': 4, 'U3Gate': 6, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.69ms, transpile: 1170.66ms, gates: {'CNOTGate': 4, 'U3Gate': 7, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.36ms, transpile: 6081.32ms, gates: {'CNOTGate': 17, 'U3Gate': 27, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.06ms, transpile: 5454.39ms, gates: {'CNOTGate': 17, 'U3Gate': 27, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 23.14ms, transpile: 5451.54ms, gates: {'CNOTGate': 17, 'U3Gate': 27, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.04ms, transpile: 5740.51ms, gates: {'CNOTGate': 17, 'U3Gate': 27, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.89ms, transpile: 5584.18ms, gates: {'CNOTGate': 17, 'U3Gate': 27, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 9.50ms, transpile: 5550.00ms, gates: {'CNOTGate': 33, 'U3Gate': 49, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.13ms, transpile: 5592.04ms, gates: {'CNOTGate': 33, 'U3Gate': 49, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.85ms, transpile: 5551.63ms, gates: {'CNOTGate': 33, 'U3Gate': 49, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.77ms, transpile: 5756.36ms, gates: {'CNOTGate': 33, 'U3Gate': 49, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 10.74ms, transpile: 5360.89ms, gates: {'CNOTGate': 33, 'U3Gate': 49, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.49ms, transpile: 9222.59ms, gates: {'CNOTGate': 55, 'U3Gate': 79, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.15ms, transpile: 9145.14ms, gates: {'CNOTGate': 55, 'U3Gate': 79, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 7.80ms, transpile: 9580.65ms, gates: {'CNOTGate': 55, 'U3Gate': 79, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 36.20ms, transpile: 9456.81ms, gates: {'CNOTGate': 55, 'U3Gate': 79, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 18.58ms, transpile: 9474.97ms, gates: {'CNOTGate': 55, 'U3Gate': 79, 'measurement': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.89ms, transpile: 10834.69ms, gates: {'CNOTGate': 78, 'U3Gate': 114, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 24.99ms, transpile: 10027.68ms, gates: {'CNOTGate': 78, 'U3Gate': 115, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 10.01ms, transpile: 12068.68ms, gates: {'CNOTGate': 78, 'U3Gate': 113, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 24.75ms, transpile: 10975.79ms, gates: {'CNOTGate': 78, 'U3Gate': 113, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 24.45ms, transpile: 10085.56ms, gates: {'CNOTGate': 78, 'U3Gate': 115, 'measurement': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 16.55ms, transpile: 18714.60ms, gates: {'CNOTGate': 107, 'U3Gate': 157, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 20.37ms, transpile: 18818.82ms, gates: {'CNOTGate': 107, 'U3Gate': 157, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 16.21ms, transpile: 18930.34ms, gates: {'CNOTGate': 107, 'U3Gate': 157, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 20.90ms, transpile: 19082.32ms, gates: {'CNOTGate': 107, 'U3Gate': 157, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 32.56ms, transpile: 18498.41ms, gates: {'CNOTGate': 107, 'U3Gate': 157, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260613_230958_BQSkit_independent.json
+Processing SDK: BQSkit_Targeted_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.11ms, transpile: 3268.32ms, gates: {'CNOTGate': 2, 'RZGate': 10, 'SqrtXGate': 12})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.75ms, transpile: 975.89ms, gates: {'CNOTGate': 2, 'RZGate': 10, 'SqrtXGate': 12})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.86ms, transpile: 1035.58ms, gates: {'CNOTGate': 2, 'RZGate': 10, 'SqrtXGate': 12})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.75ms, transpile: 1001.77ms, gates: {'CNOTGate': 2, 'RZGate': 10, 'SqrtXGate': 12})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.35ms, transpile: 1014.43ms, gates: {'CNOTGate': 2, 'RZGate': 10, 'SqrtXGate': 12})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.12ms, transpile: 9174.17ms, gates: {'CNOTGate': 7, 'RZGate': 19, 'SqrtXGate': 34})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.70ms, transpile: 8456.17ms, gates: {'CNOTGate': 7, 'RZGate': 19, 'SqrtXGate': 34})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.15ms, transpile: 8421.44ms, gates: {'CNOTGate': 7, 'RZGate': 19, 'SqrtXGate': 34})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.27ms, transpile: 8446.91ms, gates: {'CNOTGate': 7, 'RZGate': 19, 'SqrtXGate': 34})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 22.05ms, transpile: 8865.97ms, gates: {'CNOTGate': 7, 'RZGate': 19, 'SqrtXGate': 34})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.75ms, transpile: 8903.76ms, gates: {'CNOTGate': 7, 'RZGate': 21, 'SqrtXGate': 36})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.39ms, transpile: 8590.20ms, gates: {'CNOTGate': 7, 'RZGate': 21, 'SqrtXGate': 36})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 12.25ms, transpile: 8467.50ms, gates: {'CNOTGate': 7, 'RZGate': 21, 'SqrtXGate': 36})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.60ms, transpile: 8601.00ms, gates: {'CNOTGate': 7, 'RZGate': 21, 'SqrtXGate': 36})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.40ms, transpile: 8894.70ms, gates: {'CNOTGate': 7, 'RZGate': 21, 'SqrtXGate': 36})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.91ms, transpile: 11566.91ms, gates: {'CNOTGate': 24, 'RZGate': 70, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 18.80ms, transpile: 9848.87ms, gates: {'CNOTGate': 24, 'RZGate': 78, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.69ms, transpile: 10507.14ms, gates: {'CNOTGate': 24, 'RZGate': 73, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 9.07ms, transpile: 9486.77ms, gates: {'CNOTGate': 24, 'RZGate': 78, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.83ms, transpile: 11559.89ms, gates: {'CNOTGate': 24, 'RZGate': 70, 'SqrtXGate': 106})
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.81ms, transpile: 24910.94ms, gates: {'CNOTGate': 33, 'RZGate': 88, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.07ms, transpile: 30406.59ms, gates: {'CNOTGate': 33, 'RZGate': 92, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 33.41ms, transpile: 26657.47ms, gates: {'CNOTGate': 33, 'RZGate': 88, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 17.32ms, transpile: 26698.64ms, gates: {'CNOTGate': 33, 'RZGate': 88, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.57ms, transpile: 25182.40ms, gates: {'CNOTGate': 33, 'RZGate': 88, 'SqrtXGate': 144})
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.57ms, transpile: 26601.43ms, gates: {'CNOTGate': 48, 'RZGate': 148, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.38ms, transpile: 29721.16ms, gates: {'CNOTGate': 50, 'RZGate': 147, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 33.73ms, transpile: 29094.91ms, gates: {'CNOTGate': 50, 'RZGate': 147, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.92ms, transpile: 29253.01ms, gates: {'CNOTGate': 50, 'RZGate': 147, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.99ms, transpile: 29458.44ms, gates: {'CNOTGate': 50, 'RZGate': 147, 'SqrtXGate': 214})
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.27ms, transpile: 28946.14ms, gates: {'CNOTGate': 56, 'RZGate': 172, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 17.25ms, transpile: 28881.54ms, gates: {'CNOTGate': 56, 'RZGate': 169, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.39ms, transpile: 28044.01ms, gates: {'CNOTGate': 56, 'RZGate': 171, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 33.39ms, transpile: 27894.11ms, gates: {'CNOTGate': 56, 'RZGate': 173, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.08ms, transpile: 27187.08ms, gates: {'CNOTGate': 56, 'RZGate': 173, 'SqrtXGate': 240})
+Running 5 transpilation tests on qft_02...
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.20ms, transpile: 1348.30ms, gates: {'CNOTGate': 3, 'RZGate': 11, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.55ms, transpile: 1299.37ms, gates: {'CNOTGate': 3, 'RZGate': 9, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.88ms, transpile: 1399.86ms, gates: {'CNOTGate': 3, 'RZGate': 11, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.62ms, transpile: 1345.51ms, gates: {'CNOTGate': 3, 'RZGate': 11, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:11:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.57ms, transpile: 1360.87ms, gates: {'CNOTGate': 3, 'RZGate': 11, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.55ms, transpile: 9264.50ms, gates: {'measurement': 1, 'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.54ms, transpile: 9218.67ms, gates: {'measurement': 1, 'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.30ms, transpile: 8596.13ms, gates: {'measurement': 1, 'CNOTGate': 7, 'RZGate': 15, 'SqrtXGate': 34, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.27ms, transpile: 9140.54ms, gates: {'measurement': 1, 'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.41ms, transpile: 9230.09ms, gates: {'measurement': 1, 'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.95ms, transpile: 18522.87ms, gates: {'CNOTGate': 20, 'RZGate': 52, 'SqrtXGate': 88, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 22.97ms, transpile: 18701.23ms, gates: {'CNOTGate': 20, 'RZGate': 52, 'SqrtXGate': 88, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.65ms, transpile: 18125.37ms, gates: {'CNOTGate': 20, 'RZGate': 52, 'SqrtXGate': 88, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.77ms, transpile: 18425.05ms, gates: {'CNOTGate': 20, 'RZGate': 52, 'SqrtXGate': 88, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:19:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.32ms, transpile: 17959.04ms, gates: {'CNOTGate': 20, 'RZGate': 52, 'SqrtXGate': 88, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.80ms, transpile: 20338.19ms, gates: {'CNOTGate': 28, 'RZGate': 76, 'SqrtXGate': 122, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.85ms, transpile: 15617.64ms, gates: {'CNOTGate': 28, 'RZGate': 77, 'SqrtXGate': 122, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.40ms, transpile: 19066.81ms, gates: {'CNOTGate': 28, 'RZGate': 81, 'SqrtXGate': 122, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.39ms, transpile: 17864.50ms, gates: {'CNOTGate': 27, 'RZGate': 70, 'SqrtXGate': 118, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:24:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.24ms, transpile: 20344.47ms, gates: {'CNOTGate': 28, 'RZGate': 81, 'SqrtXGate': 122, 'measurement': 1, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 20.60ms, transpile: 26855.93ms, gates: {'CNOTGate': 41, 'RZGate': 109, 'SqrtXGate': 176, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 16.81ms, transpile: 24730.47ms, gates: {'CNOTGate': 41, 'RZGate': 119, 'SqrtXGate': 176, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 27.13ms, transpile: 30955.59ms, gates: {'CNOTGate': 41, 'RZGate': 115, 'SqrtXGate': 176, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.40ms, transpile: 26807.57ms, gates: {'CNOTGate': 41, 'RZGate': 109, 'SqrtXGate': 176, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 16.06ms, transpile: 24396.47ms, gates: {'CNOTGate': 41, 'RZGate': 119, 'SqrtXGate': 176, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_07...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.90ms, transpile: 38001.10ms, gates: {'CNOTGate': 53, 'RZGate': 157, 'measurement': 1, 'SqrtXGate': 226, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.21ms, transpile: 32871.27ms, gates: {'CNOTGate': 53, 'RZGate': 153, 'measurement': 1, 'SqrtXGate': 226, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.59ms, transpile: 30551.04ms, gates: {'CNOTGate': 53, 'RZGate': 159, 'measurement': 1, 'SqrtXGate': 226, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 44.63ms, transpile: 36380.29ms, gates: {'CNOTGate': 53, 'RZGate': 154, 'measurement': 1, 'SqrtXGate': 226, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 11.30ms, transpile: 34011.31ms, gates: {'CNOTGate': 53, 'RZGate': 142, 'measurement': 1, 'SqrtXGate': 226, 'barrier': 1})
+Running 5 transpilation tests on qft_08...
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 7.18ms, transpile: 36929.63ms, gates: {'measurement': 1, 'CNOTGate': 71, 'RZGate': 208, 'SqrtXGate': 300, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.57ms, transpile: 41489.09ms, gates: {'measurement': 1, 'CNOTGate': 70, 'RZGate': 190, 'SqrtXGate': 296, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.86ms, transpile: 41418.38ms, gates: {'measurement': 1, 'CNOTGate': 71, 'RZGate': 205, 'SqrtXGate': 300, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.85ms, transpile: 48335.65ms, gates: {'measurement': 1, 'CNOTGate': 70, 'RZGate': 192, 'SqrtXGate': 296, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.40ms, transpile: 42346.58ms, gates: {'measurement': 1, 'CNOTGate': 70, 'RZGate': 190, 'SqrtXGate': 296, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.11ms, transpile: 1250.12ms, gates: {'CNOTGate': 3, 'RZGate': 6, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.84ms, transpile: 1242.26ms, gates: {'CNOTGate': 3, 'RZGate': 6, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.83ms, transpile: 1098.89ms, gates: {'CNOTGate': 3, 'RZGate': 6, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.02ms, transpile: 1274.73ms, gates: {'CNOTGate': 3, 'RZGate': 6, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.42ms, transpile: 1215.59ms, gates: {'CNOTGate': 3, 'RZGate': 6, 'measurement': 1, 'SqrtXGate': 16, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 7.44ms, transpile: 6024.36ms, gates: {'measurement': 1, 'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 40.77ms, transpile: 6017.62ms, gates: {'measurement': 1, 'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 8.09ms, transpile: 5867.32ms, gates: {'measurement': 1, 'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.37ms, transpile: 6785.76ms, gates: {'measurement': 1, 'CNOTGate': 6, 'RZGate': 17, 'SqrtXGate': 24, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.36ms, transpile: 5449.99ms, gates: {'measurement': 1, 'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.21ms, transpile: 2388.77ms, gates: {'CNOTGate': 9, 'RZGate': 24, 'SqrtXGate': 32, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.26ms, transpile: 1945.32ms, gates: {'CNOTGate': 9, 'RZGate': 26, 'SqrtXGate': 32, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.29ms, transpile: 1850.71ms, gates: {'CNOTGate': 9, 'RZGate': 26, 'SqrtXGate': 32, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 33.09ms, transpile: 1932.10ms, gates: {'CNOTGate': 9, 'RZGate': 26, 'SqrtXGate': 32, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.64ms, transpile: 2328.22ms, gates: {'CNOTGate': 9, 'RZGate': 24, 'SqrtXGate': 32, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 26.73ms, transpile: 2831.08ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'SqrtXGate': 40, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 58.76ms, transpile: 2700.34ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'SqrtXGate': 40, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 20.05ms, transpile: 2961.66ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'SqrtXGate': 40, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 18.02ms, transpile: 3353.93ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'SqrtXGate': 40, 'measurement': 1, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 14.74ms, transpile: 2845.16ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'SqrtXGate': 40, 'measurement': 1, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.61ms, transpile: 3034.65ms, gates: {'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.78ms, transpile: 3052.64ms, gates: {'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 27.93ms, transpile: 3169.87ms, gates: {'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 130.62ms, transpile: 3204.06ms, gates: {'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48, 'barrier': 1, 'measurement': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 19.48ms, transpile: 3182.98ms, gates: {'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.70ms, transpile: 3549.78ms, gates: {'CNOTGate': 18, 'RZGate': 46, 'measurement': 1, 'SqrtXGate': 56, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.72ms, transpile: 3461.91ms, gates: {'CNOTGate': 18, 'RZGate': 46, 'measurement': 1, 'SqrtXGate': 56, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 8.66ms, transpile: 3689.25ms, gates: {'CNOTGate': 18, 'RZGate': 46, 'measurement': 1, 'SqrtXGate': 56, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.33ms, transpile: 3586.66ms, gates: {'CNOTGate': 18, 'RZGate': 46, 'measurement': 1, 'SqrtXGate': 56, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 18.90ms, transpile: 3504.36ms, gates: {'CNOTGate': 18, 'RZGate': 46, 'measurement': 1, 'SqrtXGate': 56, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 14.67ms, transpile: 4297.45ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.90ms, transpile: 4060.56ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.79ms, transpile: 3615.85ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 58, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.49ms, transpile: 3592.96ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 23.39ms, transpile: 4051.76ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.00ms, transpile: 5494.56ms, gates: {'CNOTGate': 5, 'RZGate': 12, 'SqrtXGate': 26, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.55ms, transpile: 4723.42ms, gates: {'CNOTGate': 5, 'RZGate': 12, 'SqrtXGate': 26, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.67ms, transpile: 5506.18ms, gates: {'CNOTGate': 5, 'RZGate': 12, 'SqrtXGate': 26, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.62ms, transpile: 5474.09ms, gates: {'CNOTGate': 5, 'RZGate': 12, 'SqrtXGate': 26, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 22.44ms, transpile: 5388.55ms, gates: {'CNOTGate': 5, 'RZGate': 12, 'SqrtXGate': 26, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.90ms, transpile: 18855.45ms, gates: {'CNOTGate': 17, 'RZGate': 45, 'SqrtXGate': 76, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.19ms, transpile: 16718.31ms, gates: {'CNOTGate': 17, 'RZGate': 45, 'SqrtXGate': 76, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 7.69ms, transpile: 17408.28ms, gates: {'CNOTGate': 17, 'RZGate': 45, 'SqrtXGate': 76, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.64ms, transpile: 14696.58ms, gates: {'CNOTGate': 17, 'RZGate': 46, 'SqrtXGate': 76, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.56ms, transpile: 17167.68ms, gates: {'CNOTGate': 17, 'RZGate': 45, 'SqrtXGate': 76, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 6.15ms, transpile: 19181.14ms, gates: {'CNOTGate': 32, 'RZGate': 80, 'SqrtXGate': 136, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.89ms, transpile: 19040.63ms, gates: {'CNOTGate': 32, 'RZGate': 81, 'SqrtXGate': 136, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 13.96ms, transpile: 19521.36ms, gates: {'CNOTGate': 32, 'RZGate': 80, 'SqrtXGate': 136, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.14ms, transpile: 17539.39ms, gates: {'CNOTGate': 30, 'RZGate': 84, 'SqrtXGate': 128, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 12.97ms, transpile: 22990.43ms, gates: {'CNOTGate': 32, 'RZGate': 83, 'SqrtXGate': 136, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 7.67ms, transpile: 42862.84ms, gates: {'CNOTGate': 59, 'RZGate': 160, 'SqrtXGate': 248, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 19.41ms, transpile: 42342.64ms, gates: {'CNOTGate': 59, 'RZGate': 159, 'SqrtXGate': 248, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 9.44ms, transpile: 43506.86ms, gates: {'CNOTGate': 59, 'RZGate': 160, 'SqrtXGate': 248, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.12ms, transpile: 42872.92ms, gates: {'CNOTGate': 59, 'RZGate': 151, 'SqrtXGate': 248, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 38.60ms, transpile: 43877.35ms, gates: {'CNOTGate': 59, 'RZGate': 160, 'SqrtXGate': 248, 'measurement': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 12.60ms, transpile: 46933.29ms, gates: {'CNOTGate': 79, 'RZGate': 210, 'SqrtXGate': 330, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 48.34ms, transpile: 46000.55ms, gates: {'CNOTGate': 79, 'RZGate': 201, 'SqrtXGate': 330, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 10.84ms, transpile: 43313.00ms, gates: {'CNOTGate': 79, 'RZGate': 209, 'SqrtXGate': 330, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 20.67ms, transpile: 46154.72ms, gates: {'CNOTGate': 79, 'RZGate': 202, 'SqrtXGate': 330, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 8.90ms, transpile: 43647.57ms, gates: {'CNOTGate': 79, 'RZGate': 209, 'SqrtXGate': 330, 'measurement': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 26.70ms, transpile: 73706.60ms, gates: {'CNOTGate': 111, 'RZGate': 288, 'SqrtXGate': 460, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 30.27ms, transpile: 69897.00ms, gates: {'CNOTGate': 111, 'RZGate': 296, 'SqrtXGate': 460, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 21.20ms, transpile: 69364.64ms, gates: {'CNOTGate': 111, 'RZGate': 296, 'SqrtXGate': 460, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 56.04ms, transpile: 70425.46ms, gates: {'CNOTGate': 111, 'RZGate': 308, 'SqrtXGate': 460, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 23.92ms, transpile: 69021.82ms, gates: {'CNOTGate': 111, 'RZGate': 297, 'SqrtXGate': 460, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_012337_BQSkit_Targeted_IBM_gateset.json
+Processing SDK: BQSkit_Targeted_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_012351_BQSkit_Targeted_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_all_to_all_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.82ms, transpile: 32581.65ms, gates: {'CNOTGate': 56, 'RZGate': 169, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 25.31ms, transpile: 30984.18ms, gates: {'CNOTGate': 56, 'RZGate': 169, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 16.98ms, transpile: 30268.63ms, gates: {'CNOTGate': 56, 'RZGate': 176, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.59ms, transpile: 30826.06ms, gates: {'CNOTGate': 56, 'RZGate': 169, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 16.97ms, transpile: 30225.77ms, gates: {'CNOTGate': 56, 'RZGate': 169, 'SqrtXGate': 240})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_08...
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 7.37ms, transpile: 41495.96ms, gates: {'measurement': 1, 'CNOTGate': 68, 'RZGate': 202, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 18.22ms, transpile: 50185.71ms, gates: {'measurement': 1, 'CNOTGate': 68, 'RZGate': 179, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 9.08ms, transpile: 52929.52ms, gates: {'measurement': 1, 'CNOTGate': 68, 'RZGate': 184, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 8.61ms, transpile: 52179.12ms, gates: {'measurement': 1, 'CNOTGate': 68, 'RZGate': 184, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 22.69ms, transpile: 52903.55ms, gates: {'measurement': 1, 'CNOTGate': 68, 'RZGate': 184, 'SqrtXGate': 288, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.56ms, transpile: 4760.36ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 14.52ms, transpile: 4689.66ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 24.70ms, transpile: 4338.71ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.35ms, transpile: 4370.47ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 20.94ms, transpile: 4288.14ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 11.04ms, transpile: 72010.60ms, gates: {'CNOTGate': 107, 'RZGate': 286, 'SqrtXGate': 444, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 13.32ms, transpile: 74339.98ms, gates: {'CNOTGate': 109, 'RZGate': 298, 'SqrtXGate': 452, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 30.39ms, transpile: 74795.27ms, gates: {'CNOTGate': 109, 'RZGate': 293, 'SqrtXGate': 452, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 17.20ms, transpile: 72791.30ms, gates: {'CNOTGate': 109, 'RZGate': 290, 'SqrtXGate': 452, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 15.65ms, transpile: 74999.90ms, gates: {'CNOTGate': 109, 'RZGate': 298, 'SqrtXGate': 452, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_015820_BQSkit_mapped_all_to_all_IBM_gateset.json
+Processing SDK: BQSkit_mapped_line_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 6.76ms, transpile: 117926.30ms, gates: {'CNOTGate': 167, 'RZGate': 490, 'SqrtXGate': 684})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 21.89ms, transpile: 144761.91ms, gates: {'CNOTGate': 158, 'RZGate': 463, 'SqrtXGate': 648})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 18.31ms, transpile: 139311.59ms, gates: {'CNOTGate': 157, 'RZGate': 478, 'SqrtXGate': 644})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.25ms, transpile: 141212.98ms, gates: {'CNOTGate': 157, 'RZGate': 478, 'SqrtXGate': 644})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.52ms, transpile: 139442.46ms, gates: {'CNOTGate': 157, 'RZGate': 478, 'SqrtXGate': 644})
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_08...
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 8.12ms, transpile: 163389.39ms, gates: {'measurement': 1, 'CNOTGate': 163, 'RZGate': 480, 'SqrtXGate': 668, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 9.98ms, transpile: 201274.72ms, gates: {'measurement': 1, 'CNOTGate': 159, 'RZGate': 463, 'SqrtXGate': 652, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 24.05ms, transpile: 168792.74ms, gates: {'measurement': 1, 'CNOTGate': 141, 'RZGate': 415, 'SqrtXGate': 585, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 27.03ms, transpile: 168261.39ms, gates: {'measurement': 1, 'CNOTGate': 141, 'RZGate': 415, 'SqrtXGate': 585, 'barrier': 1})
+Verification failed: <input>:47:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.61ms, transpile: 169320.31ms, gates: {'measurement': 1, 'CNOTGate': 141, 'RZGate': 415, 'SqrtXGate': 585, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.74ms, transpile: 4541.79ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 2/5: EquivalenceCriterion.no_information (import: 20.01ms, transpile: 4785.77ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 3/5: EquivalenceCriterion.no_information (import: 15.86ms, transpile: 4678.70ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 4/5: EquivalenceCriterion.no_information (import: 16.90ms, transpile: 4522.02ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: <input>:5:1:
+Identifier 'meas' already declared.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.76ms, transpile: 4391.69ms, gates: {'measurement': 1, 'CNOTGate': 21, 'RZGate': 56, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 12.34ms, transpile: 254289.42ms, gates: {'CNOTGate': 276, 'RZGate': 799, 'SqrtXGate': 1124, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 11.47ms, transpile: 258925.51ms, gates: {'CNOTGate': 221, 'RZGate': 650, 'SqrtXGate': 915, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 9.11ms, transpile: 255733.35ms, gates: {'CNOTGate': 277, 'RZGate': 796, 'SqrtXGate': 1128, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 11.58ms, transpile: 266669.89ms, gates: {'CNOTGate': 223, 'RZGate': 646, 'SqrtXGate': 911, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 23.29ms, transpile: 241592.11ms, gates: {'CNOTGate': 276, 'RZGate': 824, 'SqrtXGate': 1124, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_024623_BQSkit_mapped_line_IBM_gateset.json
+Processing SDK: BQSkit_mapped_all_to_all_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_024631_BQSkit_mapped_all_to_all_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 2/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 3/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 4/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+  Run 5/5: FAILED - Transpilation failed: Invalid coupling graph, expected list of tuples
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_024637_BQSkit_mapped_line_Quantinuum_gateset.json
+

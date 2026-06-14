@@ -2,14 +2,17 @@ import json
 from datetime import datetime
 
 from bqskit.ext.qiskit.models import _basis_gate_str_to_bqskit_gate
-import pennylane as qml
 
 from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
 from SDKs.bqskit_mapped import BQSKitMappedTranspilerTestSuite
 from SDKs.bqskit_targeted import BQSKitTargetedTranspilerTestSuite
+from bqskit.qis.graph import CouplingGraph
+
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 from SDKs.pennylane_mapped import PennyLaneMappedTranspilerTestSuite
 from SDKs.pennylane_targeted import PennyLaneTargetedTranspilerTestSuite
+
+import pennylane as qml
 
 from SDKs.pytket_independent import PyTKETIndependentTranspilerTestSuite
 from SDKs.pytket_targeted import PyTKETTargetedTranspilerTestSuite
@@ -23,6 +26,8 @@ from SDKs.qiskit_targeted import QiskitTargetedTranspilerTestSuite
 from SDKs.qiskit_mapped import QiskitMappedTranspilerTestSuite
 from qiskit.transpiler import CouplingMap
 
+
+
 import logging
 
 # Import your SDK implementations
@@ -35,7 +40,7 @@ import logging
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 8
+    max_qubit = 8 # machine model must be set in bqskit
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
@@ -49,12 +54,54 @@ def main():
     all_to_all_coupling_map = [(i, j) for i in range(max_qubit) for j in range(i + 1, max_qubit)]
     line_coupling_map = [(i, i + 1) for i in range(max_qubit - 1)]
 
+
+
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
 
     #logging.basicConfig(level=logging.DEBUG)
 
     sdk_list = [
+
+        {
+            "name": "Pennylane_independent",
+            "class": PennyLaneTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+
 
         {
             "name": "BQSkit_independent",
