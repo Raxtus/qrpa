@@ -61,24 +61,9 @@ def main():
 
     sdk_list = [
         {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
-        },
-        {
-            "name": "BQSkit_Targeted_IBM_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set
-        },
-        {
             "name": "BQSkit_Targeted_Quantinuum_gateset",
             "class": BQSKitTargetedTranspilerTestSuite,
             "gateset": bqskit_quantinuum_gate_set
-        },
-        {
-            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map
         },
         {
             "name": "BQSkit_mapped_line_IBM_gateset",
@@ -103,6 +88,21 @@ def main():
 
     # Initialize SDKs
     sdk_list_r = [
+        {
+            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
+            "class": BQSKitMappedTranspilerTestSuite,
+            "gateset": bqskit_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map
+        },
+        {
+            "name": "BQSkit_independent",
+            "class": BQSKitTranspilerTestSuite,
+        },
+        {
+            "name": "BQSkit_Targeted_IBM_gateset",
+            "class": BQSKitTargetedTranspilerTestSuite,
+            "gateset": bqskit_ibm_falcon_gate_set
+        },
         {
             "name": "Pennylane_independent",
             "class": PennyLaneTranspilerTestSuite,
