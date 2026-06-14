@@ -1,0 +1,1714 @@
+(qml-env) wraf@halle:~/qrpa/qrpa$ python main.py
+Processing SDK: BQSkit_independent
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.29ms, transpile: 2339.98ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.81ms, transpile: 377.24ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.65ms, transpile: 374.18ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.59ms, transpile: 365.69ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.60ms, transpile: 374.23ms, gates: {'CNOTGate': 2, 'U3Gate': 6})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.86ms, transpile: 1490.89ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.77ms, transpile: 1500.58ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.46ms, transpile: 1531.38ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.17ms, transpile: 1546.09ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.88ms, transpile: 1555.78ms, gates: {'CNOTGate': 6, 'U3Gate': 9})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.81ms, transpile: 1594.47ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.43ms, transpile: 1635.58ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.42ms, transpile: 1630.78ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.95ms, transpile: 1586.82ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.20ms, transpile: 1623.88ms, gates: {'CNOTGate': 6, 'U3Gate': 10})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.35ms, transpile: 2513.37ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.11ms, transpile: 2402.74ms, gates: {'CNOTGate': 24, 'U3Gate': 39})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.13ms, transpile: 2591.08ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.81ms, transpile: 2576.48ms, gates: {'CNOTGate': 24, 'U3Gate': 35})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.61ms, transpile: 2290.88ms, gates: {'CNOTGate': 24, 'U3Gate': 39})
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.72ms, transpile: 4372.66ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.10ms, transpile: 4378.05ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.23ms, transpile: 4384.65ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.28ms, transpile: 4304.91ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.17ms, transpile: 4376.21ms, gates: {'CNOTGate': 28, 'U3Gate': 41})
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.46ms, transpile: 5407.78ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.99ms, transpile: 5174.36ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.61ms, transpile: 5203.30ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.18ms, transpile: 5352.16ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.45ms, transpile: 5372.55ms, gates: {'CNOTGate': 48, 'U3Gate': 71})
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.00ms, transpile: 5947.61ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 8.40ms, transpile: 5847.94ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.96ms, transpile: 5798.11ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.30ms, transpile: 5981.83ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.37ms, transpile: 5699.69ms, gates: {'CNOTGate': 56, 'U3Gate': 81})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.55ms, transpile: 424.99ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.37ms, transpile: 380.71ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.80ms, transpile: 415.79ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.94ms, transpile: 393.64ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.47ms, transpile: 421.21ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.78ms, transpile: 2329.61ms, gates: {'U3Gate': 11, 'CNOTGate': 7, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.97ms, transpile: 2304.23ms, gates: {'U3Gate': 11, 'CNOTGate': 7, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.78ms, transpile: 2556.57ms, gates: {'U3Gate': 11, 'CNOTGate': 7, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.66ms, transpile: 2317.41ms, gates: {'U3Gate': 11, 'CNOTGate': 7, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.41ms, transpile: 2339.86ms, gates: {'U3Gate': 11, 'CNOTGate': 7, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.77ms, transpile: 3552.39ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 27})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.44ms, transpile: 3616.07ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 27})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.94ms, transpile: 3685.95ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 27})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.54ms, transpile: 3524.43ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 27})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.96ms, transpile: 3589.51ms, gates: {'CNOTGate': 18, 'barrier': 1, 'measurement': 1, 'U3Gate': 27})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.82ms, transpile: 4618.33ms, gates: {'CNOTGate': 26, 'measurement': 1, 'barrier': 1, 'U3Gate': 42})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.69ms, transpile: 4659.92ms, gates: {'CNOTGate': 26, 'measurement': 1, 'barrier': 1, 'U3Gate': 42})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.32ms, transpile: 4763.16ms, gates: {'CNOTGate': 26, 'measurement': 1, 'barrier': 1, 'U3Gate': 42})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.63ms, transpile: 4525.54ms, gates: {'CNOTGate': 26, 'measurement': 1, 'barrier': 1, 'U3Gate': 41})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.54ms, transpile: 4712.78ms, gates: {'CNOTGate': 26, 'measurement': 1, 'barrier': 1, 'U3Gate': 41})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.49ms, transpile: 6042.73ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.96ms, transpile: 6081.79ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.04ms, transpile: 5973.74ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'U3Gate': 60})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.89ms, transpile: 6328.21ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'U3Gate': 60})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.32ms, transpile: 6099.02ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'U3Gate': 61})
+Running 5 transpilation tests on qft_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.15ms, transpile: 7774.45ms, gates: {'CNOTGate': 51, 'measurement': 1, 'barrier': 1, 'U3Gate': 80})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.29ms, transpile: 8710.24ms, gates: {'CNOTGate': 51, 'measurement': 1, 'barrier': 1, 'U3Gate': 75})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.10ms, transpile: 7863.57ms, gates: {'CNOTGate': 51, 'measurement': 1, 'barrier': 1, 'U3Gate': 80})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.45ms, transpile: 7676.84ms, gates: {'CNOTGate': 51, 'measurement': 1, 'barrier': 1, 'U3Gate': 79})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.70ms, transpile: 7852.56ms, gates: {'CNOTGate': 51, 'measurement': 1, 'barrier': 1, 'U3Gate': 80})
+Running 5 transpilation tests on qft_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.11ms, transpile: 11248.19ms, gates: {'measurement': 1, 'CNOTGate': 68, 'barrier': 1, 'U3Gate': 95})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.45ms, transpile: 10823.69ms, gates: {'measurement': 1, 'CNOTGate': 68, 'barrier': 1, 'U3Gate': 102})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 8.57ms, transpile: 11127.57ms, gates: {'measurement': 1, 'CNOTGate': 68, 'barrier': 1, 'U3Gate': 102})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.85ms, transpile: 11429.48ms, gates: {'measurement': 1, 'CNOTGate': 68, 'barrier': 1, 'U3Gate': 105})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.61ms, transpile: 11207.72ms, gates: {'measurement': 1, 'CNOTGate': 68, 'barrier': 1, 'U3Gate': 95})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.54ms, transpile: 550.85ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.14ms, transpile: 565.69ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.13ms, transpile: 565.50ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.28ms, transpile: 605.07ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.35ms, transpile: 641.62ms, gates: {'CNOTGate': 3, 'measurement': 1, 'barrier': 1, 'U3Gate': 6})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.06ms, transpile: 1670.69ms, gates: {'U3Gate': 12, 'CNOTGate': 6, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.79ms, transpile: 1698.32ms, gates: {'U3Gate': 12, 'CNOTGate': 6, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.89ms, transpile: 1799.07ms, gates: {'U3Gate': 12, 'CNOTGate': 6, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.81ms, transpile: 1727.92ms, gates: {'U3Gate': 12, 'CNOTGate': 6, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.39ms, transpile: 1737.62ms, gates: {'U3Gate': 12, 'CNOTGate': 6, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.15ms, transpile: 1165.74ms, gates: {'CNOTGate': 9, 'barrier': 1, 'measurement': 1, 'U3Gate': 16})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.29ms, transpile: 1206.86ms, gates: {'CNOTGate': 9, 'barrier': 1, 'measurement': 1, 'U3Gate': 16})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.22ms, transpile: 1164.54ms, gates: {'CNOTGate': 9, 'barrier': 1, 'measurement': 1, 'U3Gate': 16})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.91ms, transpile: 1124.33ms, gates: {'CNOTGate': 9, 'barrier': 1, 'measurement': 1, 'U3Gate': 16})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.51ms, transpile: 1192.70ms, gates: {'CNOTGate': 9, 'barrier': 1, 'measurement': 1, 'U3Gate': 16})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.40ms, transpile: 1378.73ms, gates: {'CNOTGate': 12, 'measurement': 1, 'barrier': 1, 'U3Gate': 20})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.37ms, transpile: 1411.92ms, gates: {'CNOTGate': 12, 'measurement': 1, 'barrier': 1, 'U3Gate': 20})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.65ms, transpile: 1393.40ms, gates: {'CNOTGate': 12, 'measurement': 1, 'barrier': 1, 'U3Gate': 20})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.85ms, transpile: 1413.62ms, gates: {'CNOTGate': 12, 'measurement': 1, 'barrier': 1, 'U3Gate': 20})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.71ms, transpile: 1455.08ms, gates: {'CNOTGate': 12, 'measurement': 1, 'barrier': 1, 'U3Gate': 20})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.40ms, transpile: 1608.42ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.90ms, transpile: 1661.20ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.05ms, transpile: 1577.24ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.81ms, transpile: 1579.00ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.77ms, transpile: 1624.94ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'U3Gate': 24})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.84ms, transpile: 1830.15ms, gates: {'CNOTGate': 18, 'measurement': 1, 'barrier': 1, 'U3Gate': 28})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.11ms, transpile: 2021.84ms, gates: {'CNOTGate': 18, 'measurement': 1, 'barrier': 1, 'U3Gate': 28})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 8.53ms, transpile: 1873.26ms, gates: {'CNOTGate': 18, 'measurement': 1, 'barrier': 1, 'U3Gate': 28})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.60ms, transpile: 1905.24ms, gates: {'CNOTGate': 18, 'measurement': 1, 'barrier': 1, 'U3Gate': 28})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.73ms, transpile: 1791.55ms, gates: {'CNOTGate': 18, 'measurement': 1, 'barrier': 1, 'U3Gate': 28})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.19ms, transpile: 2020.04ms, gates: {'measurement': 1, 'CNOTGate': 21, 'barrier': 1, 'U3Gate': 32})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.85ms, transpile: 1989.96ms, gates: {'measurement': 1, 'CNOTGate': 21, 'barrier': 1, 'U3Gate': 32})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.78ms, transpile: 2058.86ms, gates: {'measurement': 1, 'CNOTGate': 21, 'barrier': 1, 'U3Gate': 32})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.83ms, transpile: 2042.03ms, gates: {'measurement': 1, 'CNOTGate': 21, 'barrier': 1, 'U3Gate': 32})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.80ms, transpile: 2156.90ms, gates: {'measurement': 1, 'CNOTGate': 21, 'barrier': 1, 'U3Gate': 32})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.67ms, transpile: 1174.76ms, gates: {'CNOTGate': 4, 'measurement': 1, 'U3Gate': 7})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.74ms, transpile: 1149.90ms, gates: {'CNOTGate': 4, 'measurement': 1, 'U3Gate': 7})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.21ms, transpile: 1149.56ms, gates: {'CNOTGate': 4, 'measurement': 1, 'U3Gate': 7})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.48ms, transpile: 1057.75ms, gates: {'CNOTGate': 4, 'measurement': 1, 'U3Gate': 6})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.11ms, transpile: 1162.48ms, gates: {'CNOTGate': 4, 'measurement': 1, 'U3Gate': 7})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.89ms, transpile: 5117.65ms, gates: {'CNOTGate': 17, 'measurement': 1, 'U3Gate': 27})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.78ms, transpile: 5029.10ms, gates: {'CNOTGate': 17, 'measurement': 1, 'U3Gate': 27})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.08ms, transpile: 4857.79ms, gates: {'CNOTGate': 17, 'measurement': 1, 'U3Gate': 27})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.50ms, transpile: 4913.75ms, gates: {'CNOTGate': 17, 'measurement': 1, 'U3Gate': 27})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.08ms, transpile: 4897.73ms, gates: {'CNOTGate': 17, 'measurement': 1, 'U3Gate': 27})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.08ms, transpile: 5110.29ms, gates: {'CNOTGate': 33, 'measurement': 1, 'U3Gate': 49})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.74ms, transpile: 5220.53ms, gates: {'CNOTGate': 33, 'measurement': 1, 'U3Gate': 49})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.83ms, transpile: 5151.29ms, gates: {'CNOTGate': 33, 'measurement': 1, 'U3Gate': 49})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.44ms, transpile: 5190.57ms, gates: {'CNOTGate': 33, 'measurement': 1, 'U3Gate': 49})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.73ms, transpile: 5091.23ms, gates: {'CNOTGate': 33, 'measurement': 1, 'U3Gate': 49})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 6.60ms, transpile: 8680.83ms, gates: {'CNOTGate': 55, 'measurement': 1, 'U3Gate': 79})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.47ms, transpile: 8809.91ms, gates: {'CNOTGate': 55, 'measurement': 1, 'U3Gate': 79})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.82ms, transpile: 8794.26ms, gates: {'CNOTGate': 55, 'measurement': 1, 'U3Gate': 79})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.45ms, transpile: 8508.13ms, gates: {'CNOTGate': 55, 'measurement': 1, 'U3Gate': 79})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.60ms, transpile: 8577.95ms, gates: {'CNOTGate': 55, 'measurement': 1, 'U3Gate': 79})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 7.26ms, transpile: 10363.19ms, gates: {'CNOTGate': 78, 'measurement': 1, 'U3Gate': 114})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 8.93ms, transpile: 9838.71ms, gates: {'CNOTGate': 78, 'measurement': 1, 'U3Gate': 115})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 8.99ms, transpile: 10649.46ms, gates: {'CNOTGate': 78, 'measurement': 1, 'U3Gate': 113})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 8.94ms, transpile: 10205.24ms, gates: {'CNOTGate': 78, 'measurement': 1, 'U3Gate': 113})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 10.41ms, transpile: 9597.73ms, gates: {'CNOTGate': 78, 'measurement': 1, 'U3Gate': 115})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.39ms, transpile: 16902.40ms, gates: {'CNOTGate': 107, 'measurement': 1, 'U3Gate': 157})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.67ms, transpile: 16558.62ms, gates: {'CNOTGate': 107, 'measurement': 1, 'U3Gate': 157})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 10.11ms, transpile: 16960.05ms, gates: {'CNOTGate': 107, 'measurement': 1, 'U3Gate': 157})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 10.58ms, transpile: 16990.18ms, gates: {'CNOTGate': 107, 'measurement': 1, 'U3Gate': 157})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 11.13ms, transpile: 16814.97ms, gates: {'CNOTGate': 107, 'measurement': 1, 'U3Gate': 157})
+Results saved to experiments/transpiler_result_20260614_134411_BQSkit_independent.json
+Processing SDK: BQSkit_Targeted_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.23ms, transpile: 2892.23ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.84ms, transpile: 957.47ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.10ms, transpile: 1006.70ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.81ms, transpile: 1043.99ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.68ms, transpile: 979.49ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.55ms, transpile: 7867.08ms, gates: {'RZGate': 19, 'CNOTGate': 7, 'SqrtXGate': 34})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.87ms, transpile: 7409.71ms, gates: {'RZGate': 19, 'CNOTGate': 7, 'SqrtXGate': 34})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.33ms, transpile: 7414.44ms, gates: {'RZGate': 19, 'CNOTGate': 7, 'SqrtXGate': 34})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.48ms, transpile: 7354.41ms, gates: {'RZGate': 19, 'CNOTGate': 7, 'SqrtXGate': 34})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.60ms, transpile: 7727.87ms, gates: {'RZGate': 19, 'CNOTGate': 7, 'SqrtXGate': 34})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.91ms, transpile: 7703.35ms, gates: {'RZGate': 21, 'CNOTGate': 7, 'SqrtXGate': 36})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.30ms, transpile: 7649.85ms, gates: {'RZGate': 21, 'CNOTGate': 7, 'SqrtXGate': 36})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.70ms, transpile: 7746.44ms, gates: {'RZGate': 21, 'CNOTGate': 7, 'SqrtXGate': 36})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.72ms, transpile: 7494.49ms, gates: {'RZGate': 21, 'CNOTGate': 7, 'SqrtXGate': 36})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.08ms, transpile: 7931.11ms, gates: {'RZGate': 21, 'CNOTGate': 7, 'SqrtXGate': 36})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.37ms, transpile: 10833.51ms, gates: {'RZGate': 70, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.86ms, transpile: 9357.53ms, gates: {'RZGate': 78, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.00ms, transpile: 9768.30ms, gates: {'RZGate': 73, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.50ms, transpile: 9192.31ms, gates: {'RZGate': 78, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.98ms, transpile: 11025.23ms, gates: {'RZGate': 70, 'CNOTGate': 24, 'SqrtXGate': 106})
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.57ms, transpile: 23035.47ms, gates: {'RZGate': 88, 'CNOTGate': 33, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.24ms, transpile: 27070.67ms, gates: {'RZGate': 92, 'CNOTGate': 33, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.27ms, transpile: 24008.62ms, gates: {'RZGate': 88, 'CNOTGate': 33, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.72ms, transpile: 22540.23ms, gates: {'RZGate': 88, 'CNOTGate': 33, 'SqrtXGate': 144})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.18ms, transpile: 22671.19ms, gates: {'RZGate': 88, 'CNOTGate': 33, 'SqrtXGate': 144})
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.51ms, transpile: 24633.24ms, gates: {'RZGate': 148, 'CNOTGate': 48, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.83ms, transpile: 26560.93ms, gates: {'RZGate': 147, 'CNOTGate': 50, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 26776.96ms, gates: {'RZGate': 147, 'CNOTGate': 50, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.06ms, transpile: 26986.95ms, gates: {'RZGate': 147, 'CNOTGate': 50, 'SqrtXGate': 214})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.02ms, transpile: 26974.45ms, gates: {'RZGate': 147, 'CNOTGate': 50, 'SqrtXGate': 214})
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.82ms, transpile: 26450.44ms, gates: {'RZGate': 172, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.56ms, transpile: 25950.89ms, gates: {'RZGate': 169, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.49ms, transpile: 25091.39ms, gates: {'RZGate': 171, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.54ms, transpile: 25642.76ms, gates: {'RZGate': 173, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.62ms, transpile: 25353.56ms, gates: {'RZGate': 173, 'CNOTGate': 56, 'SqrtXGate': 240})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.55ms, transpile: 1387.60ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.74ms, transpile: 1267.74ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 9, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.54ms, transpile: 1367.77ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.69ms, transpile: 1382.81ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.61ms, transpile: 1394.12ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.97ms, transpile: 8060.64ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.49ms, transpile: 8119.12ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.15ms, transpile: 7652.88ms, gates: {'CNOTGate': 7, 'RZGate': 15, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.62ms, transpile: 8185.08ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.39ms, transpile: 8171.62ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.42ms, transpile: 16448.32ms, gates: {'CNOTGate': 20, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 88, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.85ms, transpile: 16873.95ms, gates: {'CNOTGate': 20, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 88, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.57ms, transpile: 16443.91ms, gates: {'CNOTGate': 20, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 88, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.83ms, transpile: 16194.75ms, gates: {'CNOTGate': 20, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 88, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.76ms, transpile: 16482.31ms, gates: {'CNOTGate': 20, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 88, 'measurement': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.86ms, transpile: 18700.40ms, gates: {'CNOTGate': 28, 'RZGate': 76, 'measurement': 1, 'SqrtXGate': 122, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.64ms, transpile: 14691.77ms, gates: {'CNOTGate': 28, 'RZGate': 77, 'measurement': 1, 'SqrtXGate': 122, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.37ms, transpile: 17179.07ms, gates: {'CNOTGate': 28, 'RZGate': 81, 'measurement': 1, 'SqrtXGate': 122, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.72ms, transpile: 16907.56ms, gates: {'CNOTGate': 27, 'RZGate': 70, 'measurement': 1, 'SqrtXGate': 118, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.52ms, transpile: 18541.17ms, gates: {'CNOTGate': 28, 'RZGate': 81, 'measurement': 1, 'SqrtXGate': 122, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.49ms, transpile: 23509.11ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 41, 'RZGate': 109, 'SqrtXGate': 176})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.37ms, transpile: 22112.76ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 41, 'RZGate': 119, 'SqrtXGate': 176})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.99ms, transpile: 27468.63ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 41, 'RZGate': 115, 'SqrtXGate': 176})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.21ms, transpile: 23319.03ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 41, 'RZGate': 109, 'SqrtXGate': 176})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.87ms, transpile: 21822.70ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 41, 'RZGate': 119, 'SqrtXGate': 176})
+Running 5 transpilation tests on qft_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.22ms, transpile: 33645.58ms, gates: {'CNOTGate': 53, 'barrier': 1, 'RZGate': 157, 'SqrtXGate': 226, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.64ms, transpile: 29496.43ms, gates: {'CNOTGate': 53, 'barrier': 1, 'RZGate': 153, 'SqrtXGate': 226, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.68ms, transpile: 28171.12ms, gates: {'CNOTGate': 53, 'barrier': 1, 'RZGate': 159, 'SqrtXGate': 226, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.67ms, transpile: 33245.95ms, gates: {'CNOTGate': 53, 'barrier': 1, 'RZGate': 154, 'SqrtXGate': 226, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.72ms, transpile: 30927.92ms, gates: {'CNOTGate': 53, 'barrier': 1, 'RZGate': 142, 'SqrtXGate': 226, 'measurement': 1})
+Running 5 transpilation tests on qft_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.09ms, transpile: 32710.73ms, gates: {'CNOTGate': 71, 'RZGate': 208, 'measurement': 1, 'SqrtXGate': 300, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.78ms, transpile: 38174.66ms, gates: {'CNOTGate': 70, 'RZGate': 190, 'measurement': 1, 'SqrtXGate': 296, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 8.25ms, transpile: 37484.49ms, gates: {'CNOTGate': 71, 'RZGate': 205, 'measurement': 1, 'SqrtXGate': 300, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.55ms, transpile: 43890.44ms, gates: {'CNOTGate': 70, 'RZGate': 192, 'measurement': 1, 'SqrtXGate': 296, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.57ms, transpile: 38545.82ms, gates: {'CNOTGate': 70, 'RZGate': 190, 'measurement': 1, 'SqrtXGate': 296, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.63ms, transpile: 1245.69ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.34ms, transpile: 1314.32ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.05ms, transpile: 1213.65ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.67ms, transpile: 1162.65ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.51ms, transpile: 1193.04ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.15ms, transpile: 5100.15ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.52ms, transpile: 5146.38ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.02ms, transpile: 5307.29ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.52ms, transpile: 5963.75ms, gates: {'CNOTGate': 6, 'RZGate': 17, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.93ms, transpile: 5084.28ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.36ms, transpile: 2261.24ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.80ms, transpile: 2002.37ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.01ms, transpile: 2006.47ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.12ms, transpile: 2073.21ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.84ms, transpile: 2338.35ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.91ms, transpile: 2758.49ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.18ms, transpile: 2747.78ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.44ms, transpile: 2977.32ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.80ms, transpile: 3140.33ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.91ms, transpile: 2648.58ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.44ms, transpile: 3085.64ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.87ms, transpile: 3193.68ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.92ms, transpile: 3011.99ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.19ms, transpile: 3036.62ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.48ms, transpile: 3034.11ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.72ms, transpile: 3578.73ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 46, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.44ms, transpile: 3436.44ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 46, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.35ms, transpile: 3672.07ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 46, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.95ms, transpile: 3625.81ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 46, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.82ms, transpile: 3480.86ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 46, 'SqrtXGate': 56, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.19ms, transpile: 4011.87ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.03ms, transpile: 3931.64ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.25ms, transpile: 3550.50ms, gates: {'CNOTGate': 21, 'RZGate': 58, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.40ms, transpile: 3711.51ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.78ms, transpile: 3703.01ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.61ms, transpile: 4065.12ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.75ms, transpile: 3873.11ms, gates: {'RZGate': 11, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.09ms, transpile: 4103.29ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.95ms, transpile: 4080.55ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.58ms, transpile: 4107.11ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.59ms, transpile: 16520.28ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.48ms, transpile: 14948.02ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.61ms, transpile: 15193.87ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.22ms, transpile: 13463.95ms, gates: {'RZGate': 46, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.69ms, transpile: 15068.09ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.39ms, transpile: 19101.23ms, gates: {'RZGate': 84, 'CNOTGate': 33, 'SqrtXGate': 140, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.97ms, transpile: 18957.35ms, gates: {'RZGate': 85, 'CNOTGate': 33, 'SqrtXGate': 140, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.80ms, transpile: 18722.97ms, gates: {'RZGate': 84, 'CNOTGate': 33, 'SqrtXGate': 140, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 7.01ms, transpile: 17339.22ms, gates: {'RZGate': 92, 'CNOTGate': 31, 'SqrtXGate': 132, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.02ms, transpile: 22011.39ms, gates: {'RZGate': 87, 'CNOTGate': 33, 'SqrtXGate': 140, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 6.56ms, transpile: 37685.28ms, gates: {'RZGate': 158, 'CNOTGate': 58, 'SqrtXGate': 246, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.18ms, transpile: 38066.07ms, gates: {'RZGate': 157, 'CNOTGate': 58, 'SqrtXGate': 246, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.28ms, transpile: 37396.52ms, gates: {'RZGate': 154, 'CNOTGate': 59, 'SqrtXGate': 248, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.31ms, transpile: 37150.57ms, gates: {'RZGate': 149, 'CNOTGate': 59, 'SqrtXGate': 248, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.35ms, transpile: 36598.65ms, gates: {'RZGate': 154, 'CNOTGate': 59, 'SqrtXGate': 248, 'measurement': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 7.48ms, transpile: 43012.57ms, gates: {'RZGate': 207, 'CNOTGate': 80, 'SqrtXGate': 334, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 7.58ms, transpile: 43146.92ms, gates: {'RZGate': 206, 'CNOTGate': 80, 'SqrtXGate': 334, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 7.37ms, transpile: 42890.18ms, gates: {'RZGate': 214, 'CNOTGate': 80, 'SqrtXGate': 334, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 7.36ms, transpile: 42771.50ms, gates: {'RZGate': 206, 'CNOTGate': 80, 'SqrtXGate': 334, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 8.87ms, transpile: 42399.38ms, gates: {'RZGate': 214, 'CNOTGate': 80, 'SqrtXGate': 334, 'measurement': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.43ms, transpile: 65593.13ms, gates: {'RZGate': 294, 'CNOTGate': 110, 'SqrtXGate': 458, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.60ms, transpile: 61588.02ms, gates: {'RZGate': 295, 'CNOTGate': 111, 'SqrtXGate': 460, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 9.47ms, transpile: 61216.26ms, gates: {'RZGate': 295, 'CNOTGate': 111, 'SqrtXGate': 460, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 9.21ms, transpile: 62523.93ms, gates: {'RZGate': 303, 'CNOTGate': 111, 'SqrtXGate': 460, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 9.45ms, transpile: 61898.39ms, gates: {'RZGate': 302, 'CNOTGate': 111, 'SqrtXGate': 460, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_155151_BQSkit_Targeted_IBM_gateset.json
+Processing SDK: BQSkit_Targeted_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_155200_BQSkit_Targeted_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_all_to_all_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.95ms, transpile: 2929.14ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.04ms, transpile: 1090.44ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.85ms, transpile: 1070.42ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.09ms, transpile: 1084.46ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.75ms, transpile: 1105.13ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.54ms, transpile: 6850.64ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.15ms, transpile: 6822.92ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 7382.51ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.67ms, transpile: 7117.82ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.14ms, transpile: 6870.34ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.80ms, transpile: 7017.03ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.45ms, transpile: 7280.92ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.23ms, transpile: 7088.37ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.14ms, transpile: 7386.10ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.64ms, transpile: 7113.12ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.46ms, transpile: 10642.31ms, gates: {'RZGate': 73, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.69ms, transpile: 12256.99ms, gates: {'RZGate': 75, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.01ms, transpile: 11426.23ms, gates: {'RZGate': 70, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.10ms, transpile: 12292.28ms, gates: {'RZGate': 75, 'CNOTGate': 24, 'SqrtXGate': 106})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.09ms, transpile: 11240.75ms, gates: {'RZGate': 70, 'CNOTGate': 24, 'SqrtXGate': 106})
+Running 5 transpilation tests on qaoa_06...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.65ms, transpile: 21887.75ms, gates: {'RZGate': 79, 'CNOTGate': 28, 'SqrtXGate': 124})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.29ms, transpile: 22167.20ms, gates: {'RZGate': 77, 'CNOTGate': 28, 'SqrtXGate': 124})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.29ms, transpile: 21813.31ms, gates: {'RZGate': 77, 'CNOTGate': 28, 'SqrtXGate': 124})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.18ms, transpile: 19365.41ms, gates: {'RZGate': 72, 'CNOTGate': 28, 'SqrtXGate': 124})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.96ms, transpile: 22015.57ms, gates: {'RZGate': 77, 'CNOTGate': 28, 'SqrtXGate': 124})
+Running 5 transpilation tests on qaoa_07...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.55ms, transpile: 24493.94ms, gates: {'RZGate': 140, 'CNOTGate': 48, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.43ms, transpile: 24233.31ms, gates: {'RZGate': 140, 'CNOTGate': 48, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.09ms, transpile: 24574.59ms, gates: {'RZGate': 140, 'CNOTGate': 48, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.11ms, transpile: 24011.08ms, gates: {'RZGate': 140, 'CNOTGate': 48, 'SqrtXGate': 206})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.65ms, transpile: 23623.08ms, gates: {'RZGate': 140, 'CNOTGate': 48, 'SqrtXGate': 206})
+Running 5 transpilation tests on qaoa_08...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.90ms, transpile: 27841.11ms, gates: {'RZGate': 165, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.63ms, transpile: 27987.49ms, gates: {'RZGate': 169, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.57ms, transpile: 26963.67ms, gates: {'RZGate': 176, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.60ms, transpile: 28321.72ms, gates: {'RZGate': 169, 'CNOTGate': 56, 'SqrtXGate': 240})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.53ms, transpile: 27919.20ms, gates: {'RZGate': 169, 'CNOTGate': 56, 'SqrtXGate': 240})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.62ms, transpile: 1485.34ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.23ms, transpile: 1466.10ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.35ms, transpile: 1375.20ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.99ms, transpile: 1418.05ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.29ms, transpile: 1477.64ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.88ms, transpile: 8609.17ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.24ms, transpile: 8206.62ms, gates: {'CNOTGate': 7, 'RZGate': 15, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.66ms, transpile: 8534.42ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.93ms, transpile: 8669.08ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.63ms, transpile: 8501.49ms, gates: {'CNOTGate': 7, 'RZGate': 18, 'SqrtXGate': 34, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.28ms, transpile: 16273.54ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 59, 'SqrtXGate': 80, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.74ms, transpile: 15208.26ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 53, 'SqrtXGate': 80, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.86ms, transpile: 16219.85ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 59, 'SqrtXGate': 80, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.34ms, transpile: 15235.90ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 52, 'SqrtXGate': 80, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.74ms, transpile: 16424.45ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 59, 'SqrtXGate': 80, 'measurement': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.84ms, transpile: 17533.24ms, gates: {'CNOTGate': 26, 'RZGate': 70, 'measurement': 1, 'SqrtXGate': 114, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.92ms, transpile: 17525.31ms, gates: {'CNOTGate': 26, 'RZGate': 76, 'measurement': 1, 'SqrtXGate': 114, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.43ms, transpile: 12853.10ms, gates: {'CNOTGate': 26, 'RZGate': 69, 'measurement': 1, 'SqrtXGate': 114, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.45ms, transpile: 15367.78ms, gates: {'CNOTGate': 26, 'RZGate': 67, 'measurement': 1, 'SqrtXGate': 114, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.40ms, transpile: 17219.99ms, gates: {'CNOTGate': 26, 'RZGate': 70, 'measurement': 1, 'SqrtXGate': 114, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.47ms, transpile: 21843.93ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'RZGate': 112, 'SqrtXGate': 168})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.94ms, transpile: 23425.05ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'RZGate': 112, 'SqrtXGate': 168})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.97ms, transpile: 21948.71ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'RZGate': 112, 'SqrtXGate': 168})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.99ms, transpile: 24298.58ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'RZGate': 109, 'SqrtXGate': 168})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.14ms, transpile: 23334.10ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 39, 'RZGate': 111, 'SqrtXGate': 168})
+Running 5 transpilation tests on qft_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.12ms, transpile: 28411.98ms, gates: {'CNOTGate': 51, 'barrier': 1, 'RZGate': 147, 'SqrtXGate': 218, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.83ms, transpile: 31112.53ms, gates: {'CNOTGate': 51, 'barrier': 1, 'RZGate': 144, 'SqrtXGate': 218, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.48ms, transpile: 25870.07ms, gates: {'CNOTGate': 51, 'barrier': 1, 'RZGate': 152, 'SqrtXGate': 218, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.46ms, transpile: 28712.99ms, gates: {'CNOTGate': 51, 'barrier': 1, 'RZGate': 150, 'SqrtXGate': 218, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.76ms, transpile: 30164.60ms, gates: {'CNOTGate': 51, 'barrier': 1, 'RZGate': 148, 'SqrtXGate': 218, 'measurement': 1})
+Running 5 transpilation tests on qft_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.07ms, transpile: 44439.80ms, gates: {'CNOTGate': 68, 'RZGate': 177, 'measurement': 1, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.67ms, transpile: 44734.19ms, gates: {'CNOTGate': 68, 'RZGate': 177, 'measurement': 1, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.59ms, transpile: 44669.57ms, gates: {'CNOTGate': 68, 'RZGate': 177, 'measurement': 1, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.64ms, transpile: 44389.34ms, gates: {'CNOTGate': 68, 'RZGate': 177, 'measurement': 1, 'SqrtXGate': 288, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.53ms, transpile: 44212.88ms, gates: {'CNOTGate': 68, 'RZGate': 177, 'measurement': 1, 'SqrtXGate': 288, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.52ms, transpile: 1493.43ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.36ms, transpile: 1423.01ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.83ms, transpile: 1420.87ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.35ms, transpile: 1453.33ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.46ms, transpile: 1416.16ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.03ms, transpile: 6418.41ms, gates: {'CNOTGate': 6, 'RZGate': 17, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.32ms, transpile: 5537.90ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.00ms, transpile: 5591.54ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.28ms, transpile: 5539.30ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.52ms, transpile: 5594.02ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.65ms, transpile: 2732.56ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.00ms, transpile: 2270.71ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.04ms, transpile: 2654.33ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.66ms, transpile: 2446.32ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.96ms, transpile: 2559.53ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.85ms, transpile: 3154.17ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.68ms, transpile: 3347.65ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.01ms, transpile: 3669.13ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.00ms, transpile: 3780.78ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.96ms, transpile: 3484.81ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.38ms, transpile: 3865.37ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.10ms, transpile: 3615.82ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.10ms, transpile: 3307.38ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 42, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.25ms, transpile: 3555.86ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 3473.56ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.18ms, transpile: 4422.89ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 18.99ms, transpile: 4463.20ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.41ms, transpile: 4468.99ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.92ms, transpile: 4658.68ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.63ms, transpile: 4600.88ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.22ms, transpile: 4521.58ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.64ms, transpile: 4544.41ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.47ms, transpile: 4565.06ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.89ms, transpile: 4473.80ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.92ms, transpile: 4548.72ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.70ms, transpile: 4096.26ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.63ms, transpile: 4483.23ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.29ms, transpile: 4226.37ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.13ms, transpile: 4222.74ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.72ms, transpile: 4105.16ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.64ms, transpile: 13245.68ms, gates: {'RZGate': 41, 'CNOTGate': 15, 'SqrtXGate': 68, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.96ms, transpile: 16240.56ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.12ms, transpile: 16103.85ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.69ms, transpile: 16362.67ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.97ms, transpile: 16125.79ms, gates: {'RZGate': 45, 'CNOTGate': 17, 'SqrtXGate': 76, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.40ms, transpile: 22558.82ms, gates: {'RZGate': 83, 'CNOTGate': 32, 'SqrtXGate': 138, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.60ms, transpile: 19435.38ms, gates: {'RZGate': 80, 'CNOTGate': 32, 'SqrtXGate': 138, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.10ms, transpile: 19341.37ms, gates: {'RZGate': 80, 'CNOTGate': 32, 'SqrtXGate': 138, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.02ms, transpile: 18168.80ms, gates: {'RZGate': 84, 'CNOTGate': 30, 'SqrtXGate': 130, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.09ms, transpile: 19365.39ms, gates: {'RZGate': 80, 'CNOTGate': 32, 'SqrtXGate': 138, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 10.12ms, transpile: 33354.17ms, gates: {'RZGate': 149, 'CNOTGate': 53, 'SqrtXGate': 224, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.71ms, transpile: 33479.73ms, gates: {'RZGate': 144, 'CNOTGate': 53, 'SqrtXGate': 224, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.32ms, transpile: 33616.13ms, gates: {'RZGate': 149, 'CNOTGate': 53, 'SqrtXGate': 224, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.21ms, transpile: 33522.04ms, gates: {'RZGate': 144, 'CNOTGate': 53, 'SqrtXGate': 224, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.35ms, transpile: 33653.30ms, gates: {'RZGate': 149, 'CNOTGate': 53, 'SqrtXGate': 224, 'measurement': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.12ms, transpile: 46113.76ms, gates: {'RZGate': 206, 'CNOTGate': 78, 'SqrtXGate': 326, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 7.56ms, transpile: 44043.28ms, gates: {'RZGate': 201, 'CNOTGate': 78, 'SqrtXGate': 326, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 8.75ms, transpile: 45601.30ms, gates: {'RZGate': 206, 'CNOTGate': 78, 'SqrtXGate': 326, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 7.48ms, transpile: 44860.99ms, gates: {'RZGate': 201, 'CNOTGate': 78, 'SqrtXGate': 326, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 9.09ms, transpile: 45393.46ms, gates: {'RZGate': 206, 'CNOTGate': 78, 'SqrtXGate': 326, 'measurement': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.39ms, transpile: 62607.82ms, gates: {'RZGate': 289, 'CNOTGate': 107, 'SqrtXGate': 444, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.19ms, transpile: 65294.39ms, gates: {'RZGate': 289, 'CNOTGate': 107, 'SqrtXGate': 444, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 12.75ms, transpile: 63323.69ms, gates: {'RZGate': 290, 'CNOTGate': 107, 'SqrtXGate': 444, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 9.18ms, transpile: 65521.80ms, gates: {'RZGate': 293, 'CNOTGate': 107, 'SqrtXGate': 444, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 9.67ms, transpile: 63346.12ms, gates: {'RZGate': 290, 'CNOTGate': 107, 'SqrtXGate': 444, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_164332_BQSkit_mapped_all_to_all_IBM_gateset.json
+Processing SDK: BQSkit_mapped_line_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.83ms, transpile: 3122.90ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 2.72ms, transpile: 1251.84ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.10ms, transpile: 1172.14ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.97ms, transpile: 1111.59ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.03ms, transpile: 1155.04ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.52ms, transpile: 6817.37ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.44ms, transpile: 6851.88ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.71ms, transpile: 7379.35ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.06ms, transpile: 7064.19ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.52ms, transpile: 6754.75ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.70ms, transpile: 7081.96ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.70ms, transpile: 7171.20ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.72ms, transpile: 7071.15ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.66ms, transpile: 7271.64ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.35ms, transpile: 7118.78ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.49ms, transpile: 32749.91ms, gates: {'RZGate': 113, 'CNOTGate': 39, 'SqrtXGate': 169})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.08ms, transpile: 26103.44ms, gates: {'RZGate': 128, 'CNOTGate': 39, 'SqrtXGate': 166})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 3.97ms, transpile: 32975.93ms, gates: {'RZGate': 116, 'CNOTGate': 40, 'SqrtXGate': 164})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.08ms, transpile: 37358.05ms, gates: {'RZGate': 143, 'CNOTGate': 40, 'SqrtXGate': 172})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.90ms, transpile: 29202.59ms, gates: {'RZGate': 132, 'CNOTGate': 38, 'SqrtXGate': 162})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.35ms, transpile: 55945.77ms, gates: {'RZGate': 101, 'CNOTGate': 50, 'SqrtXGate': 212})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.26ms, transpile: 41579.68ms, gates: {'RZGate': 107, 'CNOTGate': 44, 'SqrtXGate': 188})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.21ms, transpile: 42417.21ms, gates: {'RZGate': 112, 'CNOTGate': 48, 'SqrtXGate': 204})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.26ms, transpile: 41612.48ms, gates: {'RZGate': 107, 'CNOTGate': 44, 'SqrtXGate': 188})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.33ms, transpile: 43311.78ms, gates: {'RZGate': 112, 'CNOTGate': 48, 'SqrtXGate': 204})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.65ms, transpile: 86562.26ms, gates: {'RZGate': 379, 'CNOTGate': 116, 'SqrtXGate': 469})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 116.39ms, transpile: 76557.73ms, gates: {'RZGate': 363, 'CNOTGate': 112, 'SqrtXGate': 462})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.01ms, transpile: 87629.32ms, gates: {'RZGate': 379, 'CNOTGate': 116, 'SqrtXGate': 469})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.96ms, transpile: 75875.15ms, gates: {'RZGate': 363, 'CNOTGate': 112, 'SqrtXGate': 462})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.86ms, transpile: 87672.11ms, gates: {'RZGate': 379, 'CNOTGate': 116, 'SqrtXGate': 469})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.96ms, transpile: 124798.07ms, gates: {'RZGate': 459, 'CNOTGate': 158, 'SqrtXGate': 648})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.44ms, transpile: 124995.53ms, gates: {'RZGate': 459, 'CNOTGate': 158, 'SqrtXGate': 648})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.36ms, transpile: 123753.30ms, gates: {'RZGate': 459, 'CNOTGate': 158, 'SqrtXGate': 648})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.34ms, transpile: 124967.03ms, gates: {'RZGate': 459, 'CNOTGate': 158, 'SqrtXGate': 648})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.44ms, transpile: 125301.88ms, gates: {'RZGate': 459, 'CNOTGate': 158, 'SqrtXGate': 648})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.37ms, transpile: 1451.38ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.46ms, transpile: 1448.18ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.39ms, transpile: 1379.13ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.83ms, transpile: 1407.71ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.72ms, transpile: 1585.86ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 11, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.81ms, transpile: 14681.31ms, gates: {'CNOTGate': 10, 'RZGate': 20, 'SqrtXGate': 40, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.30ms, transpile: 14432.97ms, gates: {'CNOTGate': 10, 'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.70ms, transpile: 14373.00ms, gates: {'CNOTGate': 10, 'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.28ms, transpile: 14596.63ms, gates: {'CNOTGate': 10, 'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.24ms, transpile: 14753.90ms, gates: {'CNOTGate': 10, 'RZGate': 20, 'SqrtXGate': 40, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.26ms, transpile: 33389.84ms, gates: {'CNOTGate': 23, 'barrier': 1, 'RZGate': 65, 'SqrtXGate': 100, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.61ms, transpile: 23315.09ms, gates: {'CNOTGate': 23, 'barrier': 1, 'RZGate': 64, 'SqrtXGate': 100, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.93ms, transpile: 27969.46ms, gates: {'CNOTGate': 23, 'barrier': 1, 'RZGate': 66, 'SqrtXGate': 100, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.24ms, transpile: 23319.59ms, gates: {'CNOTGate': 23, 'barrier': 1, 'RZGate': 64, 'SqrtXGate': 100, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.98ms, transpile: 27947.66ms, gates: {'CNOTGate': 23, 'barrier': 1, 'RZGate': 66, 'SqrtXGate': 100, 'measurement': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.81ms, transpile: 38571.18ms, gates: {'CNOTGate': 41, 'RZGate': 129, 'measurement': 1, 'SqrtXGate': 174, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 17.16ms, transpile: 38425.07ms, gates: {'CNOTGate': 41, 'RZGate': 129, 'measurement': 1, 'SqrtXGate': 174, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.45ms, transpile: 38299.91ms, gates: {'CNOTGate': 41, 'RZGate': 129, 'measurement': 1, 'SqrtXGate': 174, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.37ms, transpile: 38660.05ms, gates: {'CNOTGate': 41, 'RZGate': 129, 'measurement': 1, 'SqrtXGate': 174, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.28ms, transpile: 38757.62ms, gates: {'CNOTGate': 41, 'RZGate': 129, 'measurement': 1, 'SqrtXGate': 174, 'barrier': 1})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.44ms, transpile: 67190.27ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 87, 'RZGate': 270, 'SqrtXGate': 360})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.44ms, transpile: 67280.50ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 87, 'RZGate': 270, 'SqrtXGate': 360})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.08ms, transpile: 67638.09ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 87, 'RZGate': 270, 'SqrtXGate': 360})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.96ms, transpile: 67010.25ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 87, 'RZGate': 270, 'SqrtXGate': 360})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.89ms, transpile: 68194.44ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 87, 'RZGate': 270, 'SqrtXGate': 360})
+Running 5 transpilation tests on qft_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.91ms, transpile: 99363.13ms, gates: {'CNOTGate': 111, 'barrier': 1, 'RZGate': 352, 'SqrtXGate': 439, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.63ms, transpile: 108487.06ms, gates: {'CNOTGate': 109, 'barrier': 1, 'RZGate': 340, 'SqrtXGate': 445, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.64ms, transpile: 99271.91ms, gates: {'CNOTGate': 111, 'barrier': 1, 'RZGate': 352, 'SqrtXGate': 439, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.68ms, transpile: 108420.07ms, gates: {'CNOTGate': 109, 'barrier': 1, 'RZGate': 340, 'SqrtXGate': 445, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.14ms, transpile: 99709.66ms, gates: {'CNOTGate': 111, 'barrier': 1, 'RZGate': 352, 'SqrtXGate': 439, 'measurement': 1})
+Running 5 transpilation tests on qft_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 8.40ms, transpile: 189427.71ms, gates: {'CNOTGate': 159, 'RZGate': 469, 'measurement': 1, 'SqrtXGate': 652, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.51ms, transpile: 183378.66ms, gates: {'CNOTGate': 159, 'RZGate': 466, 'measurement': 1, 'SqrtXGate': 652, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.63ms, transpile: 128378.78ms, gates: {'CNOTGate': 162, 'RZGate': 485, 'measurement': 1, 'SqrtXGate': 664, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.72ms, transpile: 180586.51ms, gates: {'CNOTGate': 159, 'RZGate': 468, 'measurement': 1, 'SqrtXGate': 652, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.55ms, transpile: 183492.27ms, gates: {'CNOTGate': 159, 'RZGate': 466, 'measurement': 1, 'SqrtXGate': 652, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.96ms, transpile: 1426.70ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.22ms, transpile: 1459.44ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.94ms, transpile: 1397.48ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.20ms, transpile: 1296.76ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.98ms, transpile: 1320.61ms, gates: {'CNOTGate': 3, 'barrier': 1, 'RZGate': 6, 'SqrtXGate': 16, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.02ms, transpile: 5636.88ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.14ms, transpile: 5627.57ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.49ms, transpile: 6726.80ms, gates: {'CNOTGate': 6, 'RZGate': 17, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.35ms, transpile: 5642.63ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.72ms, transpile: 5642.64ms, gates: {'CNOTGate': 6, 'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.59ms, transpile: 2334.47ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.52ms, transpile: 2763.49ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.60ms, transpile: 2313.77ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.53ms, transpile: 2338.41ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.77ms, transpile: 2649.43ms, gates: {'CNOTGate': 9, 'barrier': 1, 'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.91ms, transpile: 3778.20ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.20ms, transpile: 3435.65ms, gates: {'CNOTGate': 12, 'RZGate': 28, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 9.43ms, transpile: 3243.94ms, gates: {'CNOTGate': 12, 'RZGate': 32, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.97ms, transpile: 3451.01ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.65ms, transpile: 3212.04ms, gates: {'CNOTGate': 12, 'RZGate': 30, 'measurement': 1, 'SqrtXGate': 40, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.74ms, transpile: 3277.99ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 42, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.47ms, transpile: 3296.11ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 42, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.80ms, transpile: 3739.31ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.04ms, transpile: 3709.02ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 40, 'SqrtXGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.90ms, transpile: 3231.94ms, gates: {'measurement': 1, 'barrier': 1, 'CNOTGate': 15, 'RZGate': 42, 'SqrtXGate': 48})
+Running 5 transpilation tests on vqe_real_amp_07...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.86ms, transpile: 4516.29ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 8.07ms, transpile: 4482.25ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.26ms, transpile: 4363.01ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.62ms, transpile: 4285.03ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.23ms, transpile: 4568.32ms, gates: {'CNOTGate': 18, 'barrier': 1, 'RZGate': 44, 'SqrtXGate': 56, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_08...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.29ms, transpile: 4603.59ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.33ms, transpile: 4456.91ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.15ms, transpile: 4266.43ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.27ms, transpile: 4400.29ms, gates: {'CNOTGate': 21, 'RZGate': 56, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.80ms, transpile: 4087.64ms, gates: {'CNOTGate': 21, 'RZGate': 58, 'measurement': 1, 'SqrtXGate': 64, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.98ms, transpile: 4239.97ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.36ms, transpile: 4295.43ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.61ms, transpile: 4304.75ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.48ms, transpile: 4325.31ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.54ms, transpile: 4283.41ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.63ms, transpile: 28743.52ms, gates: {'RZGate': 57, 'CNOTGate': 23, 'SqrtXGate': 100, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.14ms, transpile: 28476.37ms, gates: {'RZGate': 57, 'CNOTGate': 23, 'SqrtXGate': 100, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.35ms, transpile: 28477.17ms, gates: {'RZGate': 57, 'CNOTGate': 23, 'SqrtXGate': 100, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.84ms, transpile: 28413.18ms, gates: {'RZGate': 57, 'CNOTGate': 23, 'SqrtXGate': 100, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.51ms, transpile: 28686.22ms, gates: {'RZGate': 57, 'CNOTGate': 23, 'SqrtXGate': 100, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.36ms, transpile: 54091.71ms, gates: {'RZGate': 172, 'CNOTGate': 56, 'SqrtXGate': 237, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 7.05ms, transpile: 50168.20ms, gates: {'RZGate': 171, 'CNOTGate': 55, 'SqrtXGate': 236, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.85ms, transpile: 50333.61ms, gates: {'RZGate': 171, 'CNOTGate': 55, 'SqrtXGate': 236, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.08ms, transpile: 46456.53ms, gates: {'RZGate': 148, 'CNOTGate': 50, 'SqrtXGate': 212, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.10ms, transpile: 54067.54ms, gates: {'RZGate': 172, 'CNOTGate': 56, 'SqrtXGate': 237, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.59ms, transpile: 112284.89ms, gates: {'RZGate': 260, 'CNOTGate': 95, 'SqrtXGate': 400, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.07ms, transpile: 116303.35ms, gates: {'RZGate': 260, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.94ms, transpile: 112638.40ms, gates: {'RZGate': 261, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.08ms, transpile: 112499.23ms, gates: {'RZGate': 262, 'CNOTGate': 94, 'SqrtXGate': 396, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.11ms, transpile: 117239.27ms, gates: {'RZGate': 260, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.11ms, transpile: 165900.90ms, gates: {'RZGate': 529, 'CNOTGate': 196, 'SqrtXGate': 796, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 7.49ms, transpile: 176251.95ms, gates: {'RZGate': 541, 'CNOTGate': 195, 'SqrtXGate': 792, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 9.95ms, transpile: 176575.44ms, gates: {'RZGate': 541, 'CNOTGate': 195, 'SqrtXGate': 792, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 10.04ms, transpile: 176476.55ms, gates: {'RZGate': 541, 'CNOTGate': 195, 'SqrtXGate': 792, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.42ms, transpile: 176827.06ms, gates: {'RZGate': 541, 'CNOTGate': 195, 'SqrtXGate': 792, 'measurement': 1})
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 12.31ms, transpile: 231649.35ms, gates: {'RZGate': 732, 'CNOTGate': 237, 'SqrtXGate': 977, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 42.43ms, transpile: 255048.87ms, gates: {'RZGate': 732, 'CNOTGate': 237, 'SqrtXGate': 977, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 8.89ms, transpile: 242703.86ms, gates: {'RZGate': 732, 'CNOTGate': 237, 'SqrtXGate': 977, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 8.99ms, transpile: 254943.93ms, gates: {'RZGate': 732, 'CNOTGate': 237, 'SqrtXGate': 977, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 37.08ms, transpile: 259298.08ms, gates: {'RZGate': 732, 'CNOTGate': 237, 'SqrtXGate': 977, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_183825_BQSkit_mapped_line_IBM_gateset.json
+Processing SDK: BQSkit_mapped_all_to_all_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_183833_BQSkit_mapped_all_to_all_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_07...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_08...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_183840_BQSkit_mapped_line_Quantinuum_gateset.json
