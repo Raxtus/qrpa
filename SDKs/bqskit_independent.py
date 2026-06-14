@@ -24,7 +24,10 @@ from quantum_transpile_test_suite import (
 )
 
 
+
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
+    bqskit_compiler = Compiler(num_workers=1)
+
     def __init__(self, sdk_name):
         self.sdk_name = sdk_name
         self.max_synthesis_size = 3 # change if you need to. It's default by BQSkit docs
@@ -59,8 +62,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        with Compiler() as compiler:
-            return compiler.compile(circuit, self.workflow)
+            return BQSKitTranspilerTestSuite.bqskit_compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
