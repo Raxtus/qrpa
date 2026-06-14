@@ -1,0 +1,837 @@
+(qml-env) wraf@halle:~/qrpa/qrpa$ python main.py
+Processing SDK: BQSkit_Targeted_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_210435_BQSkit_Targeted_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.21ms, transpile: 2905.08ms, gates: {'SqrtXGate': 12, 'CNOTGate': 2, 'RZGate': 10})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.40ms, transpile: 1067.19ms, gates: {'SqrtXGate': 12, 'CNOTGate': 2, 'RZGate': 10})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.19ms, transpile: 1095.17ms, gates: {'SqrtXGate': 12, 'CNOTGate': 2, 'RZGate': 10})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.23ms, transpile: 1099.38ms, gates: {'SqrtXGate': 12, 'CNOTGate': 2, 'RZGate': 10})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.46ms, transpile: 1118.96ms, gates: {'SqrtXGate': 12, 'CNOTGate': 2, 'RZGate': 10})
+Running 5 transpilation tests on qaoa_03...
+^CCompiler interrupted.
+Traceback (most recent call last):
+  File "/u/halle/wraf/home_at/qrpa/qrpa/main.py", line 270, in <module>
+    main()
+  File "/u/halle/wraf/home_at/qrpa/qrpa/main.py", line 254, in main
+    stats = suite.test(file, max_runs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qrpa/qrpa/quantum_transpile_test_suite.py", line 238, in test
+    stats = self.run(qasm_code)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qrpa/qrpa/quantum_transpile_test_suite.py", line 166, in run
+    transpiled_circuit = self.transpile(original_circuit)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qrpa/qrpa/SDKs/bqskit_independent.py", line 62, in transpile
+    return self.compiler.compile(circuit, self.workflow)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/compiler/compiler.py", line 398, in compile
+    result = self.result(task_id)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/compiler/compiler.py", line 332, in result
+    msg, payload = self._send_recv(RuntimeMessage.REQUEST, task_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/compiler/compiler.py", line 440, in _send_recv
+    return self._recv_handle_log_error()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/compiler/compiler.py", line 454, in _recv_handle_log_error
+    msg, payload = self.conn.recv()
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 430, in _recv_bytes
+    buf = self._recv(4)
+          ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 395, in _recv
+    chunk = read(handle, remaining)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/wraf/home_at/qml-env/lib/python3.12/site-packages/bqskit/compiler/compiler.py", line 521, in sigint_handler
+    raise KeyboardInterrupt
+KeyboardInterrupt
+
+(qml-env) wraf@halle:~/qrpa/qrpa$ python main.py
+Processing SDK: BQSkit_Targeted_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_210632_BQSkit_Targeted_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_IBM_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.05ms, transpile: 2918.11ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.58ms, transpile: 1086.70ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.20ms, transpile: 1117.43ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.40ms, transpile: 1049.30ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.66ms, transpile: 1124.36ms, gates: {'RZGate': 10, 'CNOTGate': 2, 'SqrtXGate': 12})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.50ms, transpile: 6729.94ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.36ms, transpile: 6835.91ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.02ms, transpile: 7468.98ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.56ms, transpile: 7082.47ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.37ms, transpile: 6757.71ms, gates: {'RZGate': 17, 'CNOTGate': 6, 'SqrtXGate': 30})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.75ms, transpile: 7126.96ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.17ms, transpile: 7272.23ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.90ms, transpile: 6980.40ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 3.73ms, transpile: 7310.31ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.25ms, transpile: 6976.45ms, gates: {'RZGate': 19, 'CNOTGate': 6, 'SqrtXGate': 32})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.47ms, transpile: 32698.91ms, gates: {'RZGate': 113, 'CNOTGate': 39, 'SqrtXGate': 169})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 3.97ms, transpile: 26551.26ms, gates: {'RZGate': 128, 'CNOTGate': 39, 'SqrtXGate': 166})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.17ms, transpile: 33314.66ms, gates: {'RZGate': 116, 'CNOTGate': 40, 'SqrtXGate': 164})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.42ms, transpile: 37822.63ms, gates: {'RZGate': 143, 'CNOTGate': 40, 'SqrtXGate': 172})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.09ms, transpile: 29066.61ms, gates: {'RZGate': 132, 'CNOTGate': 38, 'SqrtXGate': 162})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.62ms, transpile: 55986.85ms, gates: {'RZGate': 101, 'CNOTGate': 50, 'SqrtXGate': 212})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.33ms, transpile: 41758.30ms, gates: {'RZGate': 107, 'CNOTGate': 44, 'SqrtXGate': 188})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.22ms, transpile: 43152.43ms, gates: {'RZGate': 112, 'CNOTGate': 48, 'SqrtXGate': 204})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 4.26ms, transpile: 41880.29ms, gates: {'RZGate': 107, 'CNOTGate': 44, 'SqrtXGate': 188})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.07ms, transpile: 43203.97ms, gates: {'RZGate': 112, 'CNOTGate': 48, 'SqrtXGate': 204})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.77ms, transpile: 1522.89ms, gates: {'measurement': 1, 'RZGate': 11, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.07ms, transpile: 1487.82ms, gates: {'measurement': 1, 'RZGate': 11, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.45ms, transpile: 1460.44ms, gates: {'measurement': 1, 'RZGate': 11, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.33ms, transpile: 1394.23ms, gates: {'measurement': 1, 'RZGate': 11, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.86ms, transpile: 1374.75ms, gates: {'measurement': 1, 'RZGate': 11, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.98ms, transpile: 14507.47ms, gates: {'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'CNOTGate': 10, 'measurement': 1})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.50ms, transpile: 15187.66ms, gates: {'RZGate': 22, 'SqrtXGate': 42, 'barrier': 1, 'CNOTGate': 10, 'measurement': 1})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.72ms, transpile: 14747.95ms, gates: {'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'CNOTGate': 10, 'measurement': 1})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.50ms, transpile: 14430.38ms, gates: {'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'CNOTGate': 10, 'measurement': 1})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.61ms, transpile: 14598.28ms, gates: {'RZGate': 20, 'SqrtXGate': 42, 'barrier': 1, 'CNOTGate': 10, 'measurement': 1})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.22ms, transpile: 23332.51ms, gates: {'RZGate': 64, 'SqrtXGate': 100, 'measurement': 1, 'CNOTGate': 23, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.66ms, transpile: 33636.82ms, gates: {'RZGate': 65, 'SqrtXGate': 100, 'measurement': 1, 'CNOTGate': 23, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.72ms, transpile: 23506.84ms, gates: {'RZGate': 64, 'SqrtXGate': 100, 'measurement': 1, 'CNOTGate': 23, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.73ms, transpile: 28049.85ms, gates: {'RZGate': 66, 'SqrtXGate': 100, 'measurement': 1, 'CNOTGate': 23, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.93ms, transpile: 23251.51ms, gates: {'RZGate': 64, 'SqrtXGate': 100, 'measurement': 1, 'CNOTGate': 23, 'barrier': 1})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.77ms, transpile: 34922.47ms, gates: {'barrier': 1, 'RZGate': 115, 'SqrtXGate': 174, 'measurement': 1, 'CNOTGate': 41})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.35ms, transpile: 33647.89ms, gates: {'barrier': 1, 'RZGate': 125, 'SqrtXGate': 174, 'measurement': 1, 'CNOTGate': 41})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 18.75ms, transpile: 34412.17ms, gates: {'barrier': 1, 'RZGate': 129, 'SqrtXGate': 174, 'measurement': 1, 'CNOTGate': 41})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.30ms, transpile: 28913.58ms, gates: {'barrier': 1, 'RZGate': 137, 'SqrtXGate': 174, 'measurement': 1, 'CNOTGate': 41})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.53ms, transpile: 28991.52ms, gates: {'barrier': 1, 'RZGate': 137, 'SqrtXGate': 174, 'measurement': 1, 'CNOTGate': 41})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.49ms, transpile: 63801.84ms, gates: {'RZGate': 253, 'SqrtXGate': 360, 'measurement': 1, 'CNOTGate': 87, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.82ms, transpile: 60924.78ms, gates: {'RZGate': 266, 'SqrtXGate': 368, 'measurement': 1, 'CNOTGate': 89, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.21ms, transpile: 56309.80ms, gates: {'RZGate': 194, 'SqrtXGate': 276, 'measurement': 1, 'CNOTGate': 66, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.01ms, transpile: 67592.94ms, gates: {'RZGate': 270, 'SqrtXGate': 360, 'measurement': 1, 'CNOTGate': 87, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.98ms, transpile: 67989.72ms, gates: {'RZGate': 270, 'SqrtXGate': 360, 'measurement': 1, 'CNOTGate': 87, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.53ms, transpile: 1427.82ms, gates: {'measurement': 1, 'RZGate': 6, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.73ms, transpile: 1335.54ms, gates: {'measurement': 1, 'RZGate': 6, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.93ms, transpile: 1384.73ms, gates: {'measurement': 1, 'RZGate': 6, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.31ms, transpile: 1404.52ms, gates: {'measurement': 1, 'RZGate': 6, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.13ms, transpile: 1288.08ms, gates: {'measurement': 1, 'RZGate': 6, 'SqrtXGate': 16, 'barrier': 1, 'CNOTGate': 3})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.05ms, transpile: 6455.47ms, gates: {'RZGate': 17, 'SqrtXGate': 24, 'barrier': 1, 'CNOTGate': 6, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.15ms, transpile: 5568.19ms, gates: {'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'CNOTGate': 6, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.11ms, transpile: 5601.26ms, gates: {'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'CNOTGate': 6, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.30ms, transpile: 5727.07ms, gates: {'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'CNOTGate': 6, 'measurement': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.34ms, transpile: 5559.50ms, gates: {'RZGate': 14, 'SqrtXGate': 24, 'barrier': 1, 'CNOTGate': 6, 'measurement': 1})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.52ms, transpile: 2625.93ms, gates: {'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1, 'CNOTGate': 9, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.76ms, transpile: 2405.07ms, gates: {'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1, 'CNOTGate': 9, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.38ms, transpile: 2732.51ms, gates: {'RZGate': 24, 'SqrtXGate': 32, 'measurement': 1, 'CNOTGate': 9, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.58ms, transpile: 2326.73ms, gates: {'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1, 'CNOTGate': 9, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.17ms, transpile: 2352.05ms, gates: {'RZGate': 26, 'SqrtXGate': 32, 'measurement': 1, 'CNOTGate': 9, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.69ms, transpile: 3343.11ms, gates: {'barrier': 1, 'RZGate': 30, 'SqrtXGate': 40, 'measurement': 1, 'CNOTGate': 12})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.35ms, transpile: 3264.73ms, gates: {'barrier': 1, 'RZGate': 30, 'SqrtXGate': 40, 'measurement': 1, 'CNOTGate': 12})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.88ms, transpile: 3655.64ms, gates: {'barrier': 1, 'RZGate': 28, 'SqrtXGate': 40, 'measurement': 1, 'CNOTGate': 12})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.13ms, transpile: 3826.01ms, gates: {'barrier': 1, 'RZGate': 28, 'SqrtXGate': 40, 'measurement': 1, 'CNOTGate': 12})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.23ms, transpile: 3537.76ms, gates: {'barrier': 1, 'RZGate': 28, 'SqrtXGate': 40, 'measurement': 1, 'CNOTGate': 12})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.45ms, transpile: 3659.80ms, gates: {'RZGate': 40, 'SqrtXGate': 48, 'measurement': 1, 'CNOTGate': 15, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.87ms, transpile: 3595.10ms, gates: {'RZGate': 40, 'SqrtXGate': 48, 'measurement': 1, 'CNOTGate': 15, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 10.41ms, transpile: 3338.18ms, gates: {'RZGate': 42, 'SqrtXGate': 48, 'measurement': 1, 'CNOTGate': 15, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.93ms, transpile: 3589.96ms, gates: {'RZGate': 40, 'SqrtXGate': 48, 'measurement': 1, 'CNOTGate': 15, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.89ms, transpile: 3660.63ms, gates: {'RZGate': 40, 'SqrtXGate': 48, 'measurement': 1, 'CNOTGate': 15, 'barrier': 1})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.99ms, transpile: 4363.26ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.42ms, transpile: 4215.72ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.84ms, transpile: 4234.87ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.17ms, transpile: 4300.40ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.17ms, transpile: 4292.09ms, gates: {'RZGate': 10, 'CNOTGate': 4, 'SqrtXGate': 22, 'measurement': 1})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.74ms, transpile: 26714.95ms, gates: {'RZGate': 56, 'CNOTGate': 22, 'SqrtXGate': 96, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.09ms, transpile: 27015.77ms, gates: {'RZGate': 56, 'CNOTGate': 22, 'SqrtXGate': 96, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 9.88ms, transpile: 26769.70ms, gates: {'RZGate': 56, 'CNOTGate': 22, 'SqrtXGate': 96, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.92ms, transpile: 26970.78ms, gates: {'RZGate': 56, 'CNOTGate': 22, 'SqrtXGate': 96, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.42ms, transpile: 27003.39ms, gates: {'RZGate': 56, 'CNOTGate': 22, 'SqrtXGate': 96, 'measurement': 1})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.40ms, transpile: 55044.49ms, gates: {'RZGate': 172, 'CNOTGate': 56, 'SqrtXGate': 237, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.01ms, transpile: 50762.55ms, gates: {'RZGate': 171, 'CNOTGate': 55, 'SqrtXGate': 236, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 5.60ms, transpile: 50594.80ms, gates: {'RZGate': 171, 'CNOTGate': 55, 'SqrtXGate': 236, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.04ms, transpile: 46938.31ms, gates: {'RZGate': 148, 'CNOTGate': 50, 'SqrtXGate': 212, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.17ms, transpile: 54970.46ms, gates: {'RZGate': 172, 'CNOTGate': 56, 'SqrtXGate': 237, 'measurement': 1})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 6.61ms, transpile: 112699.94ms, gates: {'RZGate': 260, 'CNOTGate': 95, 'SqrtXGate': 400, 'measurement': 1})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.26ms, transpile: 116878.32ms, gates: {'RZGate': 260, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.11ms, transpile: 113440.78ms, gates: {'RZGate': 261, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 7.94ms, transpile: 113309.61ms, gates: {'RZGate': 262, 'CNOTGate': 94, 'SqrtXGate': 396, 'measurement': 1})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.17ms, transpile: 117012.15ms, gates: {'RZGate': 260, 'CNOTGate': 97, 'SqrtXGate': 409, 'measurement': 1})
+Results saved to experiments/transpiler_result_20260614_214340_BQSkit_mapped_line_IBM_gateset.json
+Processing SDK: BQSkit_mapped_all_to_all_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_214345_BQSkit_mapped_all_to_all_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: FAILED - Transpilation failed: Server connection unexpectedly closed.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on qft_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_02...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on vqe_real_amp_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 2/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 3/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 4/5: FAILED - Transpilation failed: Connection unexpectedly none.
+  Run 5/5: FAILED - Transpilation failed: Connection unexpectedly none.
+Results saved to experiments/transpiler_result_20260614_214350_BQSkit_mapped_line_Quantinuum_gateset.json
+

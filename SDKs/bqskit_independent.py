@@ -59,7 +59,8 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        return self.compiler.compile(circuit, self.workflow)
+        with Compiler() as compiler:
+            return compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
