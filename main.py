@@ -64,42 +64,42 @@ def main():
     sdk_list = [
 
         {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
+            "name": "Pennylane_independent",
+            "class": PennyLaneTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_Targeted_IBM_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set
+            "name": "Pennylane_targeted_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_Targeted_Quantinuum_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set
+            "name": "Pennylane_targeted_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map
+            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_mapped_line_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": line_coupling_map
+            "name": "Pennylane_mapped_line_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": all_to_all_coupling_map
+            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
         },
         {
-            "name": "BQSkit_mapped_line_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": line_coupling_map
+            "name": "Pennylane_mapped_line_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
         },
 
 
@@ -266,9 +266,8 @@ def main():
 
     ]
 
-    rest_algorithms = ["randomcircuit","grover"]
 
-    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", ]
+    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", "randomcircuit","grover"]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
