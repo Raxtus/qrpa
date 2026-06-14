@@ -344,8 +344,3 @@ class QuantumTranspilerTestSuite(ABC):
             runs=total_runs,
             runs_stats=runs_stats
         )
-    def init(self):
-        pass
-
-    def close(self):
-        pass

@@ -1,5 +1,3 @@
-
-from bqskit.ext import bqskit_to_qiskit
 from bqskit.ir.lang.qasm2 import OPENQASM2Language
 
 from bqskit.compiler import Compiler, Workflow
@@ -18,6 +16,7 @@ from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
 from qiskit import QuantumCircuit
 
+
 from quantum_transpile_test_suite import (
     QuantumTranspilerTestSuite,
     SingleRunStatistics,
@@ -26,7 +25,6 @@ from quantum_transpile_test_suite import (
 
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
-    bqskit_compiler = None
 
     def __init__(self, sdk_name):
         self.sdk_name = sdk_name
@@ -62,7 +60,8 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-            return BQSKitTranspilerTestSuite.bqskit_compiler.compile(circuit, self.workflow)
+        with Compiler() as compiler:
+            return compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
@@ -83,6 +82,3 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
         stats.transpiled_exact_gates = {str(op): count for op, count in transpiled.gate_counts.items()}
 
-    @staticmethod
-    def set_compiler(bqskit_compiler):
-        BQSKitTranspilerTestSuite.bqskit_compiler = bqskit_compiler
