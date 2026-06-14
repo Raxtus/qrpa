@@ -26,7 +26,7 @@ from quantum_transpile_test_suite import (
 
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
-    bqskit_compiler = Compiler(num_workers=1)
+    bqskit_compiler = None
 
     def __init__(self, sdk_name):
         self.sdk_name = sdk_name
@@ -83,3 +83,6 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
         stats.transpiled_exact_gates = {str(op): count for op, count in transpiled.gate_counts.items()}
 
+    @staticmethod
+    def set_compiler(bqskit_compiler):
+        BQSKitTranspilerTestSuite.bqskit_compiler = bqskit_compiler

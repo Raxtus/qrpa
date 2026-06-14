@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 
+from bqskit.compiler import Compiler
 from bqskit.ext.qiskit.models import _basis_gate_str_to_bqskit_gate
 
 from SDKs.bqskit_independent import BQSKitTranspilerTestSuite
@@ -54,6 +55,7 @@ def main():
 
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
     bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
+
 
     #logging.basicConfig(level=logging.DEBUG)
 
@@ -219,6 +221,8 @@ def main():
 
 
     ]
+
+    BQSKitTranspilerTestSuite.set_compiler(Compiler(num_workers=1))
 
     rest_algorithms = ["randomcircuit","grover"]
 
