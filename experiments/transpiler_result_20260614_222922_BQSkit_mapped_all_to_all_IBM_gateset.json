@@ -1,0 +1,502 @@
+[
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.102824",
+        "algorithm": "qaoa_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.180520",
+        "algorithm": "qaoa_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.258851",
+        "algorithm": "qaoa_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.347441",
+        "algorithm": "qaoa_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.442419",
+        "algorithm": "qaoa_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.515493",
+        "algorithm": "qft_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.593003",
+        "algorithm": "qft_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.674516",
+        "algorithm": "qft_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.761727",
+        "algorithm": "qft_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.879037",
+        "algorithm": "qft_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:21.971138",
+        "algorithm": "vqe_real_amp_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.054889",
+        "algorithm": "vqe_real_amp_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.143577",
+        "algorithm": "vqe_real_amp_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.237677",
+        "algorithm": "vqe_real_amp_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.355198",
+        "algorithm": "vqe_real_amp_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.356196",
+        "algorithm": "hhl_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.446590",
+        "algorithm": "hhl_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.531262",
+        "algorithm": "hhl_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.626185",
+        "algorithm": "hhl_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_mapped_all_to_all_IBM_gateset",
+        "timestamp": "2026-06-14T22:29:22.738606",
+        "algorithm": "hhl_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    }
+]

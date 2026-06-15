@@ -1,0 +1,502 @@
+[
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:24.321585",
+        "algorithm": "qaoa_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:24.784750",
+        "algorithm": "qaoa_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:24.854757",
+        "algorithm": "qaoa_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:24.934154",
+        "algorithm": "qaoa_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.018540",
+        "algorithm": "qaoa_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.081440",
+        "algorithm": "qft_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.147736",
+        "algorithm": "qft_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.219362",
+        "algorithm": "qft_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.314487",
+        "algorithm": "qft_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.427349",
+        "algorithm": "qft_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.514068",
+        "algorithm": "vqe_real_amp_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.606968",
+        "algorithm": "vqe_real_amp_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.705313",
+        "algorithm": "vqe_real_amp_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.810854",
+        "algorithm": "vqe_real_amp_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.926667",
+        "algorithm": "vqe_real_amp_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:25.927635",
+        "algorithm": "hhl_02",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:26.010784",
+        "algorithm": "hhl_03",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:26.104938",
+        "algorithm": "hhl_04",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:26.212014",
+        "algorithm": "hhl_05",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    },
+    {
+        "sdk_name": "BQSkit_Targeted_Quantinuum_gateset",
+        "timestamp": "2026-06-14T23:34:26.338599",
+        "algorithm": "hhl_06",
+        "qubits": 0,
+        "failed_transpilations": 5,
+        "timing_metrics": {
+            "avg_import_time_ms": 0,
+            "avg_transpilation_time_ms": 0,
+            "avg_verify_time_ms": 0
+        },
+        "memory_metrics": {
+            "avg_import_memory_mb": 0,
+            "avg_transpilation_memory_mb": 0,
+            "avg_verify_memory_mb": 0
+        },
+        "circuit_metrics": {
+            "avg_original_gate_count": 0,
+            "avg_transpiled_gate_count": 0,
+            "depth_original": 0,
+            "avg_depth_transpiled": 0
+        },
+        "runs": 0,
+        "runs_stats": []
+    }
+]
