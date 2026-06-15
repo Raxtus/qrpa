@@ -51,10 +51,10 @@ def main():
     all_to_all_coupling_map = [(i, j) for i in range(max_qubit) for j in range(i + 1, max_qubit)]
     line_coupling_map = [(i, i + 1) for i in range(max_qubit - 1)]
 
-
+    from bqskit.ir.gates.parameterized import RZZGate, RZGate, RYGate, RXGate
 
     bqskit_ibm_falcon_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_ibm_falcon_gate_set)
-    bqskit_quantinuum_gate_set = _basis_gate_str_to_bqskit_gate(qiskit_quantinuum_gate_set)
+    bqskit_quantinuum_gate_set = {RZZGate(), RZGate(), RYGate(), RXGate()}
 
 
     #logging.basicConfig(level=logging.DEBUG)

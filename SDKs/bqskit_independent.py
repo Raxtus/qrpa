@@ -4,7 +4,6 @@ from bqskit.compiler import Compiler, Workflow
 from bqskit import MachineModel
 from bqskit.passes import ExtractMeasurements, UnfoldPass, SetRandomSeedPass, RestoreMeasurements
 
-
 from bqskit.passes.mapping.setmodel import SetModelPass
 from bqskit.compiler.compile import build_multi_qudit_retarget_workflow, build_gate_deletion_optimization_workflow
 from bqskit.compiler.compile import build_single_qudit_retarget_workflow
@@ -16,20 +15,19 @@ from mqt import qcec
 from mqt.qcec.pyqcec import EquivalenceCheckingManager
 from qiskit import QuantumCircuit
 
-
 from quantum_transpile_test_suite import (
     QuantumTranspilerTestSuite,
     SingleRunStatistics,
 )
 
 
-
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
     def __init__(self, sdk_name):
         self.sdk_name = sdk_name
-        self.max_synthesis_size = 3 # change if you need to. It's default by BQSkit docs
+        self.max_synthesis_size = 3  # change if you need to. It's default by BQSkit docs
         model = MachineModel(8)
+        self.compiler = Compiler(num_workers=1)
         self.workflow = Workflow([
             SetRandomSeedPass(),
             UnfoldPass(),
@@ -58,12 +56,13 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-        with Compiler(num_workers=1) as compiler:
-            return compiler.compile(circuit, self.workflow)
+        return self.compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
-        return qcec.verify(QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(original)), QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(transpiled)),check_partial_equivalence=True)
+        return qcec.verify(QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(original)),
+                           QuantumCircuit.from_qasm_str(OPENQASM2Language().encode(transpiled)),
+                           check_partial_equivalence=True)
 
     def get_circuit_metrics(
             self,
@@ -79,4 +78,3 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         stats.depth_transpiled = transpiled.depth
 
         stats.transpiled_exact_gates = {str(op): count for op, count in transpiled.gate_counts.items()}
-
