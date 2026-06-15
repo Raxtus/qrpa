@@ -1,0 +1,122 @@
+Processing SDK: Pennylane_independent
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.36ms, transpile: 1.62ms, gates: {'RZ': 6, 'RX': 6, 'CNOT': 4})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 1.46ms, gates: {'RZ': 6, 'RX': 6, 'CNOT': 4})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.51ms, transpile: 1.04ms, gates: {'RZ': 6, 'RX': 6, 'CNOT': 4})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.45ms, transpile: 1.05ms, gates: {'RZ': 6, 'RX': 6, 'CNOT': 4})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.39ms, transpile: 1.06ms, gates: {'RZ': 6, 'RX': 6, 'CNOT': 4})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.49ms, transpile: 2.81ms, gates: {'RZ': 10, 'RX': 9, 'CNOT': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.60ms, transpile: 2.13ms, gates: {'RZ': 10, 'RX': 9, 'CNOT': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.42ms, transpile: 2.08ms, gates: {'RZ': 10, 'RX': 9, 'CNOT': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.40ms, transpile: 2.01ms, gates: {'RZ': 10, 'RX': 9, 'CNOT': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 2.00ms, gates: {'RZ': 10, 'RX': 9, 'CNOT': 8})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.34ms, transpile: 3.77ms, gates: {'RZ': 12, 'RX': 11, 'CNOT': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.15ms, transpile: 3.62ms, gates: {'RZ': 12, 'RX': 11, 'CNOT': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.98ms, transpile: 3.73ms, gates: {'RZ': 12, 'RX': 11, 'CNOT': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.40ms, transpile: 2.23ms, gates: {'RZ': 12, 'RX': 11, 'CNOT': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.40ms, transpile: 2.24ms, gates: {'RZ': 12, 'RX': 11, 'CNOT': 8})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.56ms, transpile: 4.38ms, gates: {'RZ': 22, 'RX': 15, 'CNOT': 24})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.27ms, transpile: 5.28ms, gates: {'RZ': 22, 'RX': 15, 'CNOT': 24})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.20ms, transpile: 6.96ms, gates: {'RZ': 22, 'RX': 15, 'CNOT': 24})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.92ms, transpile: 5.33ms, gates: {'RZ': 22, 'RX': 15, 'CNOT': 24})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.27ms, transpile: 6.73ms, gates: {'RZ': 22, 'RX': 15, 'CNOT': 24})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.58ms, transpile: 6.33ms, gates: {'RZ': 26, 'RX': 18, 'CNOT': 28})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.71ms, transpile: 6.05ms, gates: {'RZ': 26, 'RX': 18, 'CNOT': 28})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.73ms, transpile: 6.23ms, gates: {'RZ': 26, 'RX': 18, 'CNOT': 28})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.69ms, transpile: 6.12ms, gates: {'RZ': 26, 'RX': 18, 'CNOT': 28})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.17ms, transpile: 7.39ms, gates: {'RZ': 26, 'RX': 18, 'CNOT': 28})
+Running 5 transpilation tests on qaoa_07...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.54ms, transpile: 8.21ms, gates: {'RZ': 38, 'RX': 21, 'CNOT': 48})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.01ms, transpile: 10.95ms, gates: {'RZ': 38, 'RX': 21, 'CNOT': 48})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.38ms, transpile: 8.05ms, gates: {'RZ': 38, 'RX': 21, 'CNOT': 48})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 1.47ms, transpile: 10.35ms, gates: {'RZ': 38, 'RX': 21, 'CNOT': 48})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 0.97ms, transpile: 10.95ms, gates: {'RZ': 38, 'RX': 21, 'CNOT': 48})
+Running 5 transpilation tests on qaoa_08...
+  Run 1/5: EquivalenceCriterion.equivalent (import: 0.86ms, transpile: 13.50ms, gates: {'RZ': 44, 'RX': 24, 'CNOT': 56})
+  Run 2/5: EquivalenceCriterion.equivalent (import: 1.55ms, transpile: 10.04ms, gates: {'RZ': 44, 'RX': 24, 'CNOT': 56})
+  Run 3/5: EquivalenceCriterion.equivalent (import: 1.36ms, transpile: 14.47ms, gates: {'RZ': 44, 'RX': 24, 'CNOT': 56})
+  Run 4/5: EquivalenceCriterion.equivalent (import: 1.01ms, transpile: 12.25ms, gates: {'RZ': 44, 'RX': 24, 'CNOT': 56})
+  Run 5/5: EquivalenceCriterion.equivalent (import: 1.06ms, transpile: 13.28ms, gates: {'RZ': 44, 'RX': 24, 'CNOT': 56})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 0.58ms, transpile: 15.10ms, gates: {'RZ': 9, 'RY': 6, 'CNOT': 3, 'MidMeasureMP': 2})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 0.61ms, transpile: 2.89ms, gates: {'RZ': 9, 'RY': 6, 'CNOT': 3, 'MidMeasureMP': 2})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 0.58ms, transpile: 2.89ms, gates: {'RZ': 9, 'RY': 6, 'CNOT': 3, 'MidMeasureMP': 2})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 0.57ms, transpile: 2.89ms, gates: {'RZ': 9, 'RY': 6, 'CNOT': 3, 'MidMeasureMP': 2})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 0.69ms, transpile: 3.77ms, gates: {'RZ': 9, 'RY': 6, 'CNOT': 3, 'MidMeasureMP': 2})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 1.34ms, transpile: 139.70ms, gates: {'RZ': 40, 'RY': 20, 'CNOT': 22, 'RX': 4, 'MidMeasureMP': 3})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 0.91ms, transpile: 15.85ms, gates: {'RZ': 40, 'RY': 20, 'CNOT': 22, 'RX': 4, 'MidMeasureMP': 3})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 1.07ms, transpile: 16.44ms, gates: {'RZ': 40, 'RY': 20, 'CNOT': 22, 'RX': 4, 'MidMeasureMP': 3})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 0.82ms, transpile: 16.02ms, gates: {'RZ': 40, 'RY': 20, 'CNOT': 22, 'RX': 4, 'MidMeasureMP': 3})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 0.83ms, transpile: 15.56ms, gates: {'RZ': 40, 'RY': 20, 'CNOT': 22, 'RX': 4, 'MidMeasureMP': 3})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 0.96ms, transpile: 69.56ms, gates: {'RZ': 178, 'RY': 88, 'CNOT': 116, 'RX': 14, 'MidMeasureMP': 4})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 1.17ms, transpile: 67.21ms, gates: {'RZ': 178, 'RY': 88, 'CNOT': 116, 'RX': 14, 'MidMeasureMP': 4})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 1.20ms, transpile: 71.23ms, gates: {'RZ': 178, 'RY': 88, 'CNOT': 116, 'RX': 14, 'MidMeasureMP': 4})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 1.19ms, transpile: 88.63ms, gates: {'RZ': 178, 'RY': 88, 'CNOT': 116, 'RX': 14, 'MidMeasureMP': 4})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 1.52ms, transpile: 87.23ms, gates: {'RZ': 178, 'RY': 88, 'CNOT': 116, 'RX': 14, 'MidMeasureMP': 4})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 1.63ms, transpile: 502.30ms, gates: {'RZ': 790, 'RY': 384, 'CNOT': 528, 'RX': 42, 'MidMeasureMP': 5})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 1.99ms, transpile: 375.74ms, gates: {'RZ': 790, 'RY': 384, 'CNOT': 528, 'RX': 42, 'MidMeasureMP': 5})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 1.95ms, transpile: 377.95ms, gates: {'RZ': 790, 'RY': 384, 'CNOT': 528, 'RX': 42, 'MidMeasureMP': 5})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 2.00ms, transpile: 376.60ms, gates: {'RZ': 790, 'RY': 384, 'CNOT': 528, 'RX': 42, 'MidMeasureMP': 5})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 1.98ms, transpile: 365.21ms, gates: {'RZ': 790, 'RY': 384, 'CNOT': 528, 'RX': 42, 'MidMeasureMP': 5})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.04ms, transpile: 1727.49ms, gates: {'RZ': 3291, 'RY': 1536, 'CNOT': 2208, 'RX': 170, 'MidMeasureMP': 6})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.55ms, transpile: 1829.71ms, gates: {'RZ': 3291, 'RY': 1536, 'CNOT': 2208, 'RX': 170, 'MidMeasureMP': 6})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.77ms, transpile: 1570.66ms, gates: {'RZ': 3291, 'RY': 1536, 'CNOT': 2208, 'RX': 170, 'MidMeasureMP': 6})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.61ms, transpile: 1413.38ms, gates: {'RZ': 3291, 'RY': 1536, 'CNOT': 2208, 'RX': 170, 'MidMeasureMP': 6})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.11ms, transpile: 1410.90ms, gates: {'RZ': 3291, 'RY': 1536, 'CNOT': 2208, 'RX': 170, 'MidMeasureMP': 6})
+Running 5 transpilation tests on qft_07...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 7.57ms, transpile: 9665.50ms, gates: {'RZ': 13402, 'RY': 6144, 'CNOT': 9024, 'RX': 682, 'MidMeasureMP': 7})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 7.44ms, transpile: 9986.63ms, gates: {'RZ': 13402, 'RY': 6144, 'CNOT': 9024, 'RX': 682, 'MidMeasureMP': 7})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 9.26ms, transpile: 8445.66ms, gates: {'RZ': 13402, 'RY': 6144, 'CNOT': 9024, 'RX': 682, 'MidMeasureMP': 7})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.62ms, transpile: 7909.21ms, gates: {'RZ': 13402, 'RY': 6144, 'CNOT': 9024, 'RX': 682, 'MidMeasureMP': 7})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.91ms, transpile: 8388.42ms, gates: {'RZ': 13402, 'RY': 6144, 'CNOT': 9024, 'RX': 682, 'MidMeasureMP': 7})
+Running 5 transpilation tests on qft_08...
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 1/5: EquivalenceCriterion.no_information (import: 38.53ms, transpile: 90457.38ms, gates: {'RZ': 54075, 'RY': 24576, 'CNOT': 36480, 'RX': 2730, 'MidMeasureMP': 8})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 2/5: EquivalenceCriterion.no_information (import: 33.44ms, transpile: 83432.68ms, gates: {'RZ': 54075, 'RY': 24576, 'CNOT': 36480, 'RX': 2730, 'MidMeasureMP': 8})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 3/5: EquivalenceCriterion.no_information (import: 34.35ms, transpile: 88866.90ms, gates: {'RZ': 54075, 'RY': 24576, 'CNOT': 36480, 'RX': 2730, 'MidMeasureMP': 8})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 4/5: EquivalenceCriterion.no_information (import: 30.95ms, transpile: 88435.88ms, gates: {'RZ': 54075, 'RY': 24576, 'CNOT': 36480, 'RX': 2730, 'MidMeasureMP': 8})
+Verification failed: "<input>:9,0: 'gphase' is not defined in this scope"
+  Run 5/5: EquivalenceCriterion.no_information (import: 30.88ms, transpile: 83504.75ms, gates: {'RZ': 54075, 'RY': 24576, 'CNOT': 36480, 'RX': 2730, 'MidMeasureMP': 8})
+Running 5 transpilation tests on vqe_real_amp_02...
+Segmentation fault

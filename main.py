@@ -264,9 +264,9 @@ def main():
     ]
 
 
-    rest_algorithms = []
+    rest_algorithms = ["vqe_real_amp"]
 
-    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", "randomcircuit","grover"]
+    algorithms = ["qaoa", "qft", "hhl", "randomcircuit","grover"]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"

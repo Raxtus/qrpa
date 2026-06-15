@@ -1,0 +1,598 @@
+Processing SDK: BQSkit_mapped_all_to_all_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.98ms, transpile: 2588.81ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.09ms, transpile: 686.95ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 13.07ms, transpile: 675.64ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.39ms, transpile: 686.09ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.38ms, transpile: 661.59ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.49ms, transpile: 1446.07ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.94ms, transpile: 1531.51ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.09ms, transpile: 1418.59ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.93ms, transpile: 1626.15ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.74ms, transpile: 1442.50ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.81ms, transpile: 1656.20ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.08ms, transpile: 1710.57ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 13.40ms, transpile: 1650.58ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.24ms, transpile: 1727.09ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.60ms, transpile: 1646.76ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+Running 5 transpilation tests on qaoa_05...
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.37ms, transpile: 1782.45ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.37ms, transpile: 1648.13ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.47ms, transpile: 1690.56ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.96ms, transpile: 1772.23ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.90ms, transpile: 1718.31ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.72ms, transpile: 2204.40ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.23ms, transpile: 2187.56ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.79ms, transpile: 2162.01ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 10.12ms, transpile: 2184.58ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.39ms, transpile: 2141.63ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.32ms, transpile: 1280.01ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.63ms, transpile: 1222.37ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.82ms, transpile: 1289.71ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.92ms, transpile: 1323.56ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 13.91ms, transpile: 1297.93ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.71ms, transpile: 5417.99ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.04ms, transpile: 4931.50ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.70ms, transpile: 5570.72ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.38ms, transpile: 5667.12ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.55ms, transpile: 5489.40ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 16.75ms, transpile: 5976.83ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.85ms, transpile: 6582.85ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 16.17ms, transpile: 8448.61ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.85ms, transpile: 8579.64ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 10.67ms, transpile: 9704.71ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.14ms, transpile: 10078.57ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 13.86ms, transpile: 8788.33ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 34})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.15ms, transpile: 16129.62ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 25, 'RZGate': 35})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.55ms, transpile: 30630.04ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 28.01ms, transpile: 248911.00ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 33})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 9.32ms, transpile: 8705.52ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 51})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.96ms, transpile: 9024.72ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 37, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.29ms, transpile: 9132.29ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 37, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.61ms, transpile: 9074.20ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.88ms, transpile: 9137.83ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 50})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 2.57ms, transpile: 1418.91ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.23ms, transpile: 1370.46ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.10ms, transpile: 1306.75ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.26ms, transpile: 1341.50ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.36ms, transpile: 1394.08ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.17ms, transpile: 14446.73ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.43ms, transpile: 14803.38ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.81ms, transpile: 14173.68ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 19, 'RZGate': 14})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.85ms, transpile: 15066.87ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.27ms, transpile: 15371.94ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 22, 'RZGate': 19})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.24ms, transpile: 6140.92ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.82ms, transpile: 6074.43ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 23.41ms, transpile: 6326.74ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 14.63ms, transpile: 4145.62ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 37})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.10ms, transpile: 5931.04ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.85ms, transpile: 6501.84ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 21.56ms, transpile: 6828.54ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.35ms, transpile: 6834.49ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 45})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.52ms, transpile: 7304.13ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 45})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.10ms, transpile: 6990.05ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.41ms, transpile: 7922.87ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 56})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.78ms, transpile: 6507.14ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 59})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.98ms, transpile: 7796.37ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 57})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.14ms, transpile: 8195.52ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 56})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.41ms, transpile: 7733.16ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 57})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.17ms, transpile: 2609.87ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.05ms, transpile: 2875.49ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.46ms, transpile: 2828.45ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.06ms, transpile: 2535.68ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.83ms, transpile: 2670.14ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.55ms, transpile: 9485.07ms, gates: {'RZZGate': 12, 'RXGate': 19, 'measurement': 1, 'RZGate': 17})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.31ms, transpile: 9378.71ms, gates: {'RZZGate': 12, 'RXGate': 19, 'measurement': 1, 'RZGate': 17})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.89ms, transpile: 9028.93ms, gates: {'RZZGate': 12, 'RXGate': 19, 'measurement': 1, 'RZGate': 17})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.21ms, transpile: 9420.82ms, gates: {'RZZGate': 12, 'RXGate': 19, 'measurement': 1, 'RZGate': 17})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.88ms, transpile: 9203.47ms, gates: {'RZZGate': 12, 'RXGate': 19, 'measurement': 1, 'RZGate': 17})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.03ms, transpile: 9696.46ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.31ms, transpile: 9707.03ms, gates: {'RZZGate': 19, 'RXGate': 28, 'measurement': 1, 'RZGate': 42})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.27ms, transpile: 9684.32ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 10.64ms, transpile: 9799.77ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.48ms, transpile: 9763.74ms, gates: {'RZZGate': 19, 'RXGate': 26, 'measurement': 1, 'RZGate': 42})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.23ms, transpile: 18625.99ms, gates: {'RZZGate': 36, 'RXGate': 50, 'measurement': 1, 'RZGate': 74})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 27.85ms, transpile: 20406.76ms, gates: {'RZZGate': 36, 'RXGate': 49, 'measurement': 1, 'RZGate': 68})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 25.72ms, transpile: 17667.58ms, gates: {'RZZGate': 36, 'RXGate': 52, 'measurement': 1, 'RZGate': 74})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 8.15ms, transpile: 18202.20ms, gates: {'RZZGate': 36, 'RXGate': 50, 'measurement': 1, 'RZGate': 74})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 449.03ms, transpile: 20979.77ms, gates: {'RZZGate': 36, 'RXGate': 49, 'measurement': 1, 'RZGate': 68})
+Results saved to experiments/transpiler_result_20260615_023850_BQSkit_mapped_all_to_all_Quantinuum_gateset.json
+Processing SDK: BQSkit_Targeted_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.73ms, transpile: 7320.86ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.49ms, transpile: 573.07ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.58ms, transpile: 578.11ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.17ms, transpile: 590.18ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.06ms, transpile: 546.97ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.81ms, transpile: 1340.48ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.00ms, transpile: 1277.14ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 36.70ms, transpile: 1268.87ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.21ms, transpile: 1184.21ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 15.80ms, transpile: 1358.12ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.43ms, transpile: 1300.52ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.41ms, transpile: 1384.85ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.90ms, transpile: 1415.41ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 17.01ms, transpile: 1378.78ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.07ms, transpile: 1433.41ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.06ms, transpile: 1290.71ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 12.83ms, transpile: 1362.95ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 30.70ms, transpile: 1482.02ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 4.76ms, transpile: 1165.47ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+The ZX checker suggests that the circuits are not equivalent, but the simulation checker suggests that they are probably equivalent. Thus, no conclusion can be drawn.
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.03ms, transpile: 1267.79ms, gates: {'RZZGate': 12, 'RXGate': 15, 'RZGate': 10})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.56ms, transpile: 1755.58ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.40ms, transpile: 1734.16ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 16.60ms, transpile: 1729.54ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 6.14ms, transpile: 1703.52ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.55ms, transpile: 1684.03ms, gates: {'RZZGate': 14, 'RXGate': 18, 'RZGate': 12})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.38ms, transpile: 1162.03ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.37ms, transpile: 1174.40ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.13ms, transpile: 1150.07ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.86ms, transpile: 1124.55ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.73ms, transpile: 1148.17ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.49ms, transpile: 8694.97ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.07ms, transpile: 8854.72ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.59ms, transpile: 8622.35ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.36ms, transpile: 8507.49ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 8.19ms, transpile: 8202.16ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 5, 'RXGate': 8, 'RZGate': 7})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.33ms, transpile: 6384.51ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 19.03ms, transpile: 5805.10ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.14ms, transpile: 6043.50ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 24.95ms, transpile: 5826.77ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.04ms, transpile: 5948.84ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 18, 'RZGate': 23})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.86ms, transpile: 6864.72ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 25, 'RZGate': 31})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 20.19ms, transpile: 6038.83ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 34})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.30ms, transpile: 5811.11ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.71ms, transpile: 6632.47ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 25, 'RZGate': 31})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.46ms, transpile: 6039.81ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 24, 'RZGate': 34})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.13ms, transpile: 8831.14ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 37, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.38ms, transpile: 8874.34ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.26ms, transpile: 9051.14ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 34, 'RZGate': 50})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.83ms, transpile: 8643.54ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 51})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.05ms, transpile: 9004.16ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 24, 'RXGate': 36, 'RZGate': 50})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.20ms, transpile: 1251.24ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.08ms, transpile: 1259.48ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.63ms, transpile: 1291.42ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.61ms, transpile: 1293.58ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.44ms, transpile: 1232.12ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.93ms, transpile: 14950.03ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 15.91ms, transpile: 15520.95ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 19, 'RZGate': 14})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.39ms, transpile: 15623.61ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 22, 'RZGate': 19})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.39ms, transpile: 14930.05ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.94ms, transpile: 15710.42ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.62ms, transpile: 7965.53ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 11, 'RXGate': 23, 'RZGate': 32})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 27.15ms, transpile: 4552.78ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 23, 'RZGate': 38})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 24.55ms, transpile: 7737.07ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 10, 'RXGate': 23, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 9.44ms, transpile: 7752.53ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 10, 'RXGate': 23, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.40ms, transpile: 7251.75ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 10, 'RXGate': 23, 'RZGate': 33})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.89ms, transpile: 5399.68ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.17ms, transpile: 7211.75ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.55ms, transpile: 7658.14ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 30, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 16.76ms, transpile: 7583.11ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.48ms, transpile: 8062.71ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 45})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 8.37ms, transpile: 9056.77ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 56})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.69ms, transpile: 8446.69ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 57})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.07ms, transpile: 9863.64ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 36, 'RZGate': 56})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.21ms, transpile: 9507.71ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 16, 'RXGate': 37, 'RZGate': 57})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.32ms, transpile: 7393.40ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 37, 'RZGate': 60})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 2.58ms, transpile: 3236.41ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 3})
+  Run 2/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.56ms, transpile: 3139.06ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 3})
+  Run 3/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 3.84ms, transpile: 3228.85ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 3})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.29ms, transpile: 3743.29ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 3})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.07ms, transpile: 3258.16ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 3})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.53ms, transpile: 14215.66ms, gates: {'RZZGate': 12, 'RXGate': 21, 'measurement': 1, 'RZGate': 21})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 11.86ms, transpile: 13672.98ms, gates: {'RZZGate': 12, 'RXGate': 21, 'measurement': 1, 'RZGate': 21})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.96ms, transpile: 13757.83ms, gates: {'RZZGate': 12, 'RXGate': 21, 'measurement': 1, 'RZGate': 21})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 12.04ms, transpile: 13338.71ms, gates: {'RZZGate': 12, 'RXGate': 21, 'measurement': 1, 'RZGate': 21})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.81ms, transpile: 13819.11ms, gates: {'RZZGate': 12, 'RXGate': 21, 'measurement': 1, 'RZGate': 21})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 5.77ms, transpile: 9082.91ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 6.51ms, transpile: 9528.82ms, gates: {'RZZGate': 19, 'RXGate': 31, 'measurement': 1, 'RZGate': 41})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.99ms, transpile: 10702.60ms, gates: {'RZZGate': 19, 'RXGate': 30, 'measurement': 1, 'RZGate': 41})
+  Run 4/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 10.52ms, transpile: 9007.94ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+  Run 5/5: EquivalenceCriterion.equivalent_up_to_global_phase (import: 7.97ms, transpile: 9012.16ms, gates: {'RZZGate': 20, 'RXGate': 27, 'measurement': 1, 'RZGate': 40})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 7.36ms, transpile: 17645.91ms, gates: {'RZZGate': 36, 'RXGate': 51, 'measurement': 1, 'RZGate': 74})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 18.75ms, transpile: 17093.09ms, gates: {'RZZGate': 36, 'RXGate': 51, 'measurement': 1, 'RZGate': 73})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 7.66ms, transpile: 18655.52ms, gates: {'RZZGate': 36, 'RXGate': 51, 'measurement': 1, 'RZGate': 70})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 22.62ms, transpile: 16570.06ms, gates: {'RZZGate': 36, 'RXGate': 51, 'measurement': 1, 'RZGate': 73})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 7.56ms, transpile: 18435.33ms, gates: {'RZZGate': 36, 'RXGate': 51, 'measurement': 1, 'RZGate': 70})
+Results saved to experiments/transpiler_result_20260615_024910_BQSkit_Targeted_Quantinuum_gateset.json
+Processing SDK: BQSkit_mapped_line_Quantinuum_gateset
+Running 5 transpilation tests on qaoa_02...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 2.66ms, transpile: 2783.04ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 3.40ms, transpile: 622.20ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.27ms, transpile: 676.65ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.29ms, transpile: 585.60ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 20.19ms, transpile: 661.35ms, gates: {'RZZGate': 2, 'RXGate': 6, 'RZGate': 2})
+Running 5 transpilation tests on qaoa_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.00ms, transpile: 1405.95ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 16.76ms, transpile: 1534.63ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 3.53ms, transpile: 1331.11ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.21ms, transpile: 1549.38ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 3.82ms, transpile: 1598.43ms, gates: {'RZZGate': 4, 'RXGate': 9, 'RZGate': 6})
+Running 5 transpilation tests on qaoa_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.14ms, transpile: 1884.34ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.77ms, transpile: 1732.57ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 4.07ms, transpile: 1704.37ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 13.61ms, transpile: 1940.85ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.67ms, transpile: 1685.36ms, gates: {'RZZGate': 4, 'RXGate': 10, 'RZGate': 8})
+Running 5 transpilation tests on qaoa_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 24.73ms, transpile: 12689.14ms, gates: {'RZZGate': 23, 'RXGate': 40, 'RZGate': 42})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 5.19ms, transpile: 10054.45ms, gates: {'RZZGate': 22, 'RXGate': 39, 'RZGate': 41})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 12.39ms, transpile: 10654.90ms, gates: {'RZZGate': 22, 'RXGate': 39, 'RZGate': 43})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 16.19ms, transpile: 10489.75ms, gates: {'RZZGate': 22, 'RXGate': 39, 'RZGate': 43})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.07ms, transpile: 9909.89ms, gates: {'RZZGate': 22, 'RXGate': 39, 'RZGate': 43})
+Running 5 transpilation tests on qaoa_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.32ms, transpile: 19111.64ms, gates: {'RZZGate': 25, 'RXGate': 44, 'RZGate': 41})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 9.78ms, transpile: 20652.91ms, gates: {'RZZGate': 24, 'RXGate': 41, 'RZGate': 42})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 6.50ms, transpile: 21441.00ms, gates: {'RZZGate': 25, 'RXGate': 42, 'RZGate': 40})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 5.07ms, transpile: 19869.97ms, gates: {'RZZGate': 24, 'RXGate': 41, 'RZGate': 42})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.33ms, transpile: 21425.48ms, gates: {'RZZGate': 26, 'RXGate': 43, 'RZGate': 41})
+Running 5 transpilation tests on qft_02...
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 6.81ms, transpile: 1368.01ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 3.74ms, transpile: 1329.21ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 3.69ms, transpile: 1325.55ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 3.78ms, transpile: 1160.46ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Verification failed: "<input>:11,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.31ms, transpile: 1338.61ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 5, 'RZGate': 3, 'barrier': 1})
+Running 5 transpilation tests on qft_03...
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 16.53ms, transpile: 16037.54ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 11, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 16.45ms, transpile: 14988.69ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 11, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 21.28ms, transpile: 14402.55ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 11, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 8.04ms, transpile: 15422.52ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 11, 'RZGate': 7})
+Verification failed: "<input>:14,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 13.71ms, transpile: 14994.35ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 11, 'RZGate': 7})
+Running 5 transpilation tests on qft_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.45ms, transpile: 14877.83ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 19, 'RXGate': 38, 'RZGate': 31})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 4.03ms, transpile: 15690.44ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 19, 'RXGate': 39, 'RZGate': 38})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.81ms, transpile: 14864.19ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 19, 'RXGate': 38, 'RZGate': 31})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 7.33ms, transpile: 15101.60ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 19, 'RXGate': 38, 'RZGate': 31})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.42ms, transpile: 15434.98ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 18, 'RXGate': 39, 'RZGate': 37})
+Running 5 transpilation tests on qft_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.84ms, transpile: 26230.71ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 35, 'RXGate': 65, 'RZGate': 65})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.48ms, transpile: 25083.65ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 35, 'RXGate': 65, 'RZGate': 67})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.15ms, transpile: 26034.94ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 35, 'RXGate': 63, 'RZGate': 62})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 4.44ms, transpile: 25333.60ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 35, 'RXGate': 63, 'RZGate': 62})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 5.46ms, transpile: 25479.06ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 35, 'RXGate': 63, 'RZGate': 62})
+Running 5 transpilation tests on qft_06...
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 5.26ms, transpile: 55155.66ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 67, 'RXGate': 122, 'RZGate': 117})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 6.60ms, transpile: 54690.84ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 67, 'RXGate': 118, 'RZGate': 119})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 6.28ms, transpile: 53946.05ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 66, 'RXGate': 118, 'RZGate': 114})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 9.63ms, transpile: 54058.34ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 67, 'RXGate': 119, 'RZGate': 118})
+Verification failed: "<input>:31,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.47ms, transpile: 55487.76ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 67, 'RXGate': 120, 'RZGate': 119})
+Running 5 transpilation tests on vqe_real_amp_02...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 22.85ms, transpile: 1377.73ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 16.01ms, transpile: 1312.56ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 4.70ms, transpile: 1315.48ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 13.55ms, transpile: 1373.08ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 3.56ms, transpile: 1326.35ms, gates: {'measurement': 1, 'RZZGate': 3, 'RXGate': 6, 'RZGate': 6, 'barrier': 1})
+Running 5 transpilation tests on vqe_real_amp_03...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 3.54ms, transpile: 15901.03ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 36.71ms, transpile: 15425.36ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 19, 'RZGate': 14})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 24.10ms, transpile: 15688.15ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 19.94ms, transpile: 15088.51ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 22, 'RZGate': 19})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 4.89ms, transpile: 16330.21ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 8, 'RXGate': 21, 'RZGate': 17})
+Running 5 transpilation tests on vqe_real_amp_04...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 4.98ms, transpile: 6188.58ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 19.53ms, transpile: 5981.86ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 16.43ms, transpile: 6341.00ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 6.26ms, transpile: 6141.83ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 6.02ms, transpile: 6056.22ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 9, 'RXGate': 22, 'RZGate': 33})
+Running 5 transpilation tests on vqe_real_amp_05...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 19.92ms, transpile: 7211.30ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 45})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 5.65ms, transpile: 5568.66ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 48})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 5.93ms, transpile: 6843.49ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.61ms, transpile: 6816.44ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 46})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.74ms, transpile: 6957.16ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 12, 'RXGate': 29, 'RZGate': 45})
+Running 5 transpilation tests on vqe_real_amp_06...
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 1/5: EquivalenceCriterion.no_information (import: 14.61ms, transpile: 7867.26ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 57})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 2/5: EquivalenceCriterion.no_information (import: 8.04ms, transpile: 8142.06ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 56})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 3/5: EquivalenceCriterion.no_information (import: 7.06ms, transpile: 6554.26ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 59})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 4/5: EquivalenceCriterion.no_information (import: 5.75ms, transpile: 7520.46ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 57})
+Verification failed: "<input>:5,5: 'meas' is already defined"
+  Run 5/5: EquivalenceCriterion.no_information (import: 7.01ms, transpile: 8438.64ms, gates: {'barrier': 1, 'measurement': 1, 'RZZGate': 15, 'RXGate': 36, 'RZGate': 56})
+Failed to extract qubits: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_02...
+  Run 1/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 2/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 3/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 4/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+  Run 5/5: FAILED - Import failed: Unexpected token Token('ID', 'Traceback') at line 1, column 1.
+Expected one of:
+        * OPENQASM
+Previous tokens: [None]
+
+Running 5 transpilation tests on hhl_03...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 3.10ms, transpile: 3102.35ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 43.21ms, transpile: 2799.67ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 20.72ms, transpile: 2772.17ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 10.99ms, transpile: 2899.97ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 4.07ms, transpile: 2965.28ms, gates: {'RZZGate': 3, 'RXGate': 7, 'measurement': 1, 'RZGate': 5})
+Running 5 transpilation tests on hhl_04...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 4.08ms, transpile: 21407.81ms, gates: {'RZZGate': 17, 'RXGate': 29, 'measurement': 1, 'RZGate': 26})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 4.68ms, transpile: 20912.33ms, gates: {'RZZGate': 17, 'RXGate': 29, 'measurement': 1, 'RZGate': 26})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 16.18ms, transpile: 21508.60ms, gates: {'RZZGate': 17, 'RXGate': 29, 'measurement': 1, 'RZGate': 26})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 17.62ms, transpile: 21609.07ms, gates: {'RZZGate': 17, 'RXGate': 29, 'measurement': 1, 'RZGate': 26})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 21.94ms, transpile: 21186.93ms, gates: {'RZZGate': 17, 'RXGate': 29, 'measurement': 1, 'RZGate': 26})
+Running 5 transpilation tests on hhl_05...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 5.53ms, transpile: 33630.16ms, gates: {'RZZGate': 42, 'RXGate': 79, 'measurement': 1, 'RZGate': 85})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 19.06ms, transpile: 35085.69ms, gates: {'RZZGate': 42, 'RXGate': 79, 'measurement': 1, 'RZGate': 85})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 13.75ms, transpile: 36141.81ms, gates: {'RZZGate': 40, 'RXGate': 74, 'measurement': 1, 'RZGate': 74})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 6.55ms, transpile: 34028.35ms, gates: {'RZZGate': 42, 'RXGate': 79, 'measurement': 1, 'RZGate': 85})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 5.10ms, transpile: 34117.38ms, gates: {'RZZGate': 42, 'RXGate': 79, 'measurement': 1, 'RZGate': 85})
+Running 5 transpilation tests on hhl_06...
+  Run 1/5: EquivalenceCriterion.not_equivalent (import: 8.04ms, transpile: 78905.95ms, gates: {'RZZGate': 82, 'RXGate': 139, 'measurement': 1, 'RZGate': 143})
+  Run 2/5: EquivalenceCriterion.not_equivalent (import: 24.16ms, transpile: 80787.53ms, gates: {'RZZGate': 80, 'RXGate': 134, 'measurement': 1, 'RZGate': 136})
+  Run 3/5: EquivalenceCriterion.not_equivalent (import: 7.95ms, transpile: 82395.18ms, gates: {'RZZGate': 80, 'RXGate': 134, 'measurement': 1, 'RZGate': 136})
+  Run 4/5: EquivalenceCriterion.not_equivalent (import: 7.82ms, transpile: 82607.89ms, gates: {'RZZGate': 80, 'RXGate': 134, 'measurement': 1, 'RZGate': 136})
+  Run 5/5: EquivalenceCriterion.not_equivalent (import: 6.71ms, transpile: 80861.05ms, gates: {'RZZGate': 80, 'RXGate': 134, 'measurement': 1, 'RZGate': 136})
+Results saved to experiments/transpiler_result_20260615_031621_BQSkit_mapped_line_Quantinuum_gateset.json
+
