@@ -30,7 +30,6 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         self.sdk_name = sdk_name
         self.max_synthesis_size = 3 # change if you need to. It's default by BQSkit docs
         model = MachineModel(8)
-        self.compiler = Compiler(num_workers=1)
         self.workflow = Workflow([
             SetRandomSeedPass(),
             UnfoldPass(),
@@ -59,8 +58,8 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         return OPENQASM2Language().decode(qasm_code)
 
     def transpile(self, circuit):
-
-            return self.compiler.compile(circuit, self.workflow)
+        with Compiler(num_workers=1) as compiler:
+            return compiler.compile(circuit, self.workflow)
 
     def verify_circuit(self, original,
                        transpiled) -> EquivalenceCheckingManager.Results:
