@@ -37,7 +37,7 @@ import logging
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 6 # machine model must be set in bqskit
+    max_qubit = 8 # machine model must be set in bqskit
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
@@ -61,42 +61,42 @@ def main():
 
     sdk_list = [
         {
-            "name": "Pennylane_independent",
-            "class": PennyLaneTranspilerTestSuite,
+            "name": "Qiskit_independent",
+            "class": QiskitIndependentTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_targeted_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "class": PennyLaneTargetedTranspilerTestSuite,
+            "name": "Qiskit_targeted_IBM_gateset",
+            "gateset": qiskit_ibm_falcon_gate_set,
+            "class": QiskitTargetedTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_targeted_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "class": PennyLaneTargetedTranspilerTestSuite,
+            "name": "Qiskit_targeted_Quantinuum_gateset",
+            "gateset": qiskit_quantinuum_gate_set,
+            "class": QiskitTargetedTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
+            "name": "Qiskit_mapped_all_to_all_IBM_gateset",
+            "gateset": qiskit_ibm_falcon_gate_set,
+            "map": CouplingMap.from_full(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_mapped_line_IBM_gateset",
-            "gateset": pennylane_ibm_falcon_gate_set,
-            "map": line_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
+            "name": "Qiskit_mapped_line_IBM_gateset",
+            "gateset": qiskit_ibm_falcon_gate_set,
+            "map": CouplingMap.from_line(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "map": all_to_all_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
+            "name": "Qiskit_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": qiskit_quantinuum_gate_set,
+            "map": CouplingMap.from_full(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
         },
         {
-            "name": "Pennylane_mapped_line_Quantinuum_gateset",
-            "gateset": pennylane_ibm_quantinuum_gate_set,
-            "map": line_coupling_map,
-            "class": PennyLaneMappedTranspilerTestSuite,
+            "name": "Qiskit_mapped_line_Quantinuum_gateset",
+            "gateset": qiskit_quantinuum_gate_set,
+            "map": CouplingMap.from_line(max_qubit),
+            "class": QiskitMappedTranspilerTestSuite,
         },
     ]
 
