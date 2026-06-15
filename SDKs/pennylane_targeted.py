@@ -1,7 +1,4 @@
-from functools import partial
-
 import pennylane as qml
-from cirq.ops.gateset_test import gateset
 
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 
