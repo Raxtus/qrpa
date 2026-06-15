@@ -37,7 +37,7 @@ import logging
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 8 # machine model must be set in bqskit
+    max_qubit = 6 # machine model must be set in bqskit
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
