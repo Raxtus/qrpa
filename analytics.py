@@ -1,89 +1,118 @@
+import os
 import json
 import pandas as pd
+import statistics
 import matplotlib.pyplot as plt
-from pathlib import Path
+from collections import Counter
 
-# Wczytanie JSON
-with open("results.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+folder_path = './experiments/analysis/independent'
+json_data_list = []
 
-# Ekstrakcja danych
+# Load all JSON files
+for filename in os.listdir(folder_path):
+    if filename.endswith('.json'):
+        file_path = os.path.join(folder_path, filename)
+        with open(file_path, 'r') as json_file:
+            data = json.load(json_file)
+            json_data_list.append(data)
+
 rows = []
 
-for item in data:
-    rows.append({
-        "algorithm": item["algorithm"],
-        "qubits": item["qubits"],
-        "transpilation_time_ms": item["timing_metrics"]["avg_transpilation_time_ms"],
-        "verify_time_ms": item["timing_metrics"]["avg_verify_time_ms"],
-        "transpilation_memory_mb": item["memory_metrics"]["avg_transpilation_memory_mb"],
-        "verify_memory_mb": item["memory_metrics"]["avg_verify_memory_mb"],
-        "gate_count": item["circuit_metrics"]["avg_transpiled_gate_count"],
-        "depth": item["circuit_metrics"]["avg_depth_transpiled"]
-    })
+# Process each record
+for data in json_data_list:
+    for record in data:
+        algorithm = record["algorithm"].rsplit("_", 1)[0]
+        qubits = int(record["algorithm"].rsplit("_", 1)[1])
+        sdk = record["sdk_name"]
+        runs = record["runs_stats"]
+        avg_time = record["timing_metrics"]["avg_transpilation_time_ms"]
+        if runs:
+            max_time = max(run["transpilation_time_ms"] for run in runs)
+            min_time = min(run["transpilation_time_ms"] for run in runs)
+            mid_time = statistics.median(run["transpilation_time_ms"] for run in runs)
+        else:
+            max_time = 0
+            min_time = 0
+            mid_time = 0
+
+        equiv_counter = Counter(run["equivalent"]["equivalence"] for run in runs)
+
+        rows.append({
+            "algorithm": algorithm,
+            "sdk": sdk,
+            "qubits": qubits,
+            "avg_time": avg_time,
+            "mid_time": mid_time,
+            "min_time": min_time,
+            "max_time": max_time,
+            "equivalency": equiv_counter,
+        })
 
 df = pd.DataFrame(rows)
 
-# Styl naukowy
-plt.style.use("default")
+colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
+SDK_COLOR_MAP = {}
 
-# ===== 1. Transpylacja =====
-plt.figure(figsize=(8,5))
-plt.plot(df["qubits"], df["transpilation_time_ms"], marker="o")
-plt.xlabel("Liczba kubitów")
-plt.ylabel("Średni czas transpylacji [ms]")
-plt.title("Skalowanie czasu transpylacji")
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("transpilation_time.png", dpi=300)
-plt.close()
+def get_sdk_color(_sdk_name):
+    if _sdk_name not in SDK_COLOR_MAP:
+        SDK_COLOR_MAP[_sdk_name] = colors[len(SDK_COLOR_MAP) % len(colors)]
+    return SDK_COLOR_MAP[_sdk_name]
 
-# ===== 2. Weryfikacja =====
-plt.figure(figsize=(8,5))
-plt.plot(df["qubits"], df["verify_time_ms"], marker="o")
-plt.xlabel("Liczba kubitów")
-plt.ylabel("Średni czas weryfikacji [ms]")
-plt.title("Skalowanie czasu weryfikacji")
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("verify_time.png", dpi=300)
-plt.close()
 
-# ===== 3. Pamięć =====
-plt.figure(figsize=(8,5))
-plt.plot(df["qubits"], df["verify_memory_mb"], marker="o",
-         label="Weryfikacja")
-plt.plot(df["qubits"], df["transpilation_memory_mb"], marker="s",
-         label="Transpylacja")
-plt.xlabel("Liczba kubitów")
-plt.ylabel("Pamięć [MB]")
-plt.title("Zużycie pamięci")
-plt.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("memory_usage.png", dpi=300)
-plt.close()
+grouped = df.sort_values(['algorithm', 'sdk', 'qubits'])
+algorithms = grouped['algorithm'].unique()
 
-# ===== 4. Bramy =====
-plt.figure(figsize=(8,5))
-plt.plot(df["qubits"], df["gate_count"], marker="o")
-plt.xlabel("Liczba kubitów")
-plt.ylabel("Liczba bramek")
-plt.title("Rozmiar obwodu")
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("gate_count.png", dpi=300)
-plt.close()
+for algo in algorithms:
+    plt.figure(figsize=(10, 6))
 
-# ===== 5. Głębokość =====
-plt.figure(figsize=(8,5))
-plt.plot(df["qubits"], df["depth"], marker="o")
-plt.xlabel("Liczba kubitów")
-plt.ylabel("Głębokość obwodu")
-plt.title("Głębokość obwodu po transpylacji")
-plt.grid(True)
-plt.tight_layout()
-plt.savefig("circuit_depth.png", dpi=300)
-plt.close()
+    subset = grouped[grouped['algorithm'] == algo]
 
-print(df)
+    for sdk_name in subset['sdk'].unique():
+        sdk_data = subset[subset['sdk'] == sdk_name]
+        color = get_sdk_color(sdk_name)
+
+        #avg
+        plt.scatter(
+            sdk_data['qubits'],
+            sdk_data['avg_time'],
+            color=color,
+            s=60,
+            label=sdk_name
+        )
+
+        plt.scatter(
+            sdk_data['qubits'],
+            sdk_data['min_time'],
+            marker="v",
+            color=color,
+            s=60,
+        )
+
+        plt.scatter(
+            sdk_data['qubits'],
+            sdk_data['max_time'],
+            color=color,
+            marker="^",
+            s=60,
+        )
+
+        plt.plot(
+            sdk_data['qubits'],
+            sdk_data['avg_time'],
+            color=color,
+            alpha=0.4
+        )
+
+
+
+    plt.title(f'Algorithm: {algo}')
+    plt.xlabel('Number of qubits')
+    plt.ylabel('Time (ms)')
+    plt.grid(True)
+    plt.legend(title="SDK")
+    plt.tight_layout()
+    plt.show()
+
+
+
+
