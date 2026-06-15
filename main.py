@@ -37,7 +37,7 @@ import logging
 def main():
     output_file = "experiments/transpiler_results.json"
     max_runs = 5
-    max_qubit = 6 # machine model must be set in bqskit
+    max_qubit = 8 # machine model must be set in bqskit
 
     qiskit_ibm_falcon_gate_set = ["id", "x", "sx", "rz", "cx"]
     qiskit_quantinuum_gate_set = ["rzz", "rz", "ry", "rx"]
@@ -61,6 +61,49 @@ def main():
 
     sdk_list = [
         {
+            "name": "Pennylane_independent",
+            "class": PennyLaneTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_targeted_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "class": PennyLaneTargetedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_IBM_gateset",
+            "gateset": pennylane_ibm_falcon_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_all_to_all_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": all_to_all_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+        {
+            "name": "Pennylane_mapped_line_Quantinuum_gateset",
+            "gateset": pennylane_ibm_quantinuum_gate_set,
+            "map": line_coupling_map,
+            "class": PennyLaneMappedTranspilerTestSuite,
+        },
+    ]
+
+    # Initialize SDKs
+    sdk_list_r = [
+
+        {
             "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
             "class": BQSKitMappedTranspilerTestSuite,
             "gateset": bqskit_quantinuum_gate_set,
@@ -78,10 +121,6 @@ def main():
             "map": line_coupling_map
         },
 
-    ]
-
-    # Initialize SDKs
-    sdk_list_r = [
         {
             "name": "BQSkit_mapped_all_to_all_IBM_gateset",
             "class": BQSKitMappedTranspilerTestSuite,
@@ -225,9 +264,9 @@ def main():
     ]
 
 
-    rest_algorithms = ["randomcircuit","grover"]
+    rest_algorithms = []
 
-    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", ]
+    algorithms = ["qaoa", "qft", "vqe_real_amp", "hhl", "randomcircuit","grover"]
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
