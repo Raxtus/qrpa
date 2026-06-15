@@ -1,7 +1,7 @@
 from functools import partial
 
 import pennylane as qml
-
+from cirq.ops.gateset_test import gateset
 
 from SDKs.pennylane_independent import PennyLaneTranspilerTestSuite
 
@@ -15,6 +15,6 @@ class PennyLaneTargetedTranspilerTestSuite(PennyLaneTranspilerTestSuite):
 
 
     def transpile(self, circuit):
-        compiled, fn = qml.transforms.decompose(circuit, gate_set=self.gateset)
+        compiled, fn = qml.compile(circuit, basis_set=self.gateset)
         return compiled[0]
 
