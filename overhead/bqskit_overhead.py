@@ -52,33 +52,3 @@ print(f"Longest time: {max(compilation_times):.3f} ms\n")
 avg_server_time = np.mean(server_times)
 avg_compilation_time = np.mean(compilation_times)
 
-fig, ax1 = plt.subplots(figsize=(6, 8))
-ax2 = ax1.twinx()
-
-# Server times on left y-axis
-ax1.scatter(1, server_times, color='blue', label='Server start/close', alpha=0.6)
-ax1.scatter(1, avg_server_time, color='red', s=200, label='Server avg', marker='s')
-ax1.set_ylabel('Server Time (ms)', color='blue')
-ax1.tick_params(axis='y', labelcolor='blue')
-
-# Compilation times on right y-axis
-ax2.scatter(2, compilation_times, color='green', label='Dummy compilation', alpha=0.6)
-ax2.scatter(2, avg_compilation_time, color='orange', s=200, label='Compilation avg', marker='s')
-ax2.set_ylabel('Compilation Time (ms)', color='green')
-ax2.tick_params(axis='y', labelcolor='green')
-
-# X-axis
-ax1.set_xticks([1, 2], ['Server', 'Compilation'])
-ax1.set_xlim(0.5, 2.5)
-
-# Grid
-ax1.grid(axis='y', linestyle='--', alpha=0.7)
-
-# Combined legend
-lines_1, labels_1 = ax1.get_legend_handles_labels()
-lines_2, labels_2 = ax2.get_legend_handles_labels()
-ax1.legend(lines_1 + lines_2, labels_1 + labels_2, loc='best')
-
-plt.title('Measurement Results with Averages')
-plt.tight_layout()
-plt.show()

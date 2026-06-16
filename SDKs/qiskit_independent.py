@@ -13,7 +13,7 @@ class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
         return self.import_qasm(qasm_code).num_qubits
 
     def __init__(self,sdk_name):
-        self.sdk_name = "Qiskit_independent"
+        self.sdk_name = sdk_name
 
     def import_qasm(self, qasm_code: str) -> QuantumCircuit:
         return  QuantumCircuit.from_qasm_str(qasm_code)
