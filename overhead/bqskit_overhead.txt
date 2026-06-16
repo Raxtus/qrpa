@@ -1,0 +1,9 @@
+Server start and close (10 repetitions):
+Average time: 1026.821 ms
+Shortest time: 274.902 ms
+Longest time: 1779.588 ms
+
+Start and close with dummy compilation (10 repetitions):
+Average time: 3035.759 ms
+Shortest time: 2147.042 ms
+Longest time: 4174.722 ms
