@@ -4,7 +4,7 @@ sum1=0
 sum2=0
 
 for i in {1..10}; do
-result=$(python benchmark.py)
+result=$(python qiskit_overhead.py)
 
 d1=$(echo "$result" | cut -d';' -f1)
 d2=$(echo "$result" | cut -d';' -f2)
