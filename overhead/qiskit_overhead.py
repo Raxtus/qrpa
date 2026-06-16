@@ -1,6 +1,5 @@
 import time
 import qiskit
-from Cython.Shadow import returns
 from qiskit import QuantumCircuit
 
 qc = QuantumCircuit()
