@@ -1,6 +1,5 @@
 import time
 import logging
-import matplotlib.pyplot as plt
 import numpy as np
 
 from bqskit.compiler import Compiler

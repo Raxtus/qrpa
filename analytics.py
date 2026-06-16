@@ -1,6 +1,5 @@
 import os
 import json
-from os import times
 
 import pandas as pd
 import statistics
@@ -9,10 +8,13 @@ from collections import Counter
 
 from matplotlib.gridspec import GridSpec
 from matplotlib.pyplot import figure
+from pandas.core.interchange.dataframe_protocol import DataFrame
 
 path = "./experiments/analysis"
 directories = os.listdir(path)
 folder_paths = [name for name in directories if os.path.isdir(os.path.join(path, name))]
+
+db = DataFrame()
 
 print(folder_paths)
 
@@ -77,6 +79,7 @@ for folder in folder_paths:
             })
 
     df = pd.DataFrame(rows)
+    db = pd.concat([db, df], ignore_index=True)
 
     colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
     SDK_COLOR_MAP = {}
@@ -93,7 +96,7 @@ for folder in folder_paths:
     algorithms = grouped['algorithm'].unique()
 
     for algo in algorithms:
-        fig = plt.figure(figsize=(14, 14))
+        fig = plt.figure(figsize=(12, 18))
         fig.suptitle(algo)
 
         subset = grouped[grouped['algorithm'] == algo]
