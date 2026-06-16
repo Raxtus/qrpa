@@ -2,7 +2,7 @@ import time
 import pennylane as qp
 
 
-qc = qp.QuantumScript()
+qc = qp.tape.QuantumScript()
 start_time = time.time()
 qp.compile(qc)
 end_time = time.time()
