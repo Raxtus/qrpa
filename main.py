@@ -28,9 +28,7 @@ from qiskit.transpiler import CouplingMap
 from SDKs.seed import seed
 
 import os
-os.environ["QISKIT_TRANSPILER_SEED"] = seed
-
-
+os.environ["QISKIT_TRANSPILER_SEED"] = str(seed)
 
 # Import your SDK implementations
 
