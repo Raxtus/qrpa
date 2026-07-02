@@ -7,7 +7,7 @@ from bqskit.passes import ExtractMeasurements, UnfoldPass, SetRandomSeedPass, Re
 from bqskit.passes.mapping.setmodel import SetModelPass
 from bqskit.compiler.compile import build_multi_qudit_retarget_workflow, build_gate_deletion_optimization_workflow
 from bqskit.compiler.compile import build_single_qudit_retarget_workflow
-from bqskit.compiler.compile import build_sabre_mapping_workflow
+
 from bqskit.passes.util.log import LogErrorPass
 from bqskit.passes.mapping.apply import ApplyPlacement
 
@@ -20,7 +20,7 @@ from quantum_transpile_test_suite import (
     SingleRunStatistics,
 )
 
-from seed import seed
+from .seed import seed
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 

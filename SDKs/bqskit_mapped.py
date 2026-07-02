@@ -12,7 +12,7 @@ from bqskit.compiler.compile import build_sabre_mapping_workflow
 from bqskit.passes.util.log import LogErrorPass
 from bqskit.passes.mapping.apply import ApplyPlacement
 
-from seed import seed
+from .seed import seed
 
 class BQSKitMappedTranspilerTestSuite(BQSKitTranspilerTestSuite):
 
