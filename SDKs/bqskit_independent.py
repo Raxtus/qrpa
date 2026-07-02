@@ -20,6 +20,7 @@ from quantum_transpile_test_suite import (
     SingleRunStatistics,
 )
 
+from seed import seed
 
 class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
 
@@ -29,7 +30,7 @@ class BQSKitTranspilerTestSuite(QuantumTranspilerTestSuite):
         model = MachineModel(8)
         self.compiler = Compiler(num_workers=1)
         self.workflow = Workflow([
-            SetRandomSeedPass(),
+            SetRandomSeedPass(seed=seed),
             UnfoldPass(),
             ExtractMeasurements(),
 

@@ -8,10 +8,11 @@ from bqskit.passes import ExtractMeasurements, UnfoldPass, SetRandomSeedPass, Re
 from bqskit.passes.mapping.setmodel import SetModelPass
 from bqskit.compiler.compile import build_multi_qudit_retarget_workflow, build_gate_deletion_optimization_workflow
 from bqskit.compiler.compile import build_single_qudit_retarget_workflow
-from bqskit.compiler.compile import build_sabre_mapping_workflow
+
 from bqskit.passes.util.log import LogErrorPass
 from bqskit.passes.mapping.apply import ApplyPlacement
 
+from seed import seed
 
 class BQSKitTargetedTranspilerTestSuite(BQSKitTranspilerTestSuite):
     def __init__(self, sdk_name, gateset):
@@ -19,7 +20,7 @@ class BQSKitTargetedTranspilerTestSuite(BQSKitTranspilerTestSuite):
         model = MachineModel(8, gate_set=gateset)
 
         self. workflow = Workflow([
-            SetRandomSeedPass(),
+            SetRandomSeedPass(seed=seed),
             UnfoldPass(),
             ExtractMeasurements(),
 

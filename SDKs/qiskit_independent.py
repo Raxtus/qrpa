@@ -7,6 +7,9 @@ from qiskit.transpiler.passes import Unroll3qOrMore
 
 from quantum_transpile_test_suite import SingleRunStatistics, QuantumTranspilerTestSuite
 
+from seed import seed
+
+
 
 class QiskitIndependentTranspilerTestSuite(QuantumTranspilerTestSuite):
     def _extract_qubit_count(self, qasm_code: str) -> int:
