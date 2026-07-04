@@ -61,123 +61,6 @@ def main():
     #logging.basicConfig(level=logging.DEBUG)
 
     sdk_list = [
-        {
-            "name": "Qiskit_independent",
-            "class": QiskitIndependentTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_targeted_IBM_gateset",
-            "gateset": qiskit_ibm_falcon_gate_set,
-            "class": QiskitTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_targeted_Quantinuum_gateset",
-            "gateset": qiskit_quantinuum_gate_set,
-            "class": QiskitTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_mapped_all_to_all_IBM_gateset",
-            "gateset": qiskit_ibm_falcon_gate_set,
-            "map": CouplingMap.from_full(max_qubit),
-            "class": QiskitMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_mapped_line_IBM_gateset",
-            "gateset": qiskit_ibm_falcon_gate_set,
-            "map": CouplingMap.from_line(max_qubit),
-            "class": QiskitMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_mapped_all_to_all_Quantinuum_gateset",
-            "gateset": qiskit_quantinuum_gate_set,
-            "map": CouplingMap.from_full(max_qubit),
-            "class": QiskitMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Qiskit_mapped_line_Quantinuum_gateset",
-            "gateset": qiskit_quantinuum_gate_set,
-            "map": CouplingMap.from_line(max_qubit),
-            "class": QiskitMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_independent",
-            "class": PyTKETIndependentTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_Targeted_IBM_gateset",
-            "gateset": pytket_ibm_falcon_gate_set,
-            "class": PyTKETTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_Targeted_Quantinuum_gateset",
-            "gateset": pytket_quantinuum_gate_set,
-            "class": PyTKETTargetedTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_Mapped_all_to_all_IBM_gateset",
-            "gateset": pytket_ibm_falcon_gate_set,
-            "map": Architecture(all_to_all_coupling_map),
-            "class": PyTKETMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_Mapped_line_IBM_gateset",
-            "gateset": pytket_ibm_falcon_gate_set,
-            "map": Architecture(line_coupling_map),
-            "class": PyTKETMappedTranspilerTestSuite
-        },
-        {
-            "name": "Pytket_Mapped_all_to_all_Quantinuum_gateset",
-            "gateset": pytket_quantinuum_gate_set,
-            "map": Architecture(all_to_all_coupling_map),
-            "class": PyTKETMappedTranspilerTestSuite,
-        },
-        {
-            "name": "Pytket_Mapped_line_Quantinuum_gateset",
-            "gateset": pytket_quantinuum_gate_set,
-            "map": Architecture(line_coupling_map),
-            "class": PyTKETMappedTranspilerTestSuite,
-        },
-
-        {
-            "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": all_to_all_coupling_map
-        },
-        {
-            "name": "BQSkit_Targeted_Quantinuum_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set
-        },
-        {
-            "name": "BQSkit_mapped_line_Quantinuum_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_quantinuum_gate_set,
-            "map": line_coupling_map
-        },
-
-        {
-            "name": "BQSkit_mapped_all_to_all_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": all_to_all_coupling_map
-        },
-        {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
-        },
-        {
-            "name": "BQSkit_Targeted_IBM_gateset",
-            "class": BQSKitTargetedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set
-        },
-
-        {
-            "name": "BQSkit_mapped_line_IBM_gateset",
-            "class": BQSKitMappedTranspilerTestSuite,
-            "gateset": bqskit_ibm_falcon_gate_set,
-            "map": line_coupling_map
-        },
 
         {
             "name": "Pennylane_independent",
@@ -379,7 +262,7 @@ def main():
 
     ]
 
-    algorithms = ["qaoa", "qft", "hhl", "randomcircuit","grover","vqe_real_amp"]
+    algorithms = ["qaoa", "qft", "hhl", "randomcircuit",] # "vqe_real_amp" #"grover"
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
