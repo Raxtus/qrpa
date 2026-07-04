@@ -261,7 +261,8 @@ class QuantumTranspilerTestSuite(ABC):
                 print(f"  Run {i + 1}/{runs}: {status} "
                       f"(import: {stats.import_time_ms:.2f}ms, "
                       f"transpile: {stats.transpilation_time_ms:.2f}ms, "
-                      f"gates: {stats.transpiled_exact_gates})")
+                      f"gates: {stats.transpiled_exact_gates}, "
+                      f"verification: {stats.verify_time_ms}ms )")
 
                 runs_stats.append(stats)
             except TimeoutError as e:
