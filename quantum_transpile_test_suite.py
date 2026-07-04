@@ -167,17 +167,17 @@ class QuantumTranspilerTestSuite(ABC):
         import_memory = self._get_memory_usage() - memory_before_import
 
         def timeout_handler(signum, frame):
-            raise TimeoutError("Transpilation exceeded 2-hour timeout")
+            raise TimeoutError("Transpilation exceeded 1-hour timeout")
         # Transpilation phase
         signal.signal(signal.SIGALRM, timeout_handler)
-        signal.alarm(7200) # 2 hours
+        signal.alarm(3600) # 1 hour
 
         memory_before_transpile = self._get_memory_usage()
         transpile_start = time.time()
         try:
             transpiled_circuit = self.transpile(original_circuit)
         except TimeoutError:
-            raise RuntimeError("Transpilation timed out after 2 hours")
+            raise RuntimeError("Transpilation timed out after 1 hours")
         except Exception as e:
             raise RuntimeError(f"Transpilation failed: {str(e)}")
         finally:
@@ -264,6 +264,11 @@ class QuantumTranspilerTestSuite(ABC):
                       f"gates: {stats.transpiled_exact_gates})")
 
                 runs_stats.append(stats)
+            except TimeoutError:
+                print(f"  Run {i + 1}/{runs}: FAILED - {str(e)}")
+                failed_count += 1
+                if failed_count >= 3:
+                    break
 
             except Exception as e:
                 print(f"  Run {i + 1}/{runs}: FAILED - {str(e)}")

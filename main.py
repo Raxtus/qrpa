@@ -297,7 +297,10 @@ def main():
             "map": Architecture(line_coupling_map),
             "class": PyTKETMappedTranspilerTestSuite,
         },
-
+        {
+            "name": "BQSkit_independent",
+            "class": BQSKitTranspilerTestSuite,
+        },
         {
             "name": "BQSkit_mapped_all_to_all_Quantinuum_gateset",
             "class": BQSKitMappedTranspilerTestSuite,
@@ -321,10 +324,6 @@ def main():
             "class": BQSKitMappedTranspilerTestSuite,
             "gateset": bqskit_ibm_falcon_gate_set,
             "map": all_to_all_coupling_map
-        },
-        {
-            "name": "BQSkit_independent",
-            "class": BQSKitTranspilerTestSuite,
         },
         {
             "name": "BQSkit_Targeted_IBM_gateset",
