@@ -264,7 +264,7 @@ class QuantumTranspilerTestSuite(ABC):
                       f"gates: {stats.transpiled_exact_gates})")
 
                 runs_stats.append(stats)
-            except TimeoutError:
+            except TimeoutError as e:
                 print(f"  Run {i + 1}/{runs}: FAILED - {str(e)}")
                 failed_count += 1
                 if failed_count >= 3:
