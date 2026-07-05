@@ -34,7 +34,7 @@ os.environ["QISKIT_TRANSPILER_SEED"] = str(seed)
 
 
 def main():
-    output_file = "final/transpiler_results.json"
+    output_file = "additional/transpiler_results.json"
     max_runs = 5
     max_qubit = 8 # machine model must be set in bqskit
 
@@ -262,7 +262,7 @@ def main():
 
     ]
 
-    algorithms = ["qaoa", "qft", "hhl", "randomcircuit",] # "vqe_real_amp" #"grover"
+    algorithms = ["grover"] # "vqe_real_amp" # "qaoa", "qft", "hhl", "randomcircuit"
 
     test_list = [
         f"./benchmark/{algorithm}_{i:02d}.qasm"
